@@ -1,13 +1,13 @@
-{
-  "env": {
-    "browser": true,
-    "es6": true
+module.exports = {
+  env: {
+    browser: true,
+    es6: true,
   },
-  "extends": ["eslint:recommended", "prettier"],
-  "parserOptions": {
-    "ecmaVersion": 2019,
-    "sourceType": "module"
+  extends: ['eslint:recommended', 'prettier'],
+  parserOptions: {
+    ecmaVersion: 2019,
+    sourceType: 'module',
   },
-  "plugins": [svelte3"],
-  "rules": {}
-}
+  plugins: ['svelte3'],
+  rules: {},
+};
