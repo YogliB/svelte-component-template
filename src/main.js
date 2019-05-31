@@ -1,6 +1,6 @@
 import index from './index.svelte';
 
-const oomponent = new index({
+const app = new index({
   target: document.body,
   props: {},
 });
