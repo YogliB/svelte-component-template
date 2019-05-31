@@ -1,19 +1,26 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+## This template is based on the official [component-template](https://github.com/sveltejs/component-template) and [app-template](https://github.com/sveltejs/template)
+
+*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*
 
 ---
 
-# svelte app
+# Svelte 3 Component Template
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+A base for building shareable Svelte components. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+npx degit YogliB/svelte-component-template my-new-component
+cd my-new-component
+npm install # or yarn
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+Your component's source code lives in `src/index.svelte`.
+
+
+## Setting up
+
+* Run `npm init`
+* Replace this README with your own
 
 
 ## Get started
@@ -21,7 +28,7 @@ cd svelte-app
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd my-new-component
 npm install
 ```
 
@@ -34,35 +41,8 @@ npm run dev
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
 
-## Deploying to the web
+## Consuming components
 
-### With [now](https://zeit.co/now)
+Your package.json has a `"svelte"` field pointing to `src/index.html`, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like [rollup-plugin-svelte](https://github.com/rollup/rollup-plugin-svelte) or [svelte-loader](https://github.com/sveltejs/svelte-loader) (where [`resolve.mainFields`](https://webpack.js.org/configuration/resolve/#resolve-mainfields) in your webpack config includes `"svelte"`). **This is recommended.**
 
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+For everyone else, `npm run build` will bundle your component's source code into a plain JavaScript module (`index.mjs`) and a UMD script (`index.js`). This will happen automatically when you publish your component to npm, courtesy of the `prepublishOnly` hook in package.json.
