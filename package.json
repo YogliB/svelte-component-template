@@ -1,0 +1,55 @@
+{
+  "name": "svelte-component",
+  "svelte": "src/index.svelte",
+  "module": "index.mjs",
+  "main": "index.js",
+  "version": "1.0.0",
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-svelte3": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "npm-run-all": "latest",
+    "prettier": "latest",
+    "rollup": "latest",
+    "rollup-plugin-commonjs": "latest",
+    "rollup-plugin-livereload": "latest",
+    "rollup-plugin-node-resolve": "latest",
+    "rollup-plugin-svelte": "latest",
+    "rollup-plugin-terser": "latest",
+    "sirv-cli": "latest",
+    "svelte": "latest"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "autobuild": "rollup -c -w",
+    "dev": "run-p start:dev autobuild",
+    "start": "sirv public",
+    "start:dev": "sirv public --dev",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js, svelte}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.*": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
