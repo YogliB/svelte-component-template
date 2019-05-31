@@ -4,7 +4,7 @@
 
 ---
 
-# component-template
+# Svelte 3 Component Template
 
 A base for building shareable Svelte components. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
