@@ -1,5 +1,4 @@
-## This template is based on the official [component-template](https://github.com/sveltejs/component-template) and [app-template](https://github.com/sveltejs/template)
-
+## This template is based on the official [component-template](https://github.com/sveltejs/component-template) and [app-template](https://github.com/sveltejs/template) with help from [this](https://github.com/sveltejs/component-template/pull/5) PR
 *Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*
 
 ---
