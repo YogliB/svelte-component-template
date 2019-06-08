@@ -13,10 +13,10 @@ A base for building shareable Svelte components. Clone it with [degit](https://g
 ```bash
 npx degit YogliB/svelte-component-template my-new-component
 cd my-new-component
-npm install # or yarn
+npm ci # Install exact packages versions (Read more [here](https://docs.npmjs.com/cli/ci.html#description))
 ```
 
-Your component's source code lives in `src/index.svelte`.
+Your component's source code lives in `src/components/[MyComponent].svelte`.
 
 ## Setting up
 
@@ -29,7 +29,7 @@ Install the dependencies...
 
 ```bash
 cd my-new-component
-npm install
+npm ci # Install exact packages versions (Read more [here](https://docs.npmjs.com/cli/ci.html#description))
 ```
 
 ...then start [Rollup](https://rollupjs.org):
