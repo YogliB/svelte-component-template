@@ -21,8 +21,8 @@ export default {
         file: 'public/bundle.js',
       }
     : [
-        { file: 'pkg.module', format: 'es' },
-        { file: 'pkg.main', format: 'umd', name },
+        { file: 'dist/pkg.module', format: 'es' },
+        { file: 'dist/pkg.main', format: 'umd', name },
       ],
   plugins: [
     svelte({
