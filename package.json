@@ -3,7 +3,6 @@
   "svelte": "src/components/components/components.module.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
-  "version": "0.0.1",
   "devDependencies": {
     "eslint": "5.16.0",
     "eslint-config-prettier": "4.3.0",
