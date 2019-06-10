@@ -1,25 +1,25 @@
 {
   "name": "svelte-component",
-  "svelte": "src/index.svelte",
-  "module": "index.mjs",
-  "main": "index.js",
-  "version": "1.0.0",
+  "svelte": "src/components/components/components.module.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "version": "0.0.1",
   "devDependencies": {
-    "eslint": "latest",
-    "eslint-config-prettier": "latest",
-    "eslint-plugin-svelte3": "latest",
-    "husky": "latest",
-    "lint-staged": "latest",
-    "npm-run-all": "latest",
-    "prettier": "latest",
-    "rollup": "latest",
-    "rollup-plugin-commonjs": "latest",
-    "rollup-plugin-livereload": "latest",
-    "rollup-plugin-node-resolve": "latest",
-    "rollup-plugin-svelte": "latest",
-    "rollup-plugin-terser": "latest",
-    "sirv-cli": "latest",
-    "svelte": "latest"
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "4.3.0",
+    "eslint-plugin-svelte3": "1.2.3",
+    "husky": "2.4.0",
+    "lint-staged": "8.2.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.18.2",
+    "rollup": "^1.14.6",
+    "rollup-plugin-commonjs": "10.0.0",
+    "rollup-plugin-livereload": "1.0.0",
+    "rollup-plugin-node-resolve": "5.0.1",
+    "rollup-plugin-svelte": "5.0.3",
+    "rollup-plugin-terser": "5.0.0",
+    "sirv-cli": "^0.4.4",
+    "svelte": "^3.5.1"
   },
   "scripts": {
     "build": "rollup -c",
@@ -34,8 +34,8 @@
   ],
   "files": [
     "src",
-    "index.mjs",
-    "index.js"
+    "dist/index.mjs",
+    "dist/index.js"
   ],
   "husky": {
     "hooks": {
@@ -47,7 +47,7 @@
       "eslint --fix",
       "git add"
     ],
-    "*.*": [
+    "*.{css, html, js, json}": [
       "prettier --write",
       "git add"
     ]
