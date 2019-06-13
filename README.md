@@ -14,7 +14,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 npx degit YogliB/svelte-component-template my-new-component
 ```
 
-2. `cd` into the folder and install `node_modules`:
+2. `cd` into the folder and install the `node_modules`:
 
 ```bash
 cd my-new-component
