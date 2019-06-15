@@ -11,7 +11,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 1. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit YogliB/svelte-component-template my-new-component
+npx degit Vehmloewff/svelte-component-template my-new-component
 ```
 
 2. `cd` into the folder and install the `node_modules`:
