@@ -1,6 +1,6 @@
 _Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)_
 
-Please check out [YogliB/svelte-component-template](https://github.com/YogliB/svelte-component-template).  I've just forked  [YogliB/svelte-component-template](https://github.com/YogliB/svelte-component-template) to open PRs and customize the template for my own use.
+Please check out [YogliB/svelte-component-template](https://github.com/YogliB/svelte-component-template).  I've just forked  this project to open PRs and customize the template for my own use.
 
 ---
 
