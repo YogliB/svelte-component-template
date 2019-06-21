@@ -7,6 +7,7 @@
   "module": "dist/index.min.mjs",
   "main": "dist/index.min.js",
   "devDependencies": {
+    "autoprefixer": "9.6.0",
     "eslint": "5.16.0",
     "eslint-config-prettier": "5.0.0",
     "eslint-plugin-svelte3": "1.2.3",
