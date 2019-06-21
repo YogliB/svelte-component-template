@@ -64,6 +64,12 @@ This will happen automatically when you publish your component to npm, courtesy 
 - [Creating and publishing scoped public packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
 - [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
 
+## Contributing
+
+All contributions are welcome! 😊
+
+Just make sure you read [this](https://github.com/YogliB/svelte-component-template/blob/master/CONTRIBUTING.md) before contributing.
+
 ## Credits & Inspiration
 
 - Official [component-template](https://github.com/sveltejs/component-template) by @Rich-Harris
