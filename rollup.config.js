@@ -4,6 +4,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import pkg from './package.json';
+import autoPreprocess from 'svelte-preprocess';
 
 const production = !process.env.ROLLUP_WATCH;
 const name = pkg.name
@@ -33,6 +34,13 @@ export default {
       css: (css) => {
         css.write('public/bundle.css');
       },
+      /**
+       * Auto preprocess supported languages with
+       * '<template>'/'external src files' support
+       **/
+      preprocess: autoPreprocess({
+        /* preprocessing options HERE */
+      }),
     }),
 
     // If you have external dependencies installed from
