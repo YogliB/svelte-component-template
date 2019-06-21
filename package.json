@@ -1,8 +1,8 @@
 {
   "name": "svelte-component",
   "svelte": "src/components/components.module.js",
-  "module": "dist/index.mjs",
-  "main": "dist/index.js",
+  "module": "dist/index.min.mjs",
+  "main": "dist/index.min.js",
   "devDependencies": {
     "eslint": "5.16.0",
     "eslint-config-prettier": "5.0.0",
@@ -33,8 +33,8 @@
   ],
   "files": [
     "src",
-    "dist/index.mjs",
-    "dist/index.js"
+    "dist/index.min.mjs",
+    "dist/index.min.js"
   ],
   "husky": {
     "hooks": {
