@@ -24,8 +24,8 @@
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
-    "start": "sirv public",
-    "start:dev": "sirv public --dev",
+    "start": "sirv public --single",
+    "start:dev": "sirv public --single --dev",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
