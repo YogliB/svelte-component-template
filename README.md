@@ -11,8 +11,9 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 1. [Getting started](#getting-started)
 2. [Developing](#developing)
 3. [Consuming components](#consuming-components)
-4. [Publishing to npm](publishing-to-npm)
-5. [Credits & Inspiration](#credits-&-inspiration)
+4. [Backward Compatibility](#backward-compatibility)
+5. [Publishing to npm](publishing-to-npm)
+6. [Credits & Inspiration](#credits-&-inspiration)
 
 ## Getting Started
 
@@ -58,6 +59,16 @@ Your package.json has a `"svelte"` field pointing to `src/components/components.
 
 For everyone else, `npm run build` will bundle your component's source code into a plain JavaScript module (`index.mjs`) and a UMD script (`index.js`), in the `dist` folder.<br>
 This will happen automatically when you publish your component to npm, courtesy of the `prepublishOnly` hook in package.json.
+
+## Backward Compatibility
+
+This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities into the build process.
+
+### Browserlist
+
+`PostCSS` uses [browserlist](https://github.com/browserslist/browserslist) under the hood, in order to "know" what css to prefix.
+
+The `browserlist` configuration is located inside the `package.json`.
 
 ## Publishing to [npm](https://www.npmjs.com)
 
