@@ -1,6 +1,7 @@
 {
   "name": "svelte-component",
   "description": "This is atemplate for building",
+  "license": "MIT",
   "svelte": "src/components/components.module.js",
   "module": "dist/index.min.mjs",
   "main": "dist/index.min.js",
