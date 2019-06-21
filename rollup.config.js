@@ -39,7 +39,7 @@ export default {
        * '<template>'/'external src files' support
        **/
       preprocess: autoPreprocess({
-        /* preprocessing options HERE */
+        postcss: true,
       }),
     }),
 
