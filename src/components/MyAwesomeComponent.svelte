@@ -1,9 +1,11 @@
 <script>
-
+  export let name = 'world!';
 </script>
 
 <style>
-
+  h1 {
+    color: purple;
+  }
 </style>
 
-<h1>Hello World!</h1>
+<h1>Hello {name}</h1>
