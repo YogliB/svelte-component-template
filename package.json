@@ -7,6 +7,7 @@
   "module": "dist/index.min.mjs",
   "main": "dist/index.min.js",
   "devDependencies": {
+    "@babel/core": "7.4.5",
     "@babel/preset-env": "7.4.5",
     "autoprefixer": "9.6.0",
     "eslint": "5.16.0",
