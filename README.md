@@ -6,7 +6,15 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 [![Known Vulnerabilities](https://snyk.io/test/github/YogliB/svelte-component-template/badge.svg)](https://snyk.io/test/github/YogliB/svelte-component-template)
 
-## Getting started
+## Table of Contents
+
+1. [Getting started](#getting-started)
+2. [Developing](#developing)
+3. [Consuming components](#consuming-components)
+4. [Publishing to npm](publishing-to-npm)
+5. [Credits & Inspiration](#credits-&-inspiration)
+
+## Getting Started
 
 1. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
@@ -44,7 +52,7 @@ npm run dev
 
 5. Navigate to [localhost:5000](http://localhost:5000) to see your components live.
 
-## Consuming components
+## Consuming Components
 
 Your package.json has a `"svelte"` field pointing to `src/components/components.module.js`, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like [rollup-plugin-svelte](https://github.com/rollup/rollup-plugin-svelte) or [svelte-loader](https://github.com/sveltejs/svelte-loader) (where [`resolve.mainFields`](https://webpack.js.org/configuration/resolve/#resolve-mainfields) in your webpack config includes `"svelte"`). **This is recommended.**
 
