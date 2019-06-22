@@ -5,6 +5,7 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import pkg from './package.json';
 import autoPreprocess from 'svelte-preprocess';
+import babel from 'rollup-plugin-babel';
 
 const production = !process.env.ROLLUP_WATCH;
 const name = pkg.name
@@ -26,14 +27,12 @@ export default {
         { file: 'dist/index.min.js', format: 'umd', name },
       ],
   plugins: [
+    babel({
+      runtimeHelpers: true,
+    }),
     svelte({
       // enable run-time checks when not in production
       dev: !production,
-      // we'll extract any component CSS out into
-      // a separate file — better for performance
-      css: (css) => {
-        css.write('public/bundle.css');
-      },
       /**
        * Auto preprocess supported languages with
        * '<template>'/'external src files' support
