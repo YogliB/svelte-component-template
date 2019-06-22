@@ -28,7 +28,7 @@ export default {
       ],
   plugins: [
     babel({
-      exclude: 'node_modules/**',
+      runtimeHelpers: true,
     }),
     svelte({
       // enable run-time checks when not in production
