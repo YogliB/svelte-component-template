@@ -70,6 +70,15 @@ This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-prep
 
 The `browserlist` configuration is located inside the `package.json`.
 
+## Preprocessors
+
+This template comes with the [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) by default, which simplifies the use of preprocessors in components.
+
+### Usage
+
+1. [Install the required preprocessors.](https://github.com/kaisermann/svelte-preprocess#installation)
+2. [Enable the preprocessor in the component.](https://github.com/kaisermann/svelte-preprocess#preprocessors-support)
+
 ## Publishing to [npm](https://www.npmjs.com)
 
 - [Creating and publishing scoped public packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
