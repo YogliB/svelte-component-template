@@ -12,8 +12,9 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 2. [Developing](#developing)
 3. [Consuming components](#consuming-components)
 4. [Backward Compatibility](#backward-compatibility)
-5. [Publishing to npm](publishing-to-npm)
-6. [Credits & Inspiration](#credits-&-inspiration)
+5. [Preprocessors](#preprocessors)
+6. [Publishing to npm](publishing-to-npm)
+7. [Credits & Inspiration](#credits-&-inspiration)
 
 ## Getting Started
 
