@@ -48,7 +48,9 @@ export default {
     // consult the documentation for details:
     // https://github.com/rollup/rollup-plugin-commonjs
     resolve(),
-    commonjs(),
+    commonjs({
+      include: ['node_modules/**'],
+    }),
 
     // Watch the `public` directory and refresh the
     // browser on changes when not in production
