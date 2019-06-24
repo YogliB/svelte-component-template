@@ -33,6 +33,7 @@ export default {
     svelte({
       // enable run-time checks when not in production
       dev: !production,
+      
       /**
        * Auto preprocess supported languages with
        * '<template>'/'external src files' support
@@ -48,7 +49,9 @@ export default {
     // consult the documentation for details:
     // https://github.com/rollup/rollup-plugin-commonjs
     resolve(),
-    commonjs(),
+    commonjs({
+      include: ['node_modules/**'],
+    }),
 
     // Watch the `public` directory and refresh the
     // browser on changes when not in production
