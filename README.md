@@ -15,6 +15,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 5. [Preprocessors](#preprocessors)
 6. [Publishing to npm](publishing-to-npm)
 7. [Credits & Inspiration](#credits-&-inspiration)
+8. [TODO](#todo)
 
 ## Getting Started
 
@@ -96,3 +97,7 @@ Just make sure you read [this](https://github.com/YogliB/svelte-component-templa
 - Official [component-template](https://github.com/sveltejs/component-template) by @Rich-Harris
 - Official [app-template](https://github.com/sveltejs/template) by @Rich-Harris
 - [This](https://github.com/sveltejs/component-template/pull/5) PR by @sisou
+
+## TODO
+- [ ] Add tests
+- [ ] Add a `Features` section
