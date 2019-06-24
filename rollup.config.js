@@ -33,6 +33,7 @@ export default {
     svelte({
       // enable run-time checks when not in production
       dev: !production,
+      
       /**
        * Auto preprocess supported languages with
        * '<template>'/'external src files' support
