@@ -23,8 +23,18 @@ export default {
         file: 'public/bundle.js',
       }
     : [
-        { file: 'dist/index.min.mjs', format: 'es' },
-        { file: 'dist/index.min.js', format: 'umd', name },
+        {
+          file: pkg.module,
+          format: 'es',
+          sourcemap: true,
+          name,
+        },
+        {
+          file: pkg.main,
+          format: 'umd',
+          sourcemap: true,
+          name,
+        },
       ],
   plugins: [
     babel({
@@ -33,7 +43,7 @@ export default {
     svelte({
       // enable run-time checks when not in production
       dev: !production,
-      
+
       /**
        * Auto preprocess supported languages with
        * '<template>'/'external src files' support
