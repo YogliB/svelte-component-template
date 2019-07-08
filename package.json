@@ -33,7 +33,7 @@
     "rollup-plugin-terser": "5.1.1",
     "sirv-cli": "0.4.4",
     "svelte": "3.6.2",
-    "svelte-preprocess": "2.14.1"
+    "svelte-preprocess": "2.14.4"
   },
   "scripts": {
     "build": "rollup -c",
