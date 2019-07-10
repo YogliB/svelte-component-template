@@ -1,7 +1,5 @@
-<svelte:options accessors={ true } />
-
 <script>
-  export let name = 'stranger!';
+  export let name = 'stranger';
 </script>
 
 <style>

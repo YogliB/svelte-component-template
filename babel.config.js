@@ -1,5 +1,5 @@
 module.exports = {
-  include: ['**/**/*.js', '**/**/*.mjs', '**/**/*.html', '**/**/.svelte'],
+  include: ['**/**/*.js', '**/**/*.mjs', '**/**/*.html', '**/**/*.svelte'],
   plugins: [
     '@babel/plugin-syntax-dynamic-import',
     [
