@@ -8,6 +8,6 @@ module.exports = {
   verbose: false,
   setupFilesAfterEnv: [
     '@testing-library/svelte/cleanup-after-each',
-    'jest-dom/extend-expect',
+    '@testing-library/jest-dom/extend-expect',
   ],
 };
