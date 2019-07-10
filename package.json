@@ -6,9 +6,6 @@
   "svelte": "src/components/components.module.js",
   "module": "dist/index.min.mjs",
   "main": "dist/index.min.js",
-  "directories": {
-    "test": "test"
-  },
   "devDependencies": {
     "@babel/core": "7.4.5",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
@@ -48,7 +45,7 @@
     "start": "sirv public --single",
     "start:dev": "sirv public --single --dev",
     "prepublishOnly": "npm run build",
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "browserslist": [
     "defaults"
@@ -57,7 +54,7 @@
     "svelte"
   ],
   "files": [
-    "src",
+    "src/components",
     "dist/index.min.mjs",
     "dist/index.min.js"
   ],
