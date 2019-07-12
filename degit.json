@@ -1,0 +1,12 @@
+[
+  {
+    "action": "remove",
+    "files": [
+      "LICENSE",
+      "CODE-OF-CONDUCT.md",
+      "CONTRIBUTING.md",
+      "degit.json",
+      "README.md"
+    ]
+  }
+]
