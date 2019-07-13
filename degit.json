@@ -1,6 +1,0 @@
-[
-  {
-    "action": "remove",
-    "files": ["LICENSE", "CODE-OF-CONDUCT.md", "CONTRIBUTING.md", "README.md"]
-  }
-]
