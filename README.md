@@ -100,5 +100,4 @@ Just make sure you read [this](https://github.com/YogliB/svelte-component-templa
 
 ## TODO
 
-- [ ] Add tests
 - [ ] Add a `Features` section
