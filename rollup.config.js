@@ -50,6 +50,7 @@ export default {
        **/
       preprocess: autoPreprocess({
         postcss: true,
+        scss: { includePaths: ['src', 'node_modules'] },
       }),
     }),
 
