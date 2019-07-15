@@ -8,14 +8,23 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 ## Table of Contents
 
+1. [Features](#features)
 1. [Getting started](#getting-started)
-2. [Developing](#developing)
-3. [Consuming components](#consuming-components)
-4. [Backward Compatibility](#backward-compatibility)
-5. [Preprocessors](#preprocessors)
-6. [Publishing to npm](publishing-to-npm)
-7. [Credits & Inspiration](#credits-&-inspiration)
-8. [TODO](#todo)
+1. [Developing](#developing)
+1. [Consuming components](#consuming-components)
+1. [Backward Compatibility](#backward-compatibility)
+1. [Preprocessors](#preprocessors)
+1. [Publishing to npm](publishing-to-npm)
+1. [Credits & Inspiration](#credits-&-inspiration)
+1. [TODO](#todo)
+
+## Features
+
+- Autoprefixing
+- Formating
+- Linting
+- Preprocessing
+- Testing
 
 ## Getting Started
 
@@ -97,7 +106,3 @@ Just make sure you read [this](https://github.com/YogliB/svelte-component-templa
 - Official [component-template](https://github.com/sveltejs/component-template) by @Rich-Harris
 - Official [app-template](https://github.com/sveltejs/template) by @Rich-Harris
 - [This](https://github.com/sveltejs/component-template/pull/5) PR by @sisou
-
-## TODO
-
-- [ ] Add a `Features` section
