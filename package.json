@@ -39,13 +39,13 @@
     "svelte-preprocess": "2.15.0"
   },
   "scripts": {
-    "build": "rollup -c",
+    "lint": "eslint --color",
+    "test": "jest --verbose",
     "autobuild": "rollup -c -w",
-    "dev": "run-p start:dev autobuild",
-    "start": "sirv public --single",
     "start:dev": "sirv public --single --dev",
-    "prepublishOnly": "npm run build",
-    "test": "jest --verbose"
+    "dev": "run-p start:dev autobuild",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
   },
   "browserslist": [
     "defaults"
