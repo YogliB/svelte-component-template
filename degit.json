@@ -1,6 +1,6 @@
 [
-  {
-    "action": "remove",
-    "files": ["LICENSE"]
-  }
+	{
+		"action": "remove",
+		"files": ["LICENSE"]
+	}
 ]
