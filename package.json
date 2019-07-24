@@ -39,7 +39,7 @@
 		"svelte-preprocess": "2.15.0"
 	},
 	"scripts": {
-		"lint": "eslint --color",
+		"lint": "eslint --color ./**/*.js",
 		"test": "jest --verbose",
 		"autobuild": "rollup -c -w",
 		"start:dev": "sirv public --single --dev",
