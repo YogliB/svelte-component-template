@@ -30,7 +30,7 @@
 		"bootstrap": "lerna bootstrap",
 		"lint": "eslint --color --fix **/*.js **/*.svelte",
 		"test": "jest --verbose",
-		"build": "lerna build"
+		"build": "lerna run build"
 	},
 	"browserslist": [
 		"defaults"
