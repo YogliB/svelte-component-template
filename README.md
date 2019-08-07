@@ -8,45 +8,68 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 ## Table of Contents
 
-1. [Features](#features)
-1. [Getting started](#getting-started)
-1. [Developing](#developing)
-1. [Consuming components](#consuming-components)
-1. [Backward Compatibility](#backward-compatibility)
-1. [Preprocessors](#preprocessors)
-1. [Publishing to npm](publishing-to-npm)
-1. [Credits & Inspiration](#credits-&-inspiration)
-1. [TODO](#todo)
+1. [Template Types](#options)
+2. [Features](#features)
+3. [Getting started](#getting-started)
+4. [Developing](#developing)
+5. [Consuming components](#consuming-components)
+6. [Backward Compatibility](#backward-compatibility)
+7. [Preprocessors](#preprocessors)
+8. [Publishing to npm](publishing-to-npm)
+9. [Credits & Inspiration](#credits-&-inspiration)
+
+##
+
+-   Regular
+-   Monorepo
 
 ## Features
 
-- Autoprefixing
-- Formating
-- Linting
-- Preprocessing
-- Testing
+-   Autoprefixing
+-   Formating
+-   Linting
+-   Preprocessing
+-   Testing
 
 ## Getting Started
 
-1. Clone it with [degit](https://github.com/Rich-Harris/degit):
+1. Choose your template (regular/monorepo)
+
+2. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
 npx degit YogliB/svelte-component-template my-new-component
 ```
 
+or
+
+```bash
+npx degit YogliB/svelte-component-template#monorepo my-new-component-library
+```
+
 2. `cd` into the folder and install the `node_modules`:
+
+Regular:
 
 ```bash
 cd my-new-component
 npm ci
 ```
 
-- The `ci` command makes sure your packages match the one in the `package-lock.json` (See [here](https://docs.npmjs.com/cli/ci.html)).
+Monorepo:
+
+```bash
+cd my-new-component-library
+npm ci
+npm run bootstrap
+```
+
+-   The `ci` command makes sure your packages match the one in the `package-lock.json` (See [here](https://docs.npmjs.com/cli/ci.html)).
 
 3. Run `npm init`, to configure the project.
 4. Replace this `README` with your own.
 
-Your component's source code lives in `src/components/[MyComponent].svelte`.
+Your component's source code lives in `src/components/[MyComponent].svelte` or `packages/*` if you chose the monorepo option.
 
 ## Developing
 
@@ -92,8 +115,8 @@ This template comes with the [svelte-preprocess](https://github.com/kaisermann/s
 
 ## Publishing to [npm](https://www.npmjs.com)
 
-- [Creating and publishing scoped public packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
-- [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
+-   [Creating and publishing scoped public packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
+-   [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
 
 ## Contributing
 
@@ -103,6 +126,6 @@ Just make sure you read [this](https://github.com/YogliB/svelte-component-templa
 
 ## Credits & Inspiration
 
-- Official [component-template](https://github.com/sveltejs/component-template) by @Rich-Harris
-- Official [app-template](https://github.com/sveltejs/template) by @Rich-Harris
-- [This](https://github.com/sveltejs/component-template/pull/5) PR by @sisou
+-   Official [component-template](https://github.com/sveltejs/component-template) by @Rich-Harris
+-   Official [app-template](https://github.com/sveltejs/template) by @Rich-Harris
+-   [This](https://github.com/sveltejs/component-template/pull/5) PR by @sisou
