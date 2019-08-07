@@ -37,11 +37,13 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 2. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
+The _regular_ version:
+
 ```bash
 npx degit YogliB/svelte-component-template my-new-component
 ```
 
-or
+or the _monorepo_ version:
 
 ```bash
 npx degit YogliB/svelte-component-template#monorepo my-new-component-library
