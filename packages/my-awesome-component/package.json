@@ -40,7 +40,6 @@
 		"autobuild": "rollup -c -w",
 		"build": "rollup -c",
 		"dev": "run-p start:dev autobuild",
-		"prepublishOnly": "npm run build",
 		"start": "sirv public --single",
 		"start:dev": "sirv public --single --dev"
 	},
