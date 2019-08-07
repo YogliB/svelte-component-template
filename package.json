@@ -8,6 +8,7 @@
 	"main": "dist/index.min.js",
 	"devDependencies": {
 		"@babel/core": "7.5.5",
+		"@babel/plugin-transform-runtime": "7.5.5",
 		"@babel/preset-env": "7.5.5",
 		"@testing-library/jest-dom": "4.0.0",
 		"@testing-library/svelte": "1.7.1",
