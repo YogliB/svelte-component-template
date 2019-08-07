@@ -2,7 +2,7 @@ import MyAwesomeComponent from '../src/components/MyAwesomeComponent.svelte';
 import { render } from '@testing-library/svelte';
 
 describe('MyAwesomeComponent', () => {
-	it('Should render greeting', () => {
+	it('Should render a greeting', () => {
 		const { container } = render(MyAwesomeComponent, {
 			props: { name: 'world' },
 		});
