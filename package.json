@@ -28,7 +28,7 @@
 	},
 	"scripts": {
 		"bootstrap": "lerna bootstrap",
-		"lint": "eslint --color **/**/*.js **/**/*.svelte --fix",
+		"lint": "eslint --color --fix **/*.js **/*.svelte",
 		"test": "jest --verbose",
 		"build": "lerna build"
 	},
