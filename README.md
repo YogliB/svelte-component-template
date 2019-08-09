@@ -43,6 +43,12 @@ The _regular_ version:
 npx degit YogliB/svelte-component-template my-new-component
 ```
 
+The _minimal_ version:
+
+```bash
+npx degit YogliB/svelte-component-template my-new-component#minimal
+```
+
 or the _monorepo_ version:
 
 ```bash
@@ -51,18 +57,15 @@ npx degit YogliB/svelte-component-template#monorepo my-new-component-library
 
 2. `cd` into the folder and install the `node_modules`:
 
-Regular:
-
 ```bash
 cd my-new-component
 npm ci
+git init
 ```
 
-Monorepo:
+For _monorepo_:
 
 ```bash
-cd my-new-component-library
-npm ci
 npm run bootstrap
 ```
 
