@@ -20,7 +20,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 ##
 
--   Regular
+-   Regular (You're here)
 -   [Minimal](https://github.com/YogliB/svelte-component-template/tree/minimal)
 -   [Monorepo](https://github.com/YogliB/svelte-component-template/tree/monorepo)
 
