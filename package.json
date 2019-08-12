@@ -36,7 +36,7 @@
 		"rollup-plugin-terser": "5.1.1",
 		"sirv-cli": "0.4.4",
 		"svelte": "3.7.0",
-		"svelte-preprocess": "2.15.0"
+		"svelte-preprocess": "2.15.1"
 	},
 	"scripts": {
 		"lint": "eslint --color ./**/*.js",
