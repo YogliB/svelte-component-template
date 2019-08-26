@@ -13,7 +13,7 @@
 		"@babel/preset-env": "7.5.5",
 		"@testing-library/jest-dom": "4.0.1",
 		"@testing-library/svelte": "1.8.0",
-		"@types/jest": "24.0.17",
+		"@types/jest": "24.0.18",
 		"autoprefixer": "9.6.1",
 		"babel-jest": "24.9.0",
 		"eslint": "6.2.0",
