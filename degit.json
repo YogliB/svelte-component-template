@@ -17,8 +17,7 @@
 			".travis.yml",
 			"babel.config.js",
 			"jest.config.js",
-			"postcss.config.js",
-			"degit.json"
+			"postcss.config.js"
 		]
 	}
 ]
