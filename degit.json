@@ -1,5 +1,9 @@
 [
 	{
+		"action": "remove",
+		"files": [".prettierrc"]
+	},
+	{
 		"action": "clone",
 		"src": "YogliB/svelte-component-template"
 	},
@@ -13,7 +17,8 @@
 			".travis.yml",
 			"babel.config.js",
 			"jest.config.js",
-			"postcss.config.js"
+			"postcss.config.js",
+			"degit.json"
 		]
 	}
 ]
