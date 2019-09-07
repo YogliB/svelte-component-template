@@ -10,7 +10,7 @@
 	{
 		"action": "remove",
 		"files": [
-			"tests/**",
+			"tests",
 			".eslintignore",
 			".eslintrc.js",
 			".prettierrc",
