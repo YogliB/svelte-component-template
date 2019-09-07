@@ -1,0 +1,19 @@
+[
+  {
+    "action": "clone",
+    "src": "YogliB/svelte-component-template"
+  },
+  {
+    "action": "remove",
+    "files": [
+      "tests/**",
+      ".eslintignore",
+      ".eslintrc.js",
+      ".prettierrc",
+      ".travis.yml",
+      "babel.config.js",
+      "jest.config.js",
+      "postcss.config.js"
+    ]
+  }
+]
