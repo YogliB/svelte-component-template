@@ -22,7 +22,7 @@
 		"jest": "24.8.0",
 		"jest-transform-svelte": "2.0.2",
 		"lerna": "3.16.4",
-		"lint-staged": "9.2.1",
+		"lint-staged": "9.2.5",
 		"prettier": "1.18.2",
 		"svelte": "3.7.0"
 	},
