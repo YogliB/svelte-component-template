@@ -1,11 +1,8 @@
 {
-	"name": "TODO",
+	"browserslist": [
+		"defaults"
+	],
 	"description": "TODO",
-	"license": "MIT",
-	"repository": "TODO",
-	"svelte": "src/components/components.module.js",
-	"module": "dist/index.min.mjs",
-	"main": "dist/index.min.js",
 	"devDependencies": {
 		"@babel/core": "7.6.0",
 		"@babel/plugin-syntax-dynamic-import": "7.2.0",
@@ -26,31 +23,33 @@
 		"prettier": "1.18.2",
 		"svelte": "3.7.0"
 	},
-	"scripts": {
-		"bootstrap": "lerna bootstrap",
-		"lint": "eslint --color --fix **/*.js **/*.svelte",
-		"test": "jest --verbose",
-		"build": "lerna run build"
-	},
-	"browserslist": [
-		"defaults"
-	],
-	"keywords": [
-		"svelte"
-	],
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
 		}
 	},
+	"keywords": [
+		"svelte"
+	],
+	"license": "TODO",
 	"lint-staged": {
-		"*.{js, svelte}": [
-			"eslint --fix",
-			"git add"
-		],
 		"*.{html, css, scss, stylus, js, ts, json, yml, md}": [
 			"prettier --write",
 			"git add"
+		],
+		"*.{js, svelte}": [
+			"eslint --fix",
+			"git add"
 		]
+	},
+	"main": "dist/index.min.js",
+	"module": "dist/index.min.mjs",
+	"name": "TODO",
+	"repository": "TODO",
+	"scripts": {
+		"bootstrap": "lerna bootstrap",
+		"build": "lerna run build",
+		"lint": "eslint --color --fix .",
+		"test": "jest --verbose"
 	}
 }
