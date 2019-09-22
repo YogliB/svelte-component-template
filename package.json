@@ -38,11 +38,6 @@
 	"keywords": [
 		"svelte"
 	],
-	"files": [
-		"src/components",
-		"dist/index.min.mjs",
-		"dist/index.min.js"
-	],
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
