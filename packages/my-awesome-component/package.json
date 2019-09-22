@@ -25,8 +25,7 @@
 	},
 	"files": [
 		"src",
-		"dist/index.min.mjs",
-		"dist/index.min.js"
+		"dist"
 	],
 	"keywords": [
 		"svelte"
@@ -44,5 +43,5 @@
 		"start:dev": "sirv public --single --dev"
 	},
 	"svelte": "src/components.module.js",
-	"version": "0.0.0"
+	"version": "TODO"
 }
