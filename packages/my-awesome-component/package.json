@@ -42,6 +42,5 @@
 		"start": "sirv public --single",
 		"start:dev": "sirv public --single --dev"
 	},
-	"svelte": "src/components.module.js",
-	"version": "TODO"
+	"svelte": "src/components.module.js"
 }
