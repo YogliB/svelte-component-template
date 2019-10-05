@@ -1,5 +1,7 @@
 import MyAwesomeComponent from '../src/components/MyAwesomeComponent.svelte';
-import { render } from '@testing-library/svelte';
+import { render, cleanup } from '@testing-library/svelte';
+
+beforeEach(cleanup); //this is required.
 
 describe('MyAwesomeComponent', () => {
 	it('Should render a greeting', () => {
