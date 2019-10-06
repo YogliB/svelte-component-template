@@ -7,6 +7,4 @@ cache:
         - node_modules
 script:
     - npm run bootstrap
-    - npm run lint
-    - npm run test
-    - npm run build
+    - run-p lint test build
