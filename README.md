@@ -4,7 +4,8 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 # Svelte 3 Component Template
 
-[![Known Vulnerabilities](https://snyk.io/test/github/YogliB/svelte-component-template/badge.svg)](https://snyk.io/test/github/YogliB/svelte-component-template) [![Build Status](https://travis-ci.org/YogliB/svelte-component-template.svg?branch=master)](https://travis-ci.org/YogliB/svelte-component-template)
+[![Known Vulnerabilities](https://snyk.io/test/github/YogliB/svelte-component-template/badge.svg)](https://snyk.io/test/github/YogliB/svelte-component-template)
+[![Build Status](https://travis-ci.org/YogliB/svelte-component-template.svg?branch=master)](https://travis-ci.org/YogliB/svelte-component-template)
 
 ## Table of Contents
 
