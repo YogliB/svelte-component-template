@@ -14,7 +14,7 @@
 		"postcss": "7.0.18",
 		"rollup": "1.21.3",
 		"rollup-plugin-babel": "4.3.3",
-		"rollup-plugin-commonjs": "10.0.2",
+		"rollup-plugin-commonjs": "10.1.0",
 		"rollup-plugin-livereload": "1.0.1",
 		"rollup-plugin-node-resolve": "5.2.0",
 		"rollup-plugin-svelte": "5.1.0",
