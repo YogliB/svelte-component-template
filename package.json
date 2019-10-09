@@ -51,6 +51,6 @@
 		"bootstrap": "lerna bootstrap",
 		"build": "lerna run build",
 		"lint": "eslint --color --fix --ignore-path .gitignore .",
-		"test": "jest --verbose"
+		"test": "jest"
 	}
 }
