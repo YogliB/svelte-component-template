@@ -33,7 +33,7 @@
 	"license": "TODO",
 	"main": "dist/index.min.js",
 	"module": "dist/index.min.mjs",
-	"name": "TODO",
+	"name": "my-awesome-component",
 	"repository": "TODO",
 	"scripts": {
 		"autobuild": "rollup -c -w",
