@@ -115,6 +115,8 @@ The `browserlist` configuration is located inside the `package.json`.
 
 This template comes with the [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) by default, which simplifies the use of preprocessors in components.
 
+- If you're using preprocessors, make sure you **remove** the `svelte` property from the `package.json` (You can find more info [here](https://github.com/sveltejs/component-template/issues/8)).
+
 ### Usage
 
 1. [Install the required preprocessors.](https://github.com/kaisermann/svelte-preprocess#installation)
