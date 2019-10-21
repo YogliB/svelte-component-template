@@ -16,8 +16,9 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 5. [Consuming components](#consuming-components)
 6. [Backward Compatibility](#backward-compatibility)
 7. [Preprocessors](#preprocessors)
-8. [Publishing to npm](publishing-to-npm)
-9. [Credits & Inspiration](#credits-&-inspiration)
+8. [Testing](#testing)
+9. [Publishing to npm](publishing-to-npm)
+10. [Credits & Inspiration](#credits-&-inspiration)
 
 ##
 
@@ -121,6 +122,12 @@ This template comes with the [svelte-preprocess](https://github.com/kaisermann/s
 
 1. [Install the required preprocessors.](https://github.com/kaisermann/svelte-preprocess#installation)
 2. [Enable the preprocessor in the component.](https://github.com/kaisermann/svelte-preprocess#preprocessors-support)
+
+## Testing
+
+This template uses [testing-library](https://testing-library.com) for testing.
+
+I highly recommend going through their [docs](https://testing-library.com/docs/svelte-testing-library/intro) if you intend on testing your components.
 
 ## Publishing to [npm](https://www.npmjs.com)
 
