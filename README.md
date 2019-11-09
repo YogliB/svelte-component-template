@@ -49,7 +49,7 @@ npx degit YogliB/svelte-component-template my-new-component
 The _minimal_ version:
 
 ```bash
-npx degit YogliB/svelte-component-template my-new-component#minimal
+npx degit YogliB/svelte-component-template#minimal my-new-component
 ```
 
 or the _monorepo_ version:
