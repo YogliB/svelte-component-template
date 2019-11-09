@@ -24,10 +24,9 @@
 	"name": "TODO",
 	"repository": "TODO",
 	"scripts": {
-		"autobuild": "rollup -c -w",
 		"build": "rollup -c",
-		"dev": "run-p start:dev autobuild",
-		"prepublishOnly": "npm run build",
+		"dev": "rollup -c -w",
+		"start": "sirv public --single",
 		"start:dev": "sirv public --single --dev"
 	},
 	"svelte": "src/components/components.module.js"
