@@ -1,11 +1,8 @@
 {
-	"name": "TODO",
+	"browserslist": [
+		"defaults"
+	],
 	"description": "TODO",
-	"license": "TODO",
-	"repository": "TODO",
-	"svelte": "src/components/components.module.js",
-	"module": "dist/index.min.mjs",
-	"main": "dist/index.min.js",
 	"devDependencies": {
 		"@babel/core": "7.6.4",
 		"@babel/plugin-syntax-dynamic-import": "7.2.0",
@@ -38,21 +35,6 @@
 		"svelte-jest": "0.3.1",
 		"svelte-preprocess": "3.2.2"
 	},
-	"scripts": {
-		"lint": "eslint --color .",
-		"test": "jest",
-		"autobuild": "rollup -c -w",
-		"start:dev": "sirv public --single --dev",
-		"dev": "run-p start:dev autobuild",
-		"build": "rollup -c",
-		"prepublishOnly": "npm run build"
-	},
-	"browserslist": [
-		"defaults"
-	],
-	"keywords": [
-		"svelte"
-	],
 	"files": [
 		"src",
 		"dist"
@@ -62,14 +44,32 @@
 			"pre-commit": "lint-staged"
 		}
 	},
+	"keywords": [
+		"svelte"
+	],
+	"license": "TODO",
 	"lint-staged": {
-		"*.{js, svelte}": [
-			"eslint --fix",
-			"git add"
-		],
 		"*.{html, css, scss, stylus, js, ts, json, yml, md}": [
 			"prettier --write",
 			"git add"
+		],
+		"*.{js, svelte}": [
+			"eslint --fix",
+			"git add"
 		]
-	}
+	},
+	"main": "dist/index.min.js",
+	"module": "dist/index.min.mjs",
+	"name": "TODO",
+	"repository": "TODO",
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w",
+		"lint": "eslint --color .",
+		"prepublishOnly": "npm run build",
+		"start": "sirv public --single",
+		"start:dev": "sirv public --single --dev",
+		"test": "jest"
+	},
+	"svelte": "src/components/components.module.js"
 }
