@@ -36,9 +36,8 @@
 	"name": "my-awesome-component",
 	"repository": "TODO",
 	"scripts": {
-		"autobuild": "rollup -c -w",
 		"build": "rollup -c",
-		"dev": "run-p start:dev autobuild",
+		"dev": "rollup -c -w",
 		"start": "sirv public --single",
 		"start:dev": "sirv public --single --dev"
 	},
