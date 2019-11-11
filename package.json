@@ -6,7 +6,7 @@
 		"rollup-plugin-commonjs": "10.1.0",
 		"rollup-plugin-livereload": "1.0.1",
 		"rollup-plugin-node-resolve": "5.2.0",
-		"rollup-plugin-svelte": "5.1.0",
+		"rollup-plugin-svelte": "5.1.1",
 		"rollup-plugin-terser": "5.1.2",
 		"sirv-cli": "0.4.5",
 		"svelte": "3.13.0"
