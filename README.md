@@ -10,15 +10,16 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 ## Table of Contents
 
 1. [Template Types](#options)
-2. [Features](#features)
-3. [Getting started](#getting-started)
-4. [Developing](#developing)
-5. [Consuming components](#consuming-components)
-6. [Backward Compatibility](#backward-compatibility)
-7. [Preprocessors](#preprocessors)
-8. [Testing](#testing)
-9. [Publishing to npm](publishing-to-npm)
-10. [Credits & Inspiration](#credits-&-inspiration)
+1. [Features](#features)
+1. [Getting started](#getting-started)
+1. [Developing](#developing)
+1. [Consuming components](#consuming-components)
+1. [Backward Compatibility](#backward-compatibility)
+1. [Preprocessors](#preprocessors)
+1. [Testing](#testing)
+1. [Publishing to npm](publishing-to-npm)
+1. [FAQ](faq)
+1. [Credits & Inspiration](#credits-&-inspiration)
 
 ##
 
@@ -38,7 +39,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 1. Choose your template (regular/monorepo)
 
-2. Clone it with [degit](https://github.com/Rich-Harris/degit):
+1. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 The _regular_ version:
 
@@ -128,6 +129,9 @@ This template comes with the [svelte-preprocess](https://github.com/kaisermann/s
 This template uses [testing-library](https://testing-library.com) for testing.
 
 I highly recommend going through their [docs](https://testing-library.com/docs/svelte-testing-library/intro) if you intend on testing your components.
+
+## FAQ
+[Here](../master/FAQ.md) lies what you seek.
 
 ## Publishing to [npm](https://www.npmjs.com)
 
