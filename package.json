@@ -11,7 +11,7 @@
 		"@testing-library/jest-dom": "4.2.4",
 		"@testing-library/svelte": "1.9.1",
 		"babel-jest": "24.8.0",
-		"eslint": "6.6.0",
+		"eslint": "6.7.1",
 		"eslint-config-prettier": "6.7.0",
 		"eslint-plugin-jest": "23.0.4",
 		"eslint-plugin-svelte3": "2.7.3",
