@@ -32,11 +32,19 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 ## Features
 
+### Regular
 -   Autoprefixing
 -   Formating
 -   Linting
 -   Preprocessing
 -   Testing
+
+### Monorepo
+- All of the above
+- Monorepo-ready with [Lerna](https://lerna.js.org/)
+
+### Minimal
+- Simple to-the-point component template, no extra :hankey:
 
 ## Getting Started
 
