@@ -74,11 +74,11 @@ npx degit YogliB/svelte-component-template#monorepo my-new-component-library
 
 ```bash
 cd my-new-component
-npm ci
 git init
+npm ci
 ```
 
-For _monorepo_:
+An extra step for _monorepo_:
 
 ```bash
 npm run bootstrap
