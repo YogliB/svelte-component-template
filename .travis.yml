@@ -2,8 +2,10 @@ language: node_js
 node_js:
     - 'lts/*'
     - 'node'
-cache:
-    directories:
-        - node_modules
+before_install:
+    - npx degit YogliB/svelte-component-template my-new-component
+    - cd my-new-component
+    - git init
 script:
-    - run-p lint test build
+    - run-p lint
+    - run-p test build
