@@ -25,7 +25,6 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 ##
 
 -   Regular (You're here)
--   [Minimal](https://github.com/YogliB/svelte-component-template/tree/minimal)
 -   [Monorepo](https://github.com/YogliB/svelte-component-template/tree/monorepo)
 
 ## Features
@@ -45,7 +44,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 ### Minimal
 
--   Simple to-the-point component template, no extra :hankey:
+-   Looking for something simple & to-the-point? try [this](https://github.com/sveltejs/component-template).
 
 ## Getting Started
 
@@ -57,12 +56,6 @@ The _regular_ version:
 
 ```bash
 npx degit YogliB/svelte-component-template my-new-component
-```
-
-The _minimal_ version:
-
-```bash
-npx degit YogliB/svelte-component-template#minimal my-new-component
 ```
 
 or the _monorepo_ version:
