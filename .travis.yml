@@ -3,9 +3,9 @@ node_js:
     - 'lts/*'
     - 'node'
 before_install:
-    - npx degit YogliB/svelte-component-template my-new-component
-    - cd my-new-component
+    - rm -r *
+    - npx degit YogliB/svelte-component-template
     - git init
 script:
-    - run-p lint
+    - npm run lint
     - run-p test build
