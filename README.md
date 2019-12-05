@@ -6,19 +6,23 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 [![Known Vulnerabilities](https://snyk.io/test/github/YogliB/svelte-component-template/badge.svg)](https://snyk.io/test/github/YogliB/svelte-component-template)
 [![Build Status](https://travis-ci.org/YogliB/svelte-component-template.svg?branch=master)](https://travis-ci.org/YogliB/svelte-component-template)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code-of-conduct.md)
+
 
 ## Table of Contents
 
 1. [Template Types](#options)
-2. [Features](#features)
-3. [Getting started](#getting-started)
-4. [Developing](#developing)
-5. [Consuming components](#consuming-components)
-6. [Backward Compatibility](#backward-compatibility)
-7. [Preprocessors](#preprocessors)
-8. [Testing](#testing)
-9. [Publishing to npm](publishing-to-npm)
-10. [Credits & Inspiration](#credits-&-inspiration)
+1. [Features](#features)
+1. [Getting started](#getting-started)
+1. [Developing](#developing)
+1. [Consuming components](#consuming-components)
+1. [Backward Compatibility](#backward-compatibility)
+1. [Preprocessors](#preprocessors)
+1. [Testing](#testing)
+1. [Publishing to npm](publishing-to-npm)
+1. [FAQ](faq)
+1. [Credits & Inspiration](#credits-&-inspiration)
 
 ##
 
@@ -28,17 +32,25 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 ## Features
 
+### Regular
 -   Autoprefixing
 -   Formating
 -   Linting
 -   Preprocessing
 -   Testing
 
+### Monorepo
+- All of the above
+- Monorepo-ready with [Lerna](https://lerna.js.org/)
+
+### Minimal
+- Simple to-the-point component template, no extra :hankey:
+
 ## Getting Started
 
 1. Choose your template (regular/monorepo)
 
-2. Clone it with [degit](https://github.com/Rich-Harris/degit):
+1. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 The _regular_ version:
 
@@ -62,11 +74,11 @@ npx degit YogliB/svelte-component-template#monorepo my-new-component-library
 
 ```bash
 cd my-new-component
-npm ci
 git init
+npm ci
 ```
 
-For _monorepo_:
+An extra step for _monorepo_:
 
 ```bash
 npm run bootstrap
@@ -128,6 +140,9 @@ This template comes with the [svelte-preprocess](https://github.com/kaisermann/s
 This template uses [testing-library](https://testing-library.com) for testing.
 
 I highly recommend going through their [docs](https://testing-library.com/docs/svelte-testing-library/intro) if you intend on testing your components.
+
+## FAQ
+[Here](../master/FAQ.md) lies what you seek.
 
 ## Publishing to [npm](https://www.npmjs.com)
 
