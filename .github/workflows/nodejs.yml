@@ -3,28 +3,26 @@ name: Node CI
 on: [push]
 
 jobs:
-  build:
+    build:
+        runs-on: ubuntu-latest
 
-    runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: [8.x, 10.x, 12.x]
 
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
-
-    steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install, build, and test
-      run: |
-        npx degit YogliB/svelte-component-template my-new-component
-        cd my-new-component
-        git init
-        npm ci
-        npm run build
-        npm run lint
-        npm test
-      env:
-        CI: true
+        steps:
+            - uses: actions/checkout@v1
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v1
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - name: is this on?
+              run: |
+                  rm -r *
+                  npx degit YogliB/svelte-component-template --force
+                  git init
+                  npm ci
+                  npm run lint
+                  run-p test build
+              env:
+                  CI: true
