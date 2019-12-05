@@ -2,6 +2,7 @@
 	{
 		"action": "remove",
 		"files": [
+			".github",
 			"CODE-OF-CONDUCT.md",
 			"CONTRIBUTING.md",
 			"LICENSE",
