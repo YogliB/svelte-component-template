@@ -5,10 +5,8 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 # Svelte 3 Component Template
 
 [![Known Vulnerabilities](https://snyk.io/test/github/YogliB/svelte-component-template/badge.svg)](https://snyk.io/test/github/YogliB/svelte-component-template)
-[![Build Status](https://travis-ci.org/YogliB/svelte-component-template.svg?branch=master)](https://travis-ci.org/YogliB/svelte-component-template)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code-of-conduct.md)
-
 
 ## Table of Contents
 
@@ -33,6 +31,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 ## Features
 
 ### Regular
+
 -   Autoprefixing
 -   Formating
 -   Linting
@@ -40,11 +39,13 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 -   Testing
 
 ### Monorepo
-- All of the above
-- Monorepo-ready with [Lerna](https://lerna.js.org/)
+
+-   All of the above
+-   Monorepo-ready with [Lerna](https://lerna.js.org/)
 
 ### Minimal
-- Simple to-the-point component template, no extra :hankey:
+
+-   Simple to-the-point component template, no extra :hankey:
 
 ## Getting Started
 
@@ -128,7 +129,7 @@ The `browserlist` configuration is located inside the `package.json`.
 
 This template comes with the [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) by default, which simplifies the use of preprocessors in components.
 
-- If you're using preprocessors, make sure you **remove** the `svelte` property from the `package.json` (You can find more info [here](https://github.com/sveltejs/component-template/issues/8)).
+-   If you're using preprocessors, make sure you **remove** the `svelte` property from the `package.json` (You can find more info [here](https://github.com/sveltejs/component-template/issues/8)).
 
 ### Usage
 
@@ -142,6 +143,7 @@ This template uses [testing-library](https://testing-library.com) for testing.
 I highly recommend going through their [docs](https://testing-library.com/docs/svelte-testing-library/intro) if you intend on testing your components.
 
 ## FAQ
+
 [Here](../master/FAQ.md) lies what you seek.
 
 ## Publishing to [npm](https://www.npmjs.com)
