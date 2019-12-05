@@ -5,7 +5,6 @@ import commonjs from 'rollup-plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import pkg from './package.json';
 import resolve from 'rollup-plugin-node-resolve';
-import rollup_start_dev from './rollup_start_dev';
 import svelte from 'rollup-plugin-svelte';
 
 const production = !process.env.ROLLUP_WATCH;
@@ -74,9 +73,9 @@ export default {
 			include: ['node_modules/**'],
 		}),
 
-		// In dev mode, call `npm run start:dev` once
+		// In dev mode, call `npm run start` once
 		// the bundle has been generated
-		!production && rollup_start_dev,
+		!production && serve(),
 
 		// Watch the `public` directory and refresh the
 		// browser on changes when not in production
@@ -90,3 +89,24 @@ export default {
 		clearScreen: false,
 	},
 };
+
+function serve() {
+	let started = false;
+
+	return {
+		writeBundle() {
+			if (!started) {
+				started = true;
+
+				require('child_process').spawn(
+					'npm',
+					['run', 'start', '--', '--dev'],
+					{
+						stdio: ['ignore', 'inherit', 'inherit'],
+						shell: true,
+					}
+				);
+			}
+		},
+	};
+}

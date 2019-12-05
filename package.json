@@ -67,8 +67,7 @@
 		"dev": "rollup -c -w",
 		"lint": "eslint --color .",
 		"prepublishOnly": "npm run build",
-		"start": "sirv public --single",
-		"start:dev": "sirv public --single --dev",
+		"start": "sirv public",
 		"test": "jest"
 	},
 	"svelte": "src/components/components.module.js"
