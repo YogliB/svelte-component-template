@@ -23,6 +23,7 @@ jobs:
                   git init
                   npm ci
                   npm run lint
-                  run-p test build
+                  npm run test
+                  npm run build
               env:
                   CI: true
