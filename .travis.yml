@@ -4,7 +4,7 @@ node_js:
     - 'node'
 before_install:
     - rm -r *
-    - npx degit YogliB/svelte-component-template
+    - npx degit YogliB/svelte-component-template --force
     - git init
 script:
     - npm run lint
