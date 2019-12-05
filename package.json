@@ -64,7 +64,7 @@
 	"scripts": {
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
-		"lint": "eslint --color .",
+		"lint": "eslint --color --ignore-path .gitignore .",
 		"prepublishOnly": "npm run build",
 		"start": "sirv public",
 		"test": "jest"

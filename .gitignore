@@ -1,4 +1,5 @@
 .DS_Store
-dist
-node_modules
-public/bundle.*
+.github
+**/dist/**
+**/node_modules/**
+**/public/bundle.*
