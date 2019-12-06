@@ -131,9 +131,11 @@ This template comes with the [svelte-preprocess](https://github.com/kaisermann/s
 
 ## Testing
 
-This template uses [testing-library](https://testing-library.com) for testing.
+This template uses [Cypress](https://www.cypress.io/) & [testing-library](https://testing-library.com/docs/cypress-testing-library/intro) for testing.
 
-I highly recommend going through their [docs](https://testing-library.com/docs/svelte-testing-library/intro) if you intend on testing your components.
+I highly recommend going through their docs if you intend on testing your components.
+
+There is a simple example you can try by running `npm run cy:open`.
 
 ## FAQ
 
