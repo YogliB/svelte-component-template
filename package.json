@@ -8,17 +8,14 @@
 		"@babel/plugin-syntax-dynamic-import": "7.7.4",
 		"@babel/plugin-transform-runtime": "7.7.4",
 		"@babel/preset-env": "7.7.4",
-		"@testing-library/jest-dom": "4.2.4",
-		"@testing-library/svelte": "1.9.1",
-		"@types/jest": "24.0.23",
+		"@testing-library/cypress": "5.0.2",
 		"autoprefixer": "9.7.3",
-		"babel-jest": "24.9.0",
+		"cypress": "3.7.0",
 		"eslint": "6.7.2",
 		"eslint-config-prettier": "6.7.0",
-		"eslint-plugin-jest": "23.1.1",
+		"eslint-plugin-cypress": "2.7.0",
 		"eslint-plugin-svelte3": "2.7.3",
 		"husky": "3.1.0",
-		"jest": "24.9.0",
 		"lint-staged": "9.5.0",
 		"postcss": "7.0.23",
 		"prettier": "1.19.1",
@@ -30,8 +27,8 @@
 		"rollup-plugin-svelte": "5.1.1",
 		"rollup-plugin-terser": "5.1.2",
 		"sirv-cli": "0.4.5",
+		"start-server-and-test": "1.10.6",
 		"svelte": "3.16.0",
-		"svelte-jest": "0.3.1",
 		"svelte-preprocess": "3.2.6"
 	},
 	"files": [
@@ -63,11 +60,13 @@
 	"repository": "TODO",
 	"scripts": {
 		"build": "rollup -c",
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
 		"dev": "rollup -c -w",
 		"lint": "eslint --color --ignore-path .gitignore .",
 		"prepublishOnly": "npm run build",
 		"start": "sirv public",
-		"test": "jest"
+		"test": "start-server-and-test dev http://localhost:5000 cy:run"
 	},
 	"svelte": "src/components/components.module.js"
 }
