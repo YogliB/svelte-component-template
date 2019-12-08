@@ -12,6 +12,7 @@
 		"cypress": "3.7.0",
 		"node-sass": "4.13.0",
 		"postcss": "7.0.23",
+		"postcss-load-config": "2.1.0",
 		"rollup": "1.27.7",
 		"rollup-plugin-babel": "4.3.3",
 		"rollup-plugin-commonjs": "10.0.2",
