@@ -2,3 +2,6 @@
 **/dist/**
 **/node_modules/**
 **/public/bundle.*
+
+**/cypress/videos/**
+**/cypress/screenshots/**
