@@ -4,24 +4,14 @@
 	],
 	"description": "TODO",
 	"devDependencies": {
-		"@babel/core": "7.7.4",
-		"@babel/plugin-syntax-dynamic-import": "7.7.4",
-		"@babel/plugin-transform-runtime": "7.7.4",
-		"@babel/preset-env": "7.7.4",
-		"@testing-library/jest-dom": "4.2.4",
-		"@testing-library/svelte": "1.9.1",
-		"babel-jest": "24.8.0",
 		"eslint": "6.7.2",
 		"eslint-config-prettier": "6.7.0",
-		"eslint-plugin-jest": "23.1.1",
 		"eslint-plugin-svelte3": "2.7.3",
 		"husky": "3.1.0",
-		"jest": "24.9.0",
 		"lerna": "3.19.0",
 		"lint-staged": "9.5.0",
 		"prettier": "1.19.1",
-		"svelte": "3.16.0",
-		"svelte-jest": "0.3.1"
+		"svelte": "3.16.0"
 	},
 	"husky": {
 		"hooks": {
