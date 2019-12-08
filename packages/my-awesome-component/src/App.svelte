@@ -6,4 +6,4 @@
 
 </style>
 
-<MyAwesomeComponent name="world" />
+<MyAwesomeComponent name="World" />
