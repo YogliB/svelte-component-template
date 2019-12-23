@@ -10,7 +10,7 @@
 		"@babel/preset-env": "7.7.7",
 		"@testing-library/cypress": "5.0.2",
 		"autoprefixer": "9.7.3",
-		"cypress": "3.7.0",
+		"cypress": "3.8.0",
 		"node-sass": "4.13.0",
 		"postcss": "7.0.25",
 		"postcss-load-config": "2.1.0",
