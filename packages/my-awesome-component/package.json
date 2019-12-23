@@ -12,7 +12,7 @@
 		"autoprefixer": "9.7.3",
 		"cypress": "3.7.0",
 		"node-sass": "4.13.0",
-		"postcss": "7.0.24",
+		"postcss": "7.0.25",
 		"postcss-load-config": "2.1.0",
 		"rollup": "1.27.14",
 		"rollup-plugin-babel": "4.3.3",
