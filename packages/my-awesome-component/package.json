@@ -11,7 +11,7 @@
 		"@testing-library/cypress": "5.0.2",
 		"autoprefixer": "9.7.4",
 		"cypress": "3.8.2",
-		"node-sass": "4.13.0",
+		"node-sass": "4.13.1",
 		"postcss": "7.0.26",
 		"postcss-load-config": "2.1.0",
 		"rollup": "1.29.0",
