@@ -10,7 +10,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 ## Table of Contents
 
-1. [Template Types](#options)
+1. [Template Types](#template-types)
 1. [Features](#features)
 1. [Getting started](#getting-started)
 1. [Developing](#developing)
