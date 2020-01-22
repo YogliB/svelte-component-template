@@ -22,7 +22,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 1. [FAQ](faq)
 1. [Credits & Inspiration](#credits-&-inspiration)
 
-##
+## Template Types
 
 -   Regular (You're here)
 -   [Monorepo](https://github.com/YogliB/svelte-component-template/tree/monorepo)
