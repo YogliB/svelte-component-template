@@ -11,7 +11,6 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 ## Table of Contents
 
-1. [Template Types](#template-types)
 1. [Features](#features)
 1. [Getting started](#getting-started)
 1. [Developing](#developing)
@@ -23,29 +22,14 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 1. [FAQ](faq)
 1. [Credits & Inspiration](#credits-&-inspiration)
 
-## Template Types
-
--   Regular (You're here)
--   [Monorepo](https://github.com/YogliB/svelte-component-template/tree/monorepo)
-
 ## Features
 
-### Regular
-
--   Autoprefixing
+-   Autoprefixing CSS
 -   Formating
 -   Linting
 -   Preprocessing
 -   Testing
 
-### Monorepo
-
--   All of the above
--   Monorepo-ready with [Lerna](https://lerna.js.org/)
-
-### Minimal
-
--   Looking for something simple & to-the-point? try [this](https://github.com/sveltejs/component-template).
 
 ## Getting Started
 
@@ -53,16 +37,8 @@ _Psst — looking for an app template? Go here --> [sveltejs/template](https://
 
 1. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
-The _regular_ version:
-
 ```bash
 npx degit YogliB/svelte-component-template my-new-component
-```
-
-or the _monorepo_ version:
-
-```bash
-npx degit YogliB/svelte-component-template#monorepo my-new-component-library
 ```
 
 2. `cd` into the folder and install the `node_modules`:
@@ -73,18 +49,11 @@ git init
 npm ci
 ```
 
-An extra step for _monorepo_:
-
-```bash
-npm run bootstrap
-```
-
 -   The `ci` command makes sure your packages match the one in the `package-lock.json` (See [here](https://docs.npmjs.com/cli/ci.html)).
 
 3. Run `npm init`, to configure the project.
-4. Replace this `README` with your own.
 
-Your component's source code lives in `src/components/[MyComponent].svelte` or `packages/*` if you chose the monorepo option.
+Your component's source code lives in `src/components/[MyComponent].svelte`.
 
 ## Developing
 
@@ -98,9 +67,10 @@ npm run dev
 
 3. Make sure your component is exported in `src/components/components.module.js`.
 
-4. Make sure your component is imported and nested in `src/App.svelte`.
+4. Make sure your component is imported and nested in `src/App.svelte`, so you can preview and test it.
 
 5. Navigate to [localhost:5000](http://localhost:5000) to see your components live.
+
 
 ## Consuming Components
 
@@ -109,15 +79,18 @@ Your package.json has a `"svelte"` field pointing to `src/components/components.
 For everyone else, `npm run build` will bundle your component's source code into a plain JavaScript module (`index.mjs`) and a UMD script (`index.js`), in the `dist` folder.<br>
 This will happen automatically when you publish your component to npm, courtesy of the `prepublishOnly` hook in package.json.
 
+
 ## Backward Compatibility
 
 This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities into the build process.
+
 
 ### Browserlist
 
 `PostCSS` uses [browserlist](https://github.com/browserslist/browserslist) under the hood, in order to "know" what css to prefix.
 
 The `browserlist` configuration is located inside the `package.json`.
+
 
 ## Preprocessors
 
@@ -129,29 +102,35 @@ This template comes with the [svelte-preprocess](https://github.com/kaisermann/s
 
 1. [Install the required preprocessors.](https://github.com/kaisermann/svelte-preprocess#installation)
 2. [Enable the preprocessor in the component.](https://github.com/kaisermann/svelte-preprocess#preprocessors-support)
+3. [Configure](https://github.com/kaisermann/svelte-preprocess#options) if needed.
+
 
 ## Testing
 
 This template uses [Cypress](https://www.cypress.io/) & [testing-library](https://testing-library.com/docs/cypress-testing-library/intro) for testing.
 
-I highly recommend going through their docs if you intend on testing your components.
+It is highly recommended going through their docs if you intend on testing your components.
 
-There is a simple example you can try by running `npm run cy:open`.
+You can witness a simple example by running `npm run cy:open`.
+
 
 ## FAQ
 
 [Here](../master/FAQ.md) lies what you seek.
+
 
 ## Publishing to [npm](https://www.npmjs.com)
 
 -   [Creating and publishing scoped public packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
 -   [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
 
+
 ## Contributing
 
 All contributions are welcome! 😊
 
 Just make sure you read [this](https://github.com/YogliB/svelte-component-template/blob/master/CONTRIBUTING.md) before contributing.
+
 
 ## Credits & Inspiration
 
