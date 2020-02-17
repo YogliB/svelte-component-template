@@ -15,7 +15,7 @@
 		"eslint-config-prettier": "6.10.0",
 		"eslint-plugin-cypress": "2.9.0",
 		"eslint-plugin-svelte3": "2.7.3",
-		"husky": "4.2.1",
+		"husky": "4.2.3",
 		"lint-staged": "10.0.7",
 		"postcss": "7.0.26",
 		"postcss-load-config": "2.1.0",
