@@ -1,7 +1,4 @@
 {
-	"browserslist": [
-		"defaults"
-	],
 	"description": "TODO",
 	"devDependencies": {
 		"@babel/core": "7.8.4",
