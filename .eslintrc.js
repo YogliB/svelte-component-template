@@ -8,7 +8,7 @@ module.exports = {
 	extends: ['eslint:recommended', 'plugin:cypress/recommended', 'prettier'],
 	overrides: [
 		{
-			files: '*.svelte',
+			files: ['**/*.svelte'],
 			processor: 'svelte3/svelte3',
 		},
 	],
