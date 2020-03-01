@@ -84,6 +84,7 @@ This will happen automatically when you publish your component to npm, courtesy 
 
 This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities into the build process.
 
+This is only relevant when the `svelte` property is not present in the `package.json` or when using the components via a JS bundle.
 
 ### Browserlist
 
