@@ -6,7 +6,7 @@
 		"@babel/plugin-transform-runtime": "7.9.6",
 		"@babel/preset-env": "7.9.6",
 		"@testing-library/cypress": "6.0.0",
-		"autoprefixer": "9.7.6",
+		"autoprefixer": "9.8.0",
 		"cypress": "4.5.0",
 		"eslint": "7.0.0",
 		"eslint-config-prettier": "6.11.0",
