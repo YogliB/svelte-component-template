@@ -13,7 +13,7 @@
 		"eslint-plugin-cypress": "2.10.3",
 		"eslint-plugin-svelte3": "2.7.3",
 		"husky": "4.2.5",
-		"lint-staged": "10.2.4",
+		"lint-staged": "10.2.6",
 		"postcss": "7.0.30",
 		"postcss-load-config": "2.1.0",
 		"prettier": "2.0.5",
