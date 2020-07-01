@@ -27,7 +27,7 @@
 		"sirv-cli": "1.0.3",
 		"start-server-and-test": "1.11.0",
 		"svelte": "3.23.2",
-		"svelte-preprocess": "3.9.10"
+		"svelte-preprocess": "3.9.11"
 	},
 	"files": [
 		"src/components",
