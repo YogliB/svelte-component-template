@@ -24,7 +24,7 @@
 		"rollup-plugin-node-resolve": "5.2.0",
 		"rollup-plugin-svelte": "5.2.3",
 		"rollup-plugin-terser": "6.1.0",
-		"sirv-cli": "1.0.4",
+		"sirv-cli": "1.0.5",
 		"start-server-and-test": "1.11.2",
 		"svelte": "3.24.0",
 		"svelte-preprocess": "4.0.9"
