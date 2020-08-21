@@ -15,7 +15,6 @@
 		"rollup-plugin-livereload": "1.3.0",
 		"rollup-plugin-node-resolve": "5.2.0",
 		"rollup-plugin-svelte": "5.2.3",
-		"rollup-plugin-terser": "7.0.0",
 		"sirv-cli": "1.0.6",
 		"start-server-and-test": "1.11.3",
 		"svelte": "3.24.1",
@@ -43,8 +42,6 @@
 			"git add"
 		]
 	},
-	"main": "dist/index.min.js",
-	"module": "dist/index.min.mjs",
 	"name": "TODO",
 	"repository": "TODO",
 	"scripts": {
@@ -52,9 +49,7 @@
 		"cy:run": "cypress run",
 		"dev": "rollup -c -w",
 		"lint": "eslint --color --ignore-path .gitignore .",
-		"prepublishOnly": "npm run build",
 		"start": "sirv public",
 		"test": "start-server-and-test dev http://localhost:5000 cy:run"
-	},
-	"svelte": "src/components/components.module.js"
+	}
 }
