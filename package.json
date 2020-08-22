@@ -8,6 +8,7 @@
 		"eslint-plugin-cypress": "2.11.1",
 		"eslint-plugin-svelte3": "2.7.3",
 		"husky": "4.2.5",
+		"lerna": "3.22.1",
 		"lint-staged": "10.2.11",
 		"prettier": "2.0.5",
 		"rollup": "2.26.4",
@@ -20,17 +21,11 @@
 		"svelte": "3.24.1",
 		"svelte-preprocess": "4.1.1"
 	},
-	"files": [
-		"src/components"
-	],
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
 		}
 	},
-	"keywords": [
-		"svelte"
-	],
 	"license": "TODO",
 	"lint-staged": {
 		"*.{html, css, scss, stylus, js, ts, json, yml, md}": [
