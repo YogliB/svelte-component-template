@@ -1,9 +1,21 @@
 <script>
-  import { MyAwesomeComponent } from './components/components.module.js';
+	import MyComponent from 'my-component';
 </script>
 
 <style>
+	:global(body) {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
 
+	.wrapper {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+	}
 </style>
 
-<MyAwesomeComponent name="world" />
+<div class="wrapper">
+	<MyComponent name="world" />
+</div>

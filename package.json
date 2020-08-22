@@ -10,6 +10,7 @@
 		"husky": "4.2.5",
 		"lerna": "3.22.1",
 		"lint-staged": "10.2.11",
+		"my-component": "file:./packages/my-component",
 		"prettier": "2.0.5",
 		"rollup": "2.26.4",
 		"rollup-plugin-commonjs": "10.1.0",
