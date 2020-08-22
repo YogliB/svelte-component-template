@@ -1,7 +1,10 @@
 {
 	"description": "TODO",
 	"devDependencies": {
+		"@rollup/plugin-typescript": "5.0.2",
 		"@testing-library/cypress": "6.0.0",
+		"@tsconfig/svelte": "1.0.10",
+		"concurrently": "5.3.0",
 		"cypress": "4.12.1",
 		"eslint": "7.7.0",
 		"eslint-config-prettier": "6.11.0",
@@ -20,7 +23,10 @@
 		"sirv-cli": "1.0.6",
 		"start-server-and-test": "1.11.3",
 		"svelte": "3.24.1",
-		"svelte-preprocess": "4.1.1"
+		"svelte-check": "1.0.21",
+		"svelte-preprocess": "4.1.1",
+		"tslib": "2.0.1",
+		"typescript": "4.0.2"
 	},
 	"husky": {
 		"hooks": {
@@ -44,8 +50,10 @@
 		"cy:open": "cypress open",
 		"cy:run": "cypress run",
 		"dev": "rollup -c -w",
+		"dev:ts": "concurrently -s \"first\" \"npm run dev\" \"npm run validate -- --watch\"",
 		"lint": "eslint --color --ignore-path .gitignore .",
 		"start": "sirv public",
-		"test": "start-server-and-test dev http://localhost:5000 cy:run"
+		"test": "start-server-and-test dev http://localhost:5000 cy:run",
+		"validate": "svelte-check"
 	}
 }

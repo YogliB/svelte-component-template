@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import MyComponent from 'my-component';
 </script>
 
@@ -17,5 +17,5 @@
 </style>
 
 <div class="wrapper">
-	<MyComponent name="world" />
+	<MyComponent name={1} />
 </div>
