@@ -7,7 +7,7 @@
 		"@babel/preset-env": "7.11.0",
 		"@testing-library/cypress": "6.0.1",
 		"autoprefixer": "9.8.6",
-		"cypress": "4.12.1",
+		"cypress": "5.0.0",
 		"eslint": "7.7.0",
 		"eslint-config-prettier": "6.11.0",
 		"eslint-plugin-cypress": "2.11.1",
