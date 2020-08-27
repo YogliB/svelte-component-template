@@ -1,5 +1,7 @@
 <script lang="ts">
 	import MyComponent from 'my-component';
+
+	const name = 'World';
 </script>
 
 <style>
@@ -17,5 +19,5 @@
 </style>
 
 <div class="wrapper">
-	<MyComponent name={1} />
+	<MyComponent {name} />
 </div>
