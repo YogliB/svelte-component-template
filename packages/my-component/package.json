@@ -11,5 +11,6 @@
 		"type": "git",
 		"url": "TODO"
 	},
-	"svelte": "MyComponent.svelte"
+	"svelte": "MyComponent.svelte",
+	"version": "0.0.0"
 }
