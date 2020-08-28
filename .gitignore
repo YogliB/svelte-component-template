@@ -5,3 +5,5 @@
 # test output assets
 cypress/videos
 cypress/screenshots
+
+*.log
