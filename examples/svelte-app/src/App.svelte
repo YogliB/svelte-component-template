@@ -1,5 +1,5 @@
 <script lang="ts">
-	import MyComponent from 'my-component';
+	import { MyComponent } from 'my-component';
 
 	const name = 'World';
 </script>

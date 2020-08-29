@@ -12,5 +12,5 @@
 		"url": "TODO"
 	},
 	"version": "0.0.0",
-	"svelte": "MyComponent.svelte"
+	"svelte": "index.js"
 }
