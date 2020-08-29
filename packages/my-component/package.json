@@ -12,5 +12,8 @@
 		"url": "TODO"
 	},
 	"version": "0.0.0",
-	"svelte": "index.js"
+	"svelte": "index.js",
+	"devDependencies": {
+		"@tsconfig/svelte": "^1.0.10"
+	}
 }

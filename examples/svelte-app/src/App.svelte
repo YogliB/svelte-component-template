@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { MyComponent } from 'my-component';
 
-	const name = 'World';
+	const name = 'Name';
 </script>
 
 <style>

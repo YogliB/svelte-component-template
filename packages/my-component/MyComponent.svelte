@@ -1,5 +1,8 @@
-<script lang="ts">
-	export let name: string;
+<script>
+	// @ts-check
+
+	/** @type {string} */
+	export let name = 'World';
 </script>
 
 <style>
