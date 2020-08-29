@@ -1,54 +1,59 @@
 {
-    "description": "TODO",
-    "devDependencies": {
-        "cypress": "5.0.0",
-        "eslint": "7.7.0",
-        "eslint-config-prettier": "6.11.0",
-        "eslint-plugin-cypress": "2.11.1",
-        "eslint-plugin-svelte3": "2.7.3",
-        "husky": "4.2.5",
-        "lerna": "3.22.1",
-        "lint-staged": "10.2.13",
-        "prettier": "2.1.1",
-        "start-server-and-test": "1.11.3"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "license": "TODO",
-    "lint-staged": {
-        "*.{html, css, scss, stylus, js, ts, json, yml, md}": [
-            "prettier --write",
-            "git add"
-        ],
-        "*.{js, svelte}": [
-            "eslint --fix",
-            "git add"
-        ]
-    },
-    "name": "TODO",
-    "prettier": {
-        "arrowParens": "always",
-        "bracketSpacing": true,
-        "endOfLine": "lf",
-        "htmlWhitespaceSensitivity": "css",
-        "printWidth": 80,
-        "proseWrap": "preserve",
-        "quoteProps": "as-needed",
-        "semi": true,
-        "singleQuote": true,
-        "tabWidth": 4,
-        "trailingComma": "es5",
-        "useTabs": true
-    },
-    "repository": "TODO",
-    "scripts": {
-        "bootstrap": "lerna bootstrap",
-        "cy:open": "cypress open",
-        "cy:run": "cypress run",
-        "lint": "eslint --color --ignore-path .gitignore .",
-        "test": "start-server-and-test dev http://localhost:5000 cy:run"
-    }
+	"description": "TODO",
+	"devDependencies": {
+		"cypress": "5.0.0",
+		"eslint": "7.7.0",
+		"eslint-config-prettier": "6.11.0",
+		"eslint-plugin-cypress": "2.11.1",
+		"eslint-plugin-svelte3": "2.7.3",
+		"husky": "4.2.5",
+		"lerna": "3.22.1",
+		"lint-staged": "10.2.13",
+		"prettier": "2.1.1",
+		"start-server-and-test": "1.11.3"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"license": "TODO",
+	"lint-staged": {
+		"*.{html, css, scss, stylus, js, ts, json, yml, md}": [
+			"prettier --write",
+			"git add"
+		],
+		"*.{js, svelte}": [
+			"eslint --fix",
+			"git add"
+		]
+	},
+	"name": "TODO",
+	"prettier": {
+		"arrowParens": "always",
+		"bracketSpacing": true,
+		"endOfLine": "lf",
+		"htmlWhitespaceSensitivity": "css",
+		"printWidth": 80,
+		"proseWrap": "preserve",
+		"quoteProps": "as-needed",
+		"semi": true,
+		"singleQuote": true,
+		"tabWidth": 4,
+		"trailingComma": "es5",
+		"useTabs": true
+	},
+	"private": true,
+	"repository": "TODO",
+	"scripts": {
+		"bootstrap": "lerna bootstrap",
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
+		"lint": "eslint --color --ignore-path .gitignore .",
+		"test": "start-server-and-test dev http://localhost:5000 cy:run"
+	},
+	"workspaces": [
+		"examples/*",
+		"packages/*"
+	]
 }

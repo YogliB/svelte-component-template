@@ -53,7 +53,7 @@ export default {
 		// https://github.com/rollup/rollup-plugin-commonjs
 		resolve({
 			browser: true,
-			dedupe: ['svelte'],
+			dedupe: ['svelte', 'svelte/internal'],
 		}),
 		commonjs(),
 		typescript({ sourceMap: true }),
