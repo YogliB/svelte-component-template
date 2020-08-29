@@ -6,6 +6,5 @@
 cypress/videos
 cypress/screenshots
 
+# log files
 *.log
-
-**/yarn.lock
