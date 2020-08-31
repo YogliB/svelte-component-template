@@ -1,6 +1,4 @@
-# WIP - Do NOT try this at home.
-
-_Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)_
+_Psst — looking for an app template? Go here --> [sveltejs/sapper-template](https://github.com/sveltejs/sapper-template)_
 
 ---
 
