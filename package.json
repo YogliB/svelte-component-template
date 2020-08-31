@@ -50,7 +50,8 @@
 		"bootstrap": "lerna bootstrap",
 		"cy:open": "cypress open",
 		"cy:run": "cypress run",
-		"dev": "lerna run --stream --scope svelte-app dev:ts",
+		"dev": "lerna run --stream --scope svelte-app dev",
+		"dev:ts": "lerna run --stream --scope svelte-app dev:ts",
 		"lint": "eslint --color --ignore-path .gitignore .",
 		"test": "start-server-and-test dev http://localhost:5000 cy:run"
 	}
