@@ -6,6 +6,6 @@ context('Actions', () => {
 	});
 
 	it('Should render a greeting', () => {
-		cy.findByText('Hello world!').should('exist');
+		cy.findByText('Hello World!').should('exist');
 	});
 });

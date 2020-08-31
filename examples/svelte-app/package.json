@@ -20,6 +20,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "rollup -c -w",
+		"dev:ts": "concurrently -s \"first\" \"npm run dev\" \"npm run validate -- --watch\"",
 		"start": "sirv public",
 		"validate": "svelte-check"
 	}
