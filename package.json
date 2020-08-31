@@ -11,7 +11,9 @@
 		"lerna": "3.22.1",
 		"lint-staged": "10.2.13",
 		"prettier": "2.1.1",
-		"start-server-and-test": "1.11.3"
+		"prettier-plugin-svelte": "1.2.0",
+		"start-server-and-test": "1.11.3",
+		"svelte": "3.24.1"
 	},
 	"husky": {
 		"hooks": {
@@ -20,7 +22,7 @@
 	},
 	"license": "TODO",
 	"lint-staged": {
-		"*.{html, css, scss, stylus, js, ts, json, yml, md}": [
+		"*.{svelte, html, css, scss, stylus, js, ts, json, yml, md}": [
 			"prettier --write",
 			"git add"
 		],
