@@ -1,6 +1,7 @@
 <script>
 	// @ts-check
 
+	// props
 	/** @type {string} */
 	export let name = 'World';
 </script>
