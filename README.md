@@ -6,41 +6,45 @@ _Psst — looking for an app template? Go here --> [sveltejs/sapper-template](h
 
 ## Getting Started
 
-1. Clone it with [degit](https://github.com/Rich-Harris/degit):
+1. Clone the template with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit YogliB/svelte-component-template my-new-component
+npx degit YogliB/svelte-component-template component-library
 ```
 
-2. `cd` into the folder and install the `node_modules`:
+1. `cd` into the folder and install the `node_modules`:
 
 ```bash
 cd my-new-component
-git init
-npm ci
+git init // required for pre-commit hooks
+npm i
 ```
 
--   The `ci` command makes sure your packages match the one in the `package-lock.json` (See [here](https://docs.npmjs.com/cli/ci.html)).
+1. Run `npm init`, to configure the project.
 
-3. Run `npm init`, to configure the project.
-
-Your component's source code lives in `src/components/[MyComponent].svelte`.
+Your components source code lives in `packages/*`.
 
 ## Developing
 
-1. Start [Rollup](https://rollupjs.org):
+1. Bootstrap [lerna](https://github.com/lerna/lerna):
+
+```bash
+npm run bootstrap
+```
+
+1. Run the example project:
 
 ```bash
 npm run dev
 ```
 
-2. Edit a component file in `src/components`, save it, and reload the page to see your changes.
+1. Edit a component file in `packages/my-component`, and save it.
 
-3. Make sure your component is exported in `src/components/components.module.js`.
+1. Make sure your component is exported in `packages/my-component/index.js`.
 
-4. Make sure your component is imported and nested in `src/App.svelte`, so you can preview and test it.
+1. Make sure your component is imported and nested in `src/App.svelte`, so you can preview and test it.
 
-5. Navigate to [localhost:5000](http://localhost:5000) to see your components live.
+1. Navigate to [localhost:5000](http://localhost:5000) to see your components live.
 
 ## Consuming Components
 
