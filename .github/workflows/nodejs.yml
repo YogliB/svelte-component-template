@@ -19,6 +19,7 @@ jobs:
             - name: is this on?
               run: |
                   npm i
+                  npm run bootstrap
                   npm run lint
                   npm run test
               env:
