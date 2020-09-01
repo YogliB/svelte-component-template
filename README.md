@@ -59,3 +59,10 @@ This template uses [Cypress](https://www.cypress.io/) & [testing-library](https:
 It is highly recommended going through their docs if you intend on testing your components.
 
 You can witness a simple example by running `npm run cy:open`.
+
+## A few recommendations
+
+- Type your props and use [jsdoc](https://devhints.io/jsdoc) to do so (AKA let them know how to use your components but don't force them to use Typescript).
+- Give your users the ability to install _only_ the packages they need (hence the monorepo).
+- Minimize the use of `dependencies` in favor of `peerDependencies`.
+Using `dependencies` may cause duplicates with different versions in `node_modules` and cause issues. 
