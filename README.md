@@ -1,12 +1,16 @@
-_Psst — looking for an app template? Go here --> [sveltejs/sapper-template](https://github.com/sveltejs/sapper-template)_
+_Looking for a simple component template? Go [here](https://github.com/sveltejs/component-template)._
 
 ---
 
 # Svelte 3 Component Template
 
+## Prerequisites
+
+- Node.js v10+
+
 ## Getting Started
 
-1. Clone this template with [degit](https://github.com/Rich-Harris/degit):
+1. Clone this template:
 
 ```bash
 npx degit YogliB/svelte-component-template component-library
@@ -38,17 +42,15 @@ npm run bootstrap
 npm run dev
 ```
 
-1. Edit a component file in `packages/my-component`, and save it.
+1. Navigate to [localhost:5000](http://localhost:5000).
 
-1. Make sure your component is exported in `packages/my-component/index.js`.
+1. Edit a component file in `.svelte` `packages/my-component`, and save it.
 
-1. Make sure your component is imported and nested in `src/App.svelte`, so you can preview and test it.
-
-1. Navigate to [localhost:5000](http://localhost:5000) to see your components live.
+1. What the magic happen.
 
 ## Consuming Components
 
-TODO
+Your [package.json](https://github.com/YogliB/svelte-component-template/blob/v2/packages/my-component/package.json) has a "svelte" field pointing to an index.js file, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like rollup-plugin-svelte or svelte-loader (where resolve.mainFields in your webpack config includes "svelte").
 
 ## Testing
 
