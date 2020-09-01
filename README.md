@@ -1,4 +1,4 @@
-_Looking for a simple component template? Go [here](https://github.com/sveltejs/component-template)._
+_Looking for a simple component template? Click [here](https://github.com/sveltejs/component-template)._
 
 ---
 
