@@ -46,7 +46,7 @@ npm run dev
 
 1. Edit a component file in `.svelte` `packages/my-component`, and save it.
 
-1. What the magic happen.
+1. What the magic happens.
 
 ## Consuming Components
 
