@@ -6,7 +6,7 @@ _Psst — looking for an app template? Go here --> [sveltejs/sapper-template](h
 
 ## Getting Started
 
-1. Clone the template with [degit](https://github.com/Rich-Harris/degit):
+1. Clone this template with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
 npx degit YogliB/svelte-component-template component-library
