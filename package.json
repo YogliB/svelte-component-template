@@ -14,7 +14,7 @@
 		"eslint-plugin-svelte3": "2.7.3",
 		"husky": "4.3.0",
 		"lint-staged": "10.3.0",
-		"postcss": "7.0.32",
+		"postcss": "8.0.1",
 		"postcss-load-config": "2.1.0",
 		"prettier": "2.1.1",
 		"rollup": "2.26.11",
