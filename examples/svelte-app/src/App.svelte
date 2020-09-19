@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import { MyComponent } from 'my-component';
 
 	const name = 'World';

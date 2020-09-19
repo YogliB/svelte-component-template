@@ -2,8 +2,6 @@ import commonjs from 'rollup-plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import resolve from 'rollup-plugin-node-resolve';
 import svelte from 'rollup-plugin-svelte';
-import sveltePreprocess from 'svelte-preprocess';
-import typescript from '@rollup/plugin-typescript';
 
 function serve() {
 	let server;
@@ -31,7 +29,7 @@ function serve() {
 }
 
 export default {
-	input: 'src/main.ts',
+	input: 'src/main.js',
 	output: {
 		sourcemap: true,
 		format: 'iife',
@@ -43,7 +41,6 @@ export default {
 		svelte({
 			// enable run-time checks
 			dev: true,
-			preprocess: sveltePreprocess(),
 		}),
 
 		// If you have external dependencies installed from
@@ -56,7 +53,6 @@ export default {
 			dedupe: ['svelte', 'svelte/internal'],
 		}),
 		commonjs(),
-		typescript({ sourceMap: true }),
 
 		// In dev mode, call `npm run start` once
 		// the bundle has been generated

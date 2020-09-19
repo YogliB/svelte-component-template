@@ -1,27 +1,18 @@
 {
 	"devDependencies": {
-		"@rollup/plugin-typescript": "5.0.2",
-		"@tsconfig/svelte": "1.0.10",
-		"concurrently": "5.3.0",
-		"my-component": "0.0.0",
+		"my-component": "^0.0.1",
 		"rollup": "2.26.6",
 		"rollup-plugin-commonjs": "10.1.0",
 		"rollup-plugin-livereload": "2.0.0",
 		"rollup-plugin-node-resolve": "5.2.0",
 		"rollup-plugin-svelte": "6.0.0",
 		"sirv-cli": "1.0.6",
-		"svelte": "3.24.1",
-		"svelte-check": "1.0.28",
-		"svelte-preprocess": "4.1.1",
-		"tslib": "2.0.1",
-		"typescript": "4.0.2"
+		"svelte": "3.24.1"
 	},
 	"name": "svelte-app",
 	"private": true,
 	"scripts": {
 		"dev": "rollup -c -w",
-		"dev:ts": "concurrently -s \"first\" \"npm run dev\" \"npm run validate -- --watch\"",
-		"start": "sirv public",
-		"validate": "svelte-check"
+		"start": "sirv public"
 	}
 }
