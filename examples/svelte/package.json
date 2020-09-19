@@ -13,6 +13,6 @@
 	"private": true,
 	"scripts": {
 		"dev": "rollup -c -w",
-		"start": "sirv public"
+		"start": "sirv public -p 3000"
 	}
 }

@@ -11,7 +11,7 @@
 		"type": "git",
 		"url": "TODO"
 	},
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"svelte": "index.js",
 	"devDependencies": {
 		"@tsconfig/svelte": "^1.0.10"

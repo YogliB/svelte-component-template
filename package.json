@@ -2,7 +2,6 @@
 	"description": "TODO",
 	"devDependencies": {
 		"@testing-library/cypress": "6.0.1",
-		"@tsconfig/svelte": "1.0.10",
 		"cypress": "5.0.0",
 		"eslint": "7.7.0",
 		"eslint-config-prettier": "6.11.0",
@@ -53,9 +52,8 @@
 		"bootstrap": "lerna bootstrap",
 		"cy:open": "cypress open",
 		"cy:run": "cypress run",
-		"dev": "lerna run --stream --scope svelte-app dev",
-		"dev:ts": "lerna run --stream --scope svelte-app dev:ts",
+		"dev:svelte": "lerna run --scope=@examples/svelte dev --stream",
 		"lint": "eslint --color --ignore-path .gitignore .",
-		"test": "start-server-and-test dev http://localhost:5000 cy:run"
+		"test": "start-server-and-test dev:svelte http://localhost:3000 cy:run"
 	}
 }
