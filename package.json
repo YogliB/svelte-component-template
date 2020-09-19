@@ -55,6 +55,21 @@
 	"main": "dist/index.min.js",
 	"module": "dist/index.min.mjs",
 	"name": "TODO",
+	"prettier": {
+		"arrowParens": "always",
+		"bracketSpacing": true,
+		"endOfLine": "lf",
+		"htmlWhitespaceSensitivity": "css",
+		"insertPragma": false,
+		"printWidth": 80,
+		"proseWrap": "preserve",
+		"requirePragma": false,
+		"semi": true,
+		"singleQuote": true,
+		"tabWidth": 4,
+		"trailingComma": "es5",
+		"useTabs": true
+	},
 	"repository": "TODO",
 	"scripts": {
 		"build": "rollup -c",
