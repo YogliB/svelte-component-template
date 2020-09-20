@@ -72,5 +72,5 @@
 		"start": "sirv public",
 		"test": "start-server-and-test dev http://localhost:5000 cy:run"
 	},
-	"svelte": "src/components/components.module.js"
+	"svelte": "src/components/index.js"
 }
