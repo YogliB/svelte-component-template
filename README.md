@@ -155,3 +155,4 @@ There are a few options to do this:
 -   Official [component-template](https://github.com/sveltejs/component-template) by @Rich-Harris
 -   Official [app-template](https://github.com/sveltejs/template) by @Rich-Harris
 -   [This](https://github.com/sveltejs/component-template/pull/5) PR by @sisou
+-   [This](https://github.com/sveltejs/component-template/pull/31) PR by @BlackFenix2
