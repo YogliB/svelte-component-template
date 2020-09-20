@@ -11,12 +11,17 @@
 1. [Getting started](#getting-started)
 1. [Developing](#developing)
 1. [Consuming components](#consuming-components)
+1. [Backward Compatibility](#backward-compatibility)
+1. [Preprocessors](#preprocessors)
 1. [Testing](#testing)
 1. [Publishing to npm](publishing-to-npm)
 1. [Frequently Asked Questions](frequently-asked-questions)
 1. [Credits & Inspiration](#credits-&-inspiration)
 
 ## Features
+
+-   Autoprefixing CSS
+-   Preprocessing
 
 -   Formating
 -   Linting
@@ -62,7 +67,51 @@ npm run dev
 
 ## Consuming Components
 
-Your package.json has a `"svelte"` field pointing to `src/components/index.js`, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like [rollup-plugin-svelte](https://github.com/rollup/rollup-plugin-svelte) or [svelte-loader](https://github.com/sveltejs/svelte-loader) (where [`resolve.mainFields`](https://webpack.js.org/configuration/resolve/#resolve-mainfields) in your webpack config includes `"svelte"`). **This is recommended.**
+Your package.json has a `"svelte"` field pointing to `src/components/index.js`, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like [rollup-plugin-svelte](https://github.com/rollup/rollup-plugin-svelte) or [svelte-loader](https://github.com/sveltejs/svelte-loader) (where [`resolve.mainFields`](https://webpack.js.org/configuration/resolve/#resolve-mainfields) in your webpack config includes `"svelte"`).
+
+## Backward Compatibility
+
+This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities into the build process.
+
+### Browserlist
+
+`PostCSS` uses [browserlist](https://github.com/browserslist/browserslist) under the hood, in order to "know" what css to prefix.
+
+The `browserlist` configuration is located inside the `package.json`.
+
+## Preprocessors
+
+This template comes with the [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) by default, which simplifies the use of preprocessors in components.
+
+### Usage
+
+1. [Install the required preprocessors.](https://github.com/sveltejs/svelte-preprocess/blob/master/docs/getting-started.md#1-installation)
+2. [Enable the preprocessor in the component.](https://github.com/kaisermann/svelte-preprocess#preprocessors-support)
+3. [Configure](https://github.com/kaisermann/svelte-preprocess#options) if needed.
+
+## Backward Compatibility
+
+This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities into the build process.
+
+This is only relevant when the `svelte` property is not present in the `package.json` or when using the components via a JS bundle.
+
+### Browserlist
+
+`PostCSS` uses [browserlist](https://github.com/browserslist/browserslist) under the hood, in order to "know" what css to prefix.
+
+The `browserlist` configuration is located inside the `package.json`.
+
+## Preprocessors
+
+This template comes with the [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) by default, which simplifies the use of preprocessors in components.
+
+-   If you're using preprocessors, make sure you **remove** the `svelte` property from the `package.json` (You can find more info [here](https://github.com/sveltejs/component-template/issues/8)).
+
+### Usage
+
+1. [Install the required preprocessors.](https://github.com/kaisermann/svelte-preprocess#installation)
+2. [Enable the preprocessor in the component.](https://github.com/kaisermann/svelte-preprocess#preprocessors-support)
+3. [Configure](https://github.com/kaisermann/svelte-preprocess#options) if needed.
 
 ## Testing
 
