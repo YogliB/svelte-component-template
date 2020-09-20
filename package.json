@@ -73,7 +73,8 @@
 		"cy:run": "cypress run",
 		"dev": "rollup -c -w",
 		"lint": "eslint --color --ignore-path .gitignore .",
-		"prepublishOnly": "node preprocess",
+		"prepare": "node preprocess",
+		"prepublishOnly": "npm run prepare",
 		"start": "sirv public",
 		"test": "start-server-and-test dev http://localhost:5000 cy:run"
 	},
