@@ -30,7 +30,9 @@
 		}
 	},
 	"keywords": [
-		"svelte"
+		"svelte",
+		"component",
+		"library"
 	],
 	"license": "TODO",
 	"lint-staged": {
