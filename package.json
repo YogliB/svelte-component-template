@@ -2,11 +2,7 @@
 	"description": "TODO",
 	"devDependencies": {
 		"@babel/core": "7.11.6",
-		"@babel/plugin-syntax-dynamic-import": "7.8.3",
-		"@babel/plugin-transform-runtime": "7.11.5",
-		"@babel/preset-env": "7.11.5",
 		"@testing-library/cypress": "7.0.0",
-		"autoprefixer": "10.0.0",
 		"cypress": "5.2.0",
 		"eslint": "7.9.0",
 		"eslint-config-prettier": "6.11.0",
@@ -14,19 +10,15 @@
 		"eslint-plugin-svelte3": "2.7.3",
 		"husky": "4.3.0",
 		"lint-staged": "10.4.0",
-		"postcss": "8.0.5",
-		"postcss-load-config": "2.1.1",
 		"prettier": "2.1.2",
 		"rollup": "2.27.1",
-		"rollup-plugin-babel": "4.4.0",
 		"rollup-plugin-commonjs": "10.1.0",
 		"rollup-plugin-livereload": "2.0.0",
 		"rollup-plugin-node-resolve": "5.2.0",
 		"rollup-plugin-svelte": "6.0.1",
 		"sirv-cli": "1.0.6",
 		"start-server-and-test": "1.11.4",
-		"svelte": "3.25.1",
-		"svelte-preprocess": "4.3.0"
+		"svelte": "3.25.1"
 	},
 	"files": [
 		"src/components",
