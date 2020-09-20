@@ -1,8 +1,18 @@
 const svelte = require('svelte/compiler');
-const autoprocessor = require('svelte-preprocess');
+const sveltePreprocess = require('svelte-preprocess');
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
+
+/**
+ * @type {import('svelte-preprocess/dist/index')}
+ */
+const sveltePreprocessConfig = {
+	babel: true,
+	postcss: {
+		plugins: [require('autoprefixer')],
+	},
+};
 
 const main = () => {
 	// source file paths
@@ -39,12 +49,7 @@ const parseSvelte = async (source, destination) => {
 	try {
 		const item = await svelte.preprocess(
 			source,
-			autoprocessor({
-				babel: true,
-				postcss: {
-					plugins: [require('autoprefixer')],
-				},
-			}),
+			sveltePreprocess(sveltePreprocessConfig),
 			{
 				filename: path.basename(destination),
 			}

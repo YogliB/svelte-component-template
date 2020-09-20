@@ -85,15 +85,13 @@ This template comes with the [svelte-preprocess](https://github.com/kaisermann/s
 
 ### Usage
 
-1. [Install the required preprocessors.](https://github.com/sveltejs/svelte-preprocess/blob/master/docs/getting-started.md#1-installation)
-2. [Enable the preprocessor in the component.](https://github.com/kaisermann/svelte-preprocess#preprocessors-support)
-3. [Configure](https://github.com/kaisermann/svelte-preprocess#options) if needed.
+[Getting Started](https://github.com/sveltejs/svelte-preprocess/blob/master/docs/getting-started.md) with svelte-preprocess.
+
+-   To configure svelte-preprocess use the `sveltePreprocessConfig` variable in `./preprocess.js`
 
 ## Backward Compatibility
 
-This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities into the build process.
-
-This is only relevant when the `svelte` property is not present in the `package.json` or when using the components via a JS bundle.
+This template uses [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities into the build process.
 
 ### Browserlist
 
@@ -105,13 +103,9 @@ The `browserlist` configuration is located inside the `package.json`.
 
 This template comes with the [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) by default, which simplifies the use of preprocessors in components.
 
--   If you're using preprocessors, make sure you **remove** the `svelte` property from the `package.json` (You can find more info [here](https://github.com/sveltejs/component-template/issues/8)).
-
 ### Usage
 
-1. [Install the required preprocessors.](https://github.com/kaisermann/svelte-preprocess#installation)
-2. [Enable the preprocessor in the component.](https://github.com/kaisermann/svelte-preprocess#preprocessors-support)
-3. [Configure](https://github.com/kaisermann/svelte-preprocess#options) if needed.
+[Getting Started](https://github.com/sveltejs/svelte-preprocess/blob/master/docs/getting-started.md) with svelte-preprocess.
 
 ## Testing
 
