@@ -71,7 +71,7 @@ Your package.json has a `"svelte"` field pointing to `src/components/index.js`, 
 
 ## Backward Compatibility
 
-This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities into the build process.
+This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities & [Babel](https://babeljs.io/)'s transpiling capabilities into the build process.
 
 ### Browserlist
 
