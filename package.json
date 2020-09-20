@@ -22,8 +22,7 @@
 		"svelte": "3.25.1"
 	},
 	"files": [
-		"src/components",
-		"dist"
+		"src/components"
 	],
 	"husky": {
 		"hooks": {
@@ -44,8 +43,6 @@
 			"git add"
 		]
 	},
-	"main": "dist/index.min.js",
-	"module": "dist/index.min.mjs",
 	"name": "TODO",
 	"prettier": {
 		"arrowParens": "always",
