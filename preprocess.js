@@ -3,16 +3,7 @@ const sveltePreprocess = require('svelte-preprocess');
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
-
-/**
- * @type {import('svelte-preprocess/dist/index')}
- */
-const sveltePreprocessConfig = {
-	babel: true,
-	postcss: {
-		plugins: [require('autoprefixer')],
-	},
-};
+const { sveltePreprocessConfig } = require('./svelte-preprocess.config');
 
 const main = () => {
 	// source file paths

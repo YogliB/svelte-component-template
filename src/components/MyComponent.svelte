@@ -1,5 +1,7 @@
-<script>/** @type {string} */
-export var name = 'World';</script>
+<script>
+	/** @type {string} */
+	export var name = 'World';
+</script>
 
 <style>
 	h1 {
@@ -9,6 +11,7 @@ export var name = 'World';</script>
 		font-size: 5rem;
 		font-weight: lighter;
 		text-align: center;
-	}</style>
+	}
+</style>
 
 <h1>Hello {name}!</h1>
