@@ -10,7 +10,7 @@
 		"@testing-library/cypress": "7.0.0",
 		"autoprefixer": "10.0.0",
 		"cypress": "5.2.0",
-		"eslint": "7.9.0",
+		"eslint": "7.10.0",
 		"eslint-config-prettier": "6.11.0",
 		"eslint-plugin-cypress": "2.11.1",
 		"eslint-plugin-svelte3": "2.7.3",
