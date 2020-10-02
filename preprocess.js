@@ -3,7 +3,7 @@ const sveltePreprocess = require('svelte-preprocess');
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
-const sveltePreprocessConfig = require('./svelte-preprocess.config');
+const { sveltePreprocessConfig } = require('./svelte-preprocess.config');
 
 const main = () => {
 	// source file paths
