@@ -1,7 +1,7 @@
 /**
  * @type {import('svelte-preprocess/dist/index')}
  */
-export const sveltePreprocessConfig = {
+module.exports = {
 	babel: true,
 	postcss: {
 		plugins: [require('autoprefixer')],
