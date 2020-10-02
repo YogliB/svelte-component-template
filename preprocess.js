@@ -16,11 +16,17 @@ const main = () => {
 			console.error('Unable to scan directory: ' + error);
 			return;
 		}
+
 		// listing all files using forEach
 		files.forEach(async (file) => {
 			// load file
 			const sourceFile = fs.readFileSync(file, 'utf-8');
 			const distFile = file.replace('/src/components/', '/dist/');
+
+			// create directory and file
+			fs.mkdirSync(path.dirname(distFile), {
+				recursive: true,
+			});
 
 			// process .svelte file
 			if (file.endsWith('.svelte')) {
@@ -46,10 +52,6 @@ const parseSvelte = async (source, destination) => {
 			}
 		);
 
-		// create directory and file
-		fs.mkdirSync(path.dirname(destination), {
-			recursive: true,
-		});
 		// write compiled code to dist file
 		fs.writeFileSync(destination, item.code);
 	} catch (error) {
