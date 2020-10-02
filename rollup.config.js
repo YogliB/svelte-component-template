@@ -3,7 +3,7 @@ import livereload from 'rollup-plugin-livereload';
 import resolve from 'rollup-plugin-node-resolve';
 import svelte from 'rollup-plugin-svelte';
 import sveltePreprocess from 'svelte-preprocess';
-import { sveltePreprocessConfig } from './svelte-preprocess.config';
+import sveltePreprocessConfig from './svelte-preprocess.config';
 
 function serve() {
 	let server;
