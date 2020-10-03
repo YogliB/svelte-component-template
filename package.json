@@ -51,7 +51,7 @@
 	],
 	"license": "TODO",
 	"lint-staged": {
-		"*.{html, css, scss, stylus, js, ts, json, yml, md}": [
+		"*.{svelte, html, css, scss, stylus, js, ts, json, yml, md}": [
 			"prettier --write",
 			"git add"
 		],
