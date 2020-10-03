@@ -89,24 +89,6 @@ This template comes with the [svelte-preprocess](https://github.com/kaisermann/s
 
 -   To configure svelte-preprocess use the `sveltePreprocessConfig` variable in `./preprocess.js`
 
-## Backward Compatibility
-
-This template uses [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities into the build process.
-
-### Browserlist
-
-`PostCSS` uses [browserlist](https://github.com/browserslist/browserslist) under the hood, in order to "know" what css to prefix.
-
-The `browserlist` configuration is located inside the `package.json`.
-
-## Preprocessors
-
-This template comes with the [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) by default, which simplifies the use of preprocessors in components.
-
-### Usage
-
-[Getting Started](https://github.com/sveltejs/svelte-preprocess/blob/master/docs/getting-started.md) with svelte-preprocess.
-
 ## Testing
 
 This template uses [Cypress](https://www.cypress.io/) & [testing-library](https://testing-library.com/docs/cypress-testing-library/intro) for testing.
