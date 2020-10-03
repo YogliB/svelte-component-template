@@ -22,10 +22,10 @@
 
 -   Autoprefixing CSS
 -   Preprocessing
-
 -   Formating
 -   Linting
 -   Testing
+-   [Storybook](https://storybook.js.org/docs/svelte/get-started/introduction)
 
 ## Getting Started
 
