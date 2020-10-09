@@ -24,7 +24,7 @@
 		"lint-staged": "10.4.0",
 		"postcss": "8.0.5",
 		"prettier": "2.1.2",
-		"rollup": "2.27.1",
+		"rollup": "2.29.0",
 		"rollup-plugin-commonjs": "10.1.0",
 		"rollup-plugin-livereload": "2.0.0",
 		"rollup-plugin-node-resolve": "5.2.0",
