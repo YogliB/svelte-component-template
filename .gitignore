@@ -2,6 +2,7 @@
 **/dist/**
 **/node_modules/**
 **/public/bundle.*
+/storybook-static
 
 cypress/videos
 cypress/screenshots
