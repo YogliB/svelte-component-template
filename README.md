@@ -25,7 +25,7 @@
 -   Formating
 -   Linting
 -   Testing
--   [Storybook](https://storybook.js.org/docs/svelte/get-started/introduction)
+-   [Storybook](https://www.learnstorybook.com/intro-to-storybook/svelte/en/get-started/)
 
 ## Getting Started
 
