@@ -24,6 +24,7 @@
 		"lint-staged": "10.4.0",
 		"postcss": "8.0.5",
 		"prettier": "2.1.2",
+		"react-is": "16.13.1",
 		"rollup": "2.29.0",
 		"rollup-plugin-commonjs": "10.1.0",
 		"rollup-plugin-livereload": "2.0.0",
@@ -75,7 +76,8 @@
 		"prepublishOnly": "npm run prepare",
 		"start": "sirv public",
 		"test": "start-server-and-test dev http://localhost:5000 cy:run",
-		"storybook": "start-storybook -p 6006"
+		"storybook": "start-storybook -p 6006",
+		"build-storybook": "build-storybook"
 	},
 	"svelte": "dist/index.js",
 	"dependencies": {}

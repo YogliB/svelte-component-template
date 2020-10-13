@@ -5,6 +5,7 @@ export default {
 	component: MyComponent,
 	argTypes: {
 		name: { control: 'text' },
+		textColor: { control: 'color' },
 	},
 };
 
@@ -13,7 +14,5 @@ const Template = ({ ...args }) => ({
 	props: args,
 });
 
-export const World = Template.bind({});
-World.args = {
-	name: 'World',
-};
+export const Default = Template.bind({});
+Default.args = {};
