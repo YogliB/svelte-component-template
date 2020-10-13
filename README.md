@@ -35,6 +35,8 @@
 
 ```bash
 npx degit YogliB/svelte-component-template my-new-component
+or
+npx degit YogliB/svelte-component-template my-new-component#monorepo
 ```
 
 3. `cd` into the folder and install the `node_modules`:
