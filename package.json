@@ -6,7 +6,7 @@
 	"devDependencies": {
 		"@babel/core": "7.12.0",
 		"@babel/eslint-parser": "7.11.5",
-		"@babel/preset-env": "7.12.0",
+		"@babel/preset-env": "7.12.1",
 		"@storybook/addon-actions": "6.0.26",
 		"@storybook/addon-essentials": "6.0.26",
 		"@storybook/addon-links": "6.0.26",
