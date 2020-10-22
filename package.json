@@ -16,7 +16,7 @@
 		"babel-loader": "8.1.0",
 		"cypress": "5.4.0",
 		"eslint": "7.11.0",
-		"eslint-config-prettier": "6.13.0",
+		"eslint-config-prettier": "6.14.0",
 		"eslint-plugin-cypress": "2.11.1",
 		"eslint-plugin-svelte3": "2.7.3",
 		"glob": "7.1.6",
