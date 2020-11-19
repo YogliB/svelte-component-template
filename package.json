@@ -25,7 +25,7 @@
 		"postcss": "8.1.7",
 		"prettier": "2.1.2",
 		"prettier-plugin-svelte": "1.4.1",
-		"react-is": "16.13.1",
+		"react-is": "17.0.1",
 		"rollup": "2.33.3",
 		"rollup-plugin-commonjs": "10.1.0",
 		"rollup-plugin-livereload": "2.0.0",
