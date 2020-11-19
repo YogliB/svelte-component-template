@@ -9,7 +9,7 @@
 		"@babel/preset-env": "7.12.1",
 		"@storybook/addon-actions": "6.0.28",
 		"@storybook/addon-essentials": "6.0.28",
-		"@storybook/addon-links": "6.0.28",
+		"@storybook/addon-links": "6.1.0",
 		"@storybook/svelte": "6.0.28",
 		"@testing-library/cypress": "7.0.0",
 		"autoprefixer": "10.0.2",
