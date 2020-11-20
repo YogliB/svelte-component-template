@@ -32,7 +32,7 @@
 		"rollup-plugin-node-resolve": "5.2.0",
 		"rollup-plugin-svelte": "6.1.1",
 		"sirv-cli": "1.0.8",
-		"start-server-and-test": "1.11.4",
+		"start-server-and-test": "1.11.6",
 		"svelte": "3.29.7",
 		"svelte-loader": "2.13.6",
 		"svelte-preprocess": "4.6.0"
