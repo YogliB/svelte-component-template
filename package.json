@@ -7,7 +7,7 @@
 		"@babel/core": "7.12.8",
 		"@babel/eslint-parser": "7.12.1",
 		"@babel/preset-env": "7.12.7",
-		"@storybook/addon-actions": "6.1.4",
+		"@storybook/addon-actions": "6.1.5",
 		"@storybook/addon-essentials": "6.1.4",
 		"@storybook/addon-links": "6.1.5",
 		"@storybook/svelte": "6.1.4",
