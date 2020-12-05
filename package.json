@@ -24,7 +24,7 @@
 		"lint-staged": "10.5.3",
 		"postcss": "8.1.14",
 		"prettier": "2.2.1",
-		"prettier-plugin-svelte": "1.4.1",
+		"prettier-plugin-svelte": "1.4.2",
 		"react-is": "17.0.1",
 		"rollup": "2.34.1",
 		"rollup-plugin-commonjs": "10.1.0",
