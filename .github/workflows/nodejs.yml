@@ -27,7 +27,7 @@ jobs:
                   node-version: '${{ matrix.node-version }}'
             - name: is this on?
               run: |
-                  npm ci
+                  npm i
                   npm run lint
                   npm run test
                   npm run prepare
