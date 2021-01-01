@@ -14,8 +14,8 @@
 1. [Backward Compatibility](#backward-compatibility)
 1. [Preprocessors](#preprocessors)
 1. [Testing](#testing)
-1. [Publishing to npm](publishing-to-npm)
-1. [Frequently Asked Questions](frequently-asked-questions)
+1. [Publishing to npm](#publishing-to-npm)
+1. [Frequently Asked Questions](#frequently-asked-questions)
 1. [Credits & Inspiration](#credits-&-inspiration)
 
 ## Features
