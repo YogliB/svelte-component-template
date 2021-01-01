@@ -7,6 +7,8 @@
 		"@babel/core": "7.12.10",
 		"@babel/eslint-parser": "7.12.1",
 		"@babel/preset-env": "7.12.11",
+		"@rollup/plugin-commonjs": "17.0.0",
+		"@rollup/plugin-node-resolve": "11.0.1",
 		"@storybook/addon-actions": "6.1.11",
 		"@storybook/addon-essentials": "6.1.11",
 		"@storybook/addon-links": "6.1.11",
@@ -17,7 +19,7 @@
 		"cypress": "6.2.0",
 		"eslint": "7.16.0",
 		"eslint-config-prettier": "7.1.0",
-		"eslint-plugin-cypress": "2.11.1",
+		"eslint-plugin-cypress": "2.11.2",
 		"eslint-plugin-svelte3": "3.0.0",
 		"glob": "7.1.6",
 		"husky": "5.0.6",
@@ -27,10 +29,9 @@
 		"prettier-plugin-svelte": "1.4.2",
 		"react-is": "17.0.1",
 		"rollup": "2.35.1",
-		"rollup-plugin-commonjs": "10.1.0",
+		"rollup-plugin-css-only": "3.1.0",
 		"rollup-plugin-livereload": "2.0.0",
-		"rollup-plugin-node-resolve": "5.2.0",
-		"rollup-plugin-svelte": "6.1.1",
+		"rollup-plugin-svelte": "7.0.0",
 		"sirv-cli": "1.0.10",
 		"start-server-and-test": "1.11.7",
 		"svelte": "3.31.0",
@@ -80,6 +81,5 @@
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook"
 	},
-	"svelte": "dist/index.js",
-	"dependencies": {}
+	"svelte": "dist/index.js"
 }
