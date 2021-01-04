@@ -16,7 +16,7 @@
 		"@testing-library/cypress": "7.0.3",
 		"autoprefixer": "10.1.0",
 		"babel-loader": "8.2.2",
-		"cypress": "6.2.0",
+		"cypress": "6.2.1",
 		"eslint": "7.17.0",
 		"eslint-config-prettier": "7.1.0",
 		"eslint-plugin-cypress": "2.11.2",
