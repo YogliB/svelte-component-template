@@ -105,7 +105,7 @@ You can witness a simple example by running `npm run cy:open`.
 
 It's for Svelte to be able to import multiple components from a single source.
 
-For instance, tt lets the uset do:
+For instance, it lets the user do:
 
 ```javascript
 import { MyComponent, MyOtherComponent } from 'my-component-library';
