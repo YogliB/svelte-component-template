@@ -36,7 +36,7 @@
 		"start-server-and-test": "1.11.7",
 		"svelte": "3.31.2",
 		"svelte-loader": "2.13.6",
-		"svelte-preprocess": "4.6.1"
+		"svelte-preprocess": "4.6.2"
 	},
 	"files": [
 		"dist"
