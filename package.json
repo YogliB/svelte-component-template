@@ -14,7 +14,7 @@
 		"@storybook/addon-links": "6.1.15",
 		"@storybook/svelte": "6.1.15",
 		"@testing-library/cypress": "7.0.3",
-		"autoprefixer": "10.2.3",
+		"autoprefixer": "10.2.4",
 		"babel-loader": "8.2.2",
 		"cypress": "6.3.0",
 		"eslint": "7.18.0",
