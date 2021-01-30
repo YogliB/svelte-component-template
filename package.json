@@ -32,7 +32,7 @@
 		"rollup-plugin-css-only": "3.1.0",
 		"rollup-plugin-livereload": "2.0.0",
 		"rollup-plugin-svelte": "7.1.0",
-		"sirv-cli": "1.0.10",
+		"sirv-cli": "1.0.11",
 		"start-server-and-test": "1.11.7",
 		"svelte": "3.32.1",
 		"svelte-loader": "2.13.6",
