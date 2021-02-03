@@ -4,7 +4,7 @@
 	],
 	"description": "TODO",
 	"devDependencies": {
-		"@babel/core": "7.12.10",
+		"@babel/core": "7.12.13",
 		"@babel/eslint-parser": "7.12.13",
 		"@babel/preset-env": "7.12.13",
 		"@rollup/plugin-commonjs": "17.1.0",
