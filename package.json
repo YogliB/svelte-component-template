@@ -9,7 +9,7 @@
 		"@babel/preset-env": "7.12.13",
 		"@rollup/plugin-commonjs": "17.1.0",
 		"@rollup/plugin-node-resolve": "11.1.1",
-		"@storybook/addon-actions": "6.1.16",
+		"@storybook/addon-actions": "6.1.17",
 		"@storybook/addon-essentials": "6.1.16",
 		"@storybook/addon-links": "6.1.16",
 		"@storybook/svelte": "6.1.16",
