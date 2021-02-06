@@ -44,7 +44,27 @@ npx degit "YogliB/svelte-component-template#monorepo" my-new-component
 ```bash
 cd my-new-component
 git init
-npm i
+```
+
+```bash
+npm install
+```
+
+or:
+```bash
+yarn
+```
+
+
+
+- For monorepo run:
+```bash
+npm run bootstrap
+```
+
+or:
+```bash
+yarn bootstrap
 ```
 
 4. Run `npm init`, to configure the project.
