@@ -14,8 +14,8 @@
 1. [Backward Compatibility](#backward-compatibility)
 1. [Preprocessors](#preprocessors)
 1. [Testing](#testing)
-1. [Publishing to npm](publishing-to-npm)
-1. [Frequently Asked Questions](frequently-asked-questions)
+1. [Publishing to npm](#publishing-to-npm)
+1. [Frequently Asked Questions](#frequently-asked-questions)
 1. [Credits & Inspiration](#credits-&-inspiration)
 
 ## Features
@@ -25,7 +25,7 @@
 -   Formating
 -   Linting
 -   Testing
--   [Storybook](https://storybook.js.org/docs/svelte/get-started/introduction)
+-   [Storybook](https://www.learnstorybook.com/intro-to-storybook/svelte/en/get-started/)
 
 ## Getting Started
 
@@ -35,6 +35,8 @@
 
 ```bash
 npx degit YogliB/svelte-component-template my-new-component
+or
+npx degit "YogliB/svelte-component-template#monorepo" my-new-component
 ```
 
 3. `cd` into the folder and install the `node_modules`:
@@ -42,7 +44,27 @@ npx degit YogliB/svelte-component-template my-new-component
 ```bash
 cd my-new-component
 git init
-npm i
+```
+
+```bash
+npm install
+```
+
+or:
+```bash
+yarn
+```
+
+
+
+- For monorepo run:
+```bash
+npm run bootstrap
+```
+
+or:
+```bash
+yarn bootstrap
 ```
 
 4. Run `npm init`, to configure the project.
@@ -103,7 +125,7 @@ You can witness a simple example by running `npm run cy:open`.
 
 It's for Svelte to be able to import multiple components from a single source.
 
-For instance, tt lets the uset do:
+For instance, it lets the user do:
 
 ```javascript
 import { MyComponent, MyOtherComponent } from 'my-component-library';
