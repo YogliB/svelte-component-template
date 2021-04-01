@@ -10,15 +10,18 @@ const main = () => {
 	const srcPath = path.join(__dirname, 'src/components');
 
 	// read glob of files in directory
-	glob(path.join(srcPath, '**/*'), {}, (error, files) => {
+	glob(path.join(srcPath, '**/*'), {}, (error, paths) => {
 		// handling error
 		if (error) {
 			console.error('Unable to scan directory: ' + error);
 			return;
 		}
 
-		// listing all files using forEach
-		files.forEach(async (file) => {
+		paths
+		// filter out directories (only process files)
+		.filter(path => !fs.lstatSync(path).isDirectory())
+		// process & copy files
+		.forEach(async (file) => {
 			// load file
 			const sourceFile = fs.readFileSync(file, 'utf-8');
 			const distFile = file.replace('/src/components/', '/dist/');
