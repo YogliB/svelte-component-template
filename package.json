@@ -10,7 +10,7 @@
 		"@rollup/plugin-commonjs": "18.0.0",
 		"@rollup/plugin-node-resolve": "11.2.1",
 		"@storybook/addon-actions": "6.2.6",
-		"@storybook/addon-essentials": "6.2.6",
+		"@storybook/addon-essentials": "6.2.7",
 		"@storybook/addon-links": "6.2.6",
 		"@storybook/svelte": "6.2.6",
 		"@testing-library/cypress": "7.0.5",
