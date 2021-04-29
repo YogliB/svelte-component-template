@@ -12,7 +12,7 @@
 		"@storybook/addon-actions": "6.2.9",
 		"@storybook/addon-essentials": "6.2.9",
 		"@storybook/addon-links": "6.2.8",
-		"@storybook/svelte": "6.2.8",
+		"@storybook/svelte": "6.2.9",
 		"@testing-library/cypress": "7.0.6",
 		"autoprefixer": "10.2.5",
 		"babel-loader": "8.2.2",
