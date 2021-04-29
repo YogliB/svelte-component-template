@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+  target-branch: master
+  ignore:
+  - dependency-name: cypress
+    versions:
+    - 6.7.0
+    - 6.7.1
+  - dependency-name: "@babel/preset-env"
+    versions:
+    - 7.12.17
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.12.17
+  - dependency-name: "@babel/eslint-parser"
+    versions:
+    - 7.12.17
