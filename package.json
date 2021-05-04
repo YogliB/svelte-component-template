@@ -6,7 +6,7 @@
 	"devDependencies": {
 		"@babel/core": "7.14.0",
 		"@babel/eslint-parser": "7.13.14",
-		"@babel/preset-env": "7.14.0",
+		"@babel/preset-env": "7.14.1",
 		"@rollup/plugin-commonjs": "18.0.0",
 		"@rollup/plugin-node-resolve": "11.2.1",
 		"@storybook/addon-actions": "6.2.9",
