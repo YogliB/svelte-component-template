@@ -7,7 +7,7 @@
 		"@babel/core": "7.14.0",
 		"@babel/eslint-parser": "7.13.14",
 		"@babel/preset-env": "7.14.1",
-		"@rollup/plugin-commonjs": "18.1.0",
+		"@rollup/plugin-commonjs": "19.0.0",
 		"@rollup/plugin-node-resolve": "13.0.0",
 		"@storybook/addon-actions": "6.2.9",
 		"@storybook/addon-essentials": "6.2.9",
