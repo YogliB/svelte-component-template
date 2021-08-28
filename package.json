@@ -4,7 +4,6 @@
 		"name": "~TODO~",
 		"url": "~TODO~"
 	},
-	"dependencies": {},
 	"devDependencies": {
 		"@babel/core": "^7.15.0",
 		"@storybook/addon-actions": "^6.3.7",
@@ -13,12 +12,16 @@
 		"@storybook/addon-svelte-csf": "^1.1.0",
 		"@storybook/svelte": "^6.3.7",
 		"@sveltejs/kit": "next",
+		"@testing-library/jest-dom": "^5.14.1",
+		"@testing-library/svelte": "^3.0.3",
 		"@typescript-eslint/eslint-plugin": "^4.29.3",
 		"@typescript-eslint/parser": "^4.29.3",
+		"babel-jest": "^27.1.0",
 		"babel-loader": "^8.2.2",
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.0",
+		"jest": "^27.1.0",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.4.0",
 		"svelte": "^3.42.4",
@@ -30,6 +33,16 @@
 		"typescript": "^4.4.2"
 	},
 	"homepage": "~TODO~",
+	"jest": {
+		"moduleFileExtensions": [
+			"js",
+			"svelte"
+		],
+		"transform": {
+			"^.+\\.js$": "babel-jest",
+			"^.+\\.svelte$": "svelte-jester"
+		}
+	},
 	"license": "~TODO~",
 	"name": "~TODO~",
 	"prettier": {
@@ -51,8 +64,13 @@
 		"lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
-		"storybook": "start-storybook -p 6006"
+		"storybook": "start-storybook -p 6006",
+		"test": "jest src",
+		"test:watch": "npm run test -- --watch"
 	},
+	"setupFilesAfterEnv": [
+		"@testing-library/jest-dom/extend-expect"
+	],
 	"type": "module",
 	"version": "0.0.1"
 }
