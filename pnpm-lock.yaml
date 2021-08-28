@@ -25,6 +25,7 @@ specifiers:
   svelte-loader: ^3.1.2
   svelte-preprocess: ^4.8.0
   svelte2tsx: ^0.4.5
+  ts-jest: ^27.0.5
   tslib: ^2.3.1
   typescript: ^4.4.2
 
@@ -53,6 +54,7 @@ devDependencies:
   svelte-loader: 3.1.2_svelte@3.42.4
   svelte-preprocess: 4.8.0_65bda1cb3fe41650c7efa2a86b2d3bd5
   svelte2tsx: 0.4.5_svelte@3.42.4+typescript@4.4.2
+  ts-jest: 27.0.5_9d49c83dcda4452656449890a7e2e8be
   tslib: 2.3.1
   typescript: 4.4.2
 
@@ -5062,6 +5064,13 @@ packages:
       node-releases: 1.1.75
     dev: true
 
+  /bs-logger/0.2.6:
+    resolution: {integrity: sha512-pd8DCoxmbgc7hyPKOvxtqNcjYoOsABPQdcCUjGp3d42VR2CX1ORhk2A87oqqu5R1kk+76nsxZupkmyd+MVtCog==}
+    engines: {node: '>= 6'}
+    dependencies:
+      fast-json-stable-stringify: 2.1.0
+    dev: true
+
   /bser/2.1.1:
     resolution: {integrity: sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==}
     dependencies:
@@ -9040,6 +9049,10 @@ packages:
       semver: 6.3.0
     dev: true
 
+  /make-error/1.3.6:
+    resolution: {integrity: sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==}
+    dev: true
+
   /makeerror/1.0.11:
     resolution: {integrity: sha1-4BpckQnyr3lmDk6LlYd5AYT1qWw=}
     dependencies:
@@ -12064,6 +12077,38 @@ packages:
 
   /ts-essentials/2.0.12:
     resolution: {integrity: sha512-3IVX4nI6B5cc31/GFFE+i8ey/N2eA0CZDbo6n0yrz0zDX8ZJ8djmU1p+XRz7G3is0F3bB3pu2pAroFdAWQKU3w==}
+    dev: true
+
+  /ts-jest/27.0.5_9d49c83dcda4452656449890a7e2e8be:
+    resolution: {integrity: sha512-lIJApzfTaSSbtlksfFNHkWOzLJuuSm4faFAfo5kvzOiRAuoN4/eKxVJ2zEAho8aecE04qX6K1pAzfH5QHL1/8w==}
+    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
+    hasBin: true
+    peerDependencies:
+      '@babel/core': '>=7.0.0-beta.0 <8'
+      '@types/jest': ^27.0.0
+      babel-jest: '>=27.0.0 <28'
+      jest: ^27.0.0
+      typescript: '>=3.8 <5.0'
+    peerDependenciesMeta:
+      '@babel/core':
+        optional: true
+      '@types/jest':
+        optional: true
+      babel-jest:
+        optional: true
+    dependencies:
+      '@babel/core': 7.15.0
+      babel-jest: 27.1.0_@babel+core@7.15.0
+      bs-logger: 0.2.6
+      fast-json-stable-stringify: 2.1.0
+      jest: 27.1.0
+      jest-util: 27.1.0
+      json5: 2.2.0
+      lodash: 4.17.21
+      make-error: 1.3.6
+      semver: 7.3.5
+      typescript: 4.4.2
+      yargs-parser: 20.2.9
     dev: true
 
   /ts-pnp/1.2.0_typescript@4.4.2:
