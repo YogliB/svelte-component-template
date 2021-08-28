@@ -1,8 +1,5 @@
 .DS_Store
-**/dist/**
-**/node_modules/**
-**/public/bundle.*
-/storybook-static
-
-cypress/videos
-cypress/screenshots
+node_modules
+/build
+/.svelte-kit
+/package
