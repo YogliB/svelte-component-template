@@ -40,6 +40,7 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
 		"lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"package": "svelte-kit package",
+		"prepublish": "svelte-kit package",
 		"preview": "svelte-kit preview"
 	},
 	"type": "module",
