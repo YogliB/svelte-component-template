@@ -1,4 +1,9 @@
 {
+	"author": {
+		"email": "~TODO~",
+		"name": "~TODO~",
+		"url": "~TODO~"
+	},
 	"devDependencies": {
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.29.3",
@@ -15,11 +20,17 @@
 		"tslib": "^2.3.1",
 		"typescript": "^4.4.2"
 	},
+	"homepage": "~TODO~",
+	"license": "~TODO~",
 	"name": "~TODO~",
 	"prettier": {
 		"singleQuote": true,
 		"tabWidth": 4,
 		"useTabs": true
+	},
+	"repository": {
+		"type": "git",
+		"url": "~TODO~"
 	},
 	"scripts": {
 		"build": "svelte-kit build",
