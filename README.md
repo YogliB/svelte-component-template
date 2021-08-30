@@ -30,7 +30,7 @@
 
 Option #1: Clone it with Github's "Use This Template" option:
 
-![image](https://user-images.githubusercontent.com/10498929/131304421-07a7f57c-4faa-4900-9a09-f7a1067e886c.png)
+[![image](https://user-images.githubusercontent.com/10498929/131304421-07a7f57c-4faa-4900-9a09-f7a1067e886c.png)](https://github.com/YogliB/svelte-component-template/generate)
 
 Option #2: Clone this repository with [degit](https://github.com/Rich-Harris/degit):
 
