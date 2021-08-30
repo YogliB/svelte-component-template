@@ -10,8 +10,6 @@
 1. [Features](#features)
 1. [Getting started](#getting-started)
 1. [Developing](#developing)
-1. [Consuming components](#consuming-components)
-1. [Backward Compatibility](#backward-compatibility)
 1. [Preprocessors](#preprocessors)
 1. [Testing](#testing)
 1. [Publishing to npm](#publishing-to-npm)
@@ -20,105 +18,83 @@
 
 ## Features
 
--   Autoprefixing CSS
 -   Preprocessing
 -   Formating
 -   Linting
--   Testing
 -   [Storybook](https://www.learnstorybook.com/intro-to-storybook/svelte/en/get-started/)
+-   Testing // WIP
 
 ## Getting Started
 
-1. Choose your template (regular/monorepo)
+1. Clone the template:
 
-1. Clone it with [degit](https://github.com/Rich-Harris/degit):
+Option #1: Clone it with Github's "Use This Template" option:
+
+![image](https://user-images.githubusercontent.com/10498929/131304421-07a7f57c-4faa-4900-9a09-f7a1067e886c.png)
+
+Option #2: Clone this repository with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit YogliB/svelte-component-template my-new-component
-or
-npx degit "YogliB/svelte-component-template#monorepo" my-new-component
+npx degit YogliB/svelte-component-template `node_modules`
 ```
 
-3. `cd` into the folder and install the `node_modules`:
+2. Enter the folder:
 
 ```bash
 cd my-new-component
+```
+
+2. Initiate [Git](https://git-scm.com/):
+
+```bash
 git init
 ```
+
+3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-or:
+3. Configure `package.json`:
+
 ```bash
-yarn
+npm init
 ```
 
+4. Start coding:
 
-
-- For monorepo run:
 ```bash
-npm run bootstrap
+code .
 ```
 
-or:
-```bash
-yarn bootstrap
-```
-
-4. Run `npm init`, to configure the project.
-
-Your component's source code lives in `src/components/[MyComponent].svelte`.
+- Your component's source code lives in `src/lib/[MyComponent]/[MyComponent].svelte`.
 
 ## Developing
 
-1. Start [Rollup](https://rollupjs.org):
+1. Start [SvelteKit](https://kit.svelte.dev/):
 
 ```bash
 npm run dev
 ```
 
-2. Edit a component file in `src/components`, save it and watch the magic happens.
+2. Edit a component file in `src/lib`, save it and watch the magic happens.
 
-3. Make sure your component is exported in `src/components/index.js`.
+3. Export your components in `src/lib/index.js`.
 
-4. Make sure your component is imported and nested in `src/App.svelte`, so you can preview and test it.
+4. Import your components in `src/routes/index.svelte` from `$lib$, so you can preview and test it.
 
-5. Navigate to [localhost:5000](http://localhost:5000) to see your components live.
-
-## Consuming Components
-
-Your package.json has a `"svelte"` field pointing to `src/components/index.js`, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like [rollup-plugin-svelte](https://github.com/rollup/rollup-plugin-svelte) or [svelte-loader](https://github.com/sveltejs/svelte-loader) (where [`resolve.mainFields`](https://webpack.js.org/configuration/resolve/#resolve-mainfields) in your webpack config includes `"svelte"`).
-
-## Backward Compatibility
-
-This template uses [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) in order to integrate [PostCSS](https://postcss.org) auto-prefixing capabilities & [Babel](https://babeljs.io/)'s transpiling capabilities into the build process.
-
-### Browserlist
-
-`PostCSS` uses [browserlist](https://github.com/browserslist/browserslist) under the hood, in order to "know" what css to prefix.
-
-The `browserlist` configuration is located inside the `package.json`.
+5. Navigate to [localhost:3000](http://localhost:3000) to see your components live.
 
 ## Preprocessors
 
-This template comes with the [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess) by default, which simplifies the use of preprocessors in components.
-
-### Usage
-
-[Getting Started](https://github.com/sveltejs/svelte-preprocess/blob/master/docs/getting-started.md) with svelte-preprocess.
-
--   To configure svelte-preprocess use the `sveltePreprocessConfig` variable in `./preprocess.js`
+All preprocessing is handled with [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess).
+Configure it in [`svelte.config.js`](https://github.com/sveltejs/svelte-preprocess).
 
 ## Testing
 
-This template uses [Cypress](https://www.cypress.io/) & [testing-library](https://testing-library.com/docs/cypress-testing-library/intro) for testing.
-
-It is highly recommended going through their docs if you intend on testing your components.
-
-You can witness a simple example by running `npm run cy:open`.
-
+This is a work-in-progress.
+Go to the [Storybook docs](https://storybook.js.org/docs/svelte/workflows/testing-with-storybook) to learn more about testing components.
 ## Frequently Asked Questions
 
 ### What's the `index.js` file for?
@@ -151,12 +127,18 @@ There are a few options to do this:
 
 ## Publishing to [npm](https://www.npmjs.com)
 
+1. Prepare the package for publishing:
+
+```bash
+npm run package
+```
+
+2. Publish the package:
+
+```bash
+cd package
+npm run publish
+```
+
 -   [Creating and publishing scoped public packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
 -   [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
-
-## Credits & Inspiration
-
--   Official [component-template](https://github.com/sveltejs/component-template) by @Rich-Harris
--   Official [app-template](https://github.com/sveltejs/template) by @Rich-Harris
--   [This](https://github.com/sveltejs/component-template/pull/5) PR by @sisou
--   [This](https://github.com/sveltejs/component-template/pull/31) PR by @BlackFenix2
