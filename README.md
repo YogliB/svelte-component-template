@@ -28,7 +28,7 @@
 
 1. Clone the template:
 
-Option #1: Clone it with Github's "Use This Template" option:
+Option #1: Clone it with Github's "Use this template" option:
 
 [![image](https://user-images.githubusercontent.com/10498929/131304421-07a7f57c-4faa-4900-9a09-f7a1067e886c.png)](https://github.com/YogliB/svelte-component-template/generate)
 
