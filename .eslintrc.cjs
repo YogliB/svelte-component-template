@@ -6,13 +6,17 @@ module.exports = {
 		'plugin:@typescript-eslint/recommended',
 		'prettier',
 	],
-	plugins: ['svelte3', '@typescript-eslint', 'jest'],
+	plugins: ['svelte3', '@typescript-eslint', 'jest', 'cypress'],
 	ignorePatterns: ['*.cjs'],
 	overrides: [
 		{ files: ['*.svelte'], processor: 'svelte3/svelte3' },
 		{
 			files: ['*.test.*'],
 			extends: ['plugin:jest/recommended', 'plugin:jest/style'],
+		},
+		{
+			files: ['./cypress/plugins/index.js', '*.spec.*'],
+			extends: ['plugin:cypress/recommended'],
 		},
 	],
 	settings: {
@@ -27,5 +31,6 @@ module.exports = {
 		es2017: true,
 		node: true,
 		'jest/globals': true,
+		'cypress/globals': true,
 	},
 };
