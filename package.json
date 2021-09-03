@@ -47,6 +47,9 @@
 			"ts",
 			"svelte"
 		],
+		"setupFilesAfterEnv": [
+			"@testing-library/jest-dom/extend-expect"
+		],
 		"transform": {
 			"^.+\\.js$": "babel-jest",
 			"^.+\\.svelte$": [
@@ -85,9 +88,6 @@
 		"test": "jest",
 		"test:watch": "npm run test -- --watch"
 	},
-	"setupFilesAfterEnv": [
-		"@testing-library/jest-dom/extend-expect"
-	],
 	"type": "module",
 	"version": "0.0.1"
 }
