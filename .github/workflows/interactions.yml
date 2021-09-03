@@ -1,0 +1,19 @@
+name: Interaction tests
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs:
+    cypress-run:
+        runs-on: alpine-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - name: Cypress run
+              uses: cypress-io/github-action@v2
+              with:
+                  start: npm run storybook
