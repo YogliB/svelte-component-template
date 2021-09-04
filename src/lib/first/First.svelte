@@ -1,9 +1,14 @@
 <script lang="typescript">
 	export let name = 'World';
 	export let textColor = '#ff3e00';
+
+	function reset() {
+		name = 'World';
+		textColor = '#ff3e00';
+	}
 </script>
 
-<h1 style="color: {textColor}">Hello {name}!</h1>
+<h1 style="color: {textColor}" on:dblclick={reset}>Hello {name}!</h1>
 
 <style>
 	h1 {

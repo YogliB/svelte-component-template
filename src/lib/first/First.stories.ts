@@ -1,7 +1,7 @@
 import First from './First.svelte';
 
 export default {
-	title: 'Components/Button',
+	title: 'Components/First',
 	component: First,
 	argTypes: {
 		name: { control: 'text' },

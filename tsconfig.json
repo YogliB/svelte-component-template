@@ -25,8 +25,7 @@
 			enable source maps by default.
 			*/
 		"sourceMap": true,
-		"target": "es2019",
-		"types": ["cypress", "@testing-library/cypress"]
+		"target": "es2019"
 	},
 	"include": [
 		"src/**/*.d.ts",
