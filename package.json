@@ -27,7 +27,9 @@
 		"eslint-plugin-cypress": "^2.11.3",
 		"eslint-plugin-jest": "^24.4.0",
 		"eslint-plugin-svelte3": "^3.2.0",
+		"husky": "^7.0.2",
 		"jest": "^27.1.0",
+		"lint-staged": "^11.1.2",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.4.0",
 		"svelte": "^3.42.4",
@@ -41,6 +43,11 @@
 		"typescript": "^4.4.2"
 	},
 	"homepage": "~TODO~",
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
 	"jest": {
 		"moduleFileExtensions": [
 			"js",
@@ -62,6 +69,14 @@
 		}
 	},
 	"license": "~TODO~",
+	"lint-staged": {
+		"*.{js, ts, svelte}": [
+			"eslint --fix"
+		],
+		"*.{svelte, html, css, scss, stylus, js, ts, json, yml, md}": [
+			"prettier --write --plugin-search-dir=."
+		]
+	},
 	"name": "~TODO~",
 	"prettier": {
 		"singleQuote": true,
