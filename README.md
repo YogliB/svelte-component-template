@@ -18,11 +18,11 @@
 
 ## Features
 
--   Preprocessing
--   Formating
--   Linting
--   [Storybook](https://www.learnstorybook.com/intro-to-storybook/svelte/en/get-started/)
--   Testing // WIP
+-   [Preprocessing](https://github.com/sveltejs/svelte-preprocess/blob/main/README.md)
+-   [Formating](https://github.com/sveltejs/prettier-plugin-svelte)
+-   [Linting](https://github.com/sveltejs/eslint-plugin-svelte3)
+-   [Storybook](https://storybook.js.org/docs/svelte/get-started/introduction)
+-   [Testing](https://storybook.js.org/docs/svelte/workflows/testing-with-storybook) // WIP
 
 ## Getting Started
 
