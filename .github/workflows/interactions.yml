@@ -21,7 +21,7 @@ jobs:
                   restore-keys: |
                       ${{ runner.os }}-
 
-            - name: Install pnpm
+            - name: Install dependencies
               uses: pnpm/action-setup@v2.0.1
               with:
                   version: ^6.0.0
@@ -30,7 +30,6 @@ jobs:
             - name: Cypress run
               uses: cypress-io/github-action@v2
               with:
-                  # we have already installed all dependencies above
                   install: false
                   start: pnpm storybook
                   wait-on: 'http://localhost:6006'
