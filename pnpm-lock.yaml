@@ -26,7 +26,7 @@ specifiers:
   husky: 7.0.2
   jest: 27.1.0
   lint-staged: 11.1.2
-  prettier: 2.2.1
+  prettier: 2.3.2
   prettier-plugin-svelte: 2.4.0
   svelte: 3.42.4
   svelte-check: 2.2.5
@@ -64,8 +64,8 @@ devDependencies:
   husky: 7.0.2
   jest: 27.1.0
   lint-staged: 11.1.2
-  prettier: 2.2.1
-  prettier-plugin-svelte: 2.4.0_prettier@2.2.1+svelte@3.42.4
+  prettier: 2.3.2
+  prettier-plugin-svelte: 2.4.0_prettier@2.3.2+svelte@3.42.4
   svelte: 3.42.4
   svelte-check: 2.2.5_@babel+core@7.15.5+svelte@3.42.4
   svelte-jester: 2.1.1_jest@27.1.0+svelte@3.42.4
@@ -10937,18 +10937,24 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.4.0_prettier@2.2.1+svelte@3.42.4:
+  /prettier-plugin-svelte/2.4.0_prettier@2.3.2+svelte@3.42.4:
     resolution: {integrity: sha512-JwJ9bOz4XHLQtiLnX4mTSSDUdhu12WH8sTwy/XTDCSyPlah6IcV7NWeYBZscPEcceu2YnW8Y9sJCP40Z2UH9GA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
-      prettier: 2.2.1
+      prettier: 2.3.2
       svelte: 3.42.4
     dev: true
 
   /prettier/2.2.1:
     resolution: {integrity: sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /prettier/2.3.2:
+    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
