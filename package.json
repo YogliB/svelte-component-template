@@ -52,10 +52,14 @@
 		"moduleFileExtensions": [
 			"js",
 			"ts",
-			"svelte"
+			"svelte",
+			"json"
 		],
 		"setupFilesAfterEnv": [
 			"@testing-library/jest-dom/extend-expect"
+		],
+		"testMatch": [
+			"**/*.test.js"
 		],
 		"transform": {
 			"^.+\\.js$": "babel-jest",
@@ -66,7 +70,10 @@
 				}
 			],
 			"^.+\\.ts$": "ts-jest"
-		}
+		},
+		"transformIgnorePatterns": [
+			"node_modules/(?!(@storybook/svelte)/)"
+		]
 	},
 	"license": "~TODO~",
 	"lint-staged": {
