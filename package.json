@@ -5,7 +5,7 @@
 		"url": "~TODO~"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.15.4",
+		"@babel/core": "^7.15.5",
 		"@babel/preset-env": "^7.15.4",
 		"@storybook/addon-actions": "^6.3.8",
 		"@storybook/addon-essentials": "^6.3.8",
@@ -36,7 +36,7 @@
 		"svelte-check": "^2.2.5",
 		"svelte-jester": "^2.1.1",
 		"svelte-loader": "^3.1.2",
-		"svelte-preprocess": "^4.8.0",
+		"svelte-preprocess": "^4.9.0",
 		"svelte2tsx": "^0.4.5",
 		"ts-jest": "^27.0.5",
 		"tslib": "^2.3.1",
