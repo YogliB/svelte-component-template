@@ -13,7 +13,21 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v2
 
+            - name: Cache pnpm modules
+              uses: actions/cache@v2
+              with:
+                  path: ~/.pnpm-store
+                  key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+                  restore-keys: |
+                      ${{ runner.os }}-
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v2.0.1
+              with:
+                  version: ^6.0.0
+                  run_install: true
+
             - name: Cypress run
               uses: cypress-io/github-action@v2
               with:
-                  start: npm run storybook
+                  start: pnpm storybook
