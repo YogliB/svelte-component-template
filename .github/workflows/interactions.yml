@@ -8,7 +8,7 @@ on:
 
 jobs:
     cypress-run:
-        runs-on: alpine-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Checkout
               uses: actions/checkout@v2
