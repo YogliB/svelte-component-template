@@ -3,12 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   '@babel/core': 7.15.5
   '@babel/preset-env': 7.15.4
-  '@storybook/addon-actions': ^6.3.8
-  '@storybook/addon-essentials': ^6.3.8
-  '@storybook/addon-links': ^6.3.8
-  '@storybook/addon-storyshots': ^6.3.8
+  '@storybook/addon-actions': 6.3.8
+  '@storybook/addon-essentials': 6.3.8
+  '@storybook/addon-links': 6.3.8
+  '@storybook/addon-storyshots': 6.3.8
   '@storybook/addon-svelte-csf': ^1.1.0
-  '@storybook/svelte': ^6.3.8
+  '@storybook/svelte': 6.3.8
   '@sveltejs/kit': next
   '@testing-library/cypress': ^8.0.1
   '@testing-library/jest-dom': ^5.14.1
@@ -568,7 +568,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.12.9
-      '@babel/helper-plugin-utils': 7.10.4
+      '@babel/helper-plugin-utils': 7.14.5
       '@babel/plugin-syntax-object-rest-spread': 7.8.3_@babel+core@7.12.9
       '@babel/plugin-transform-parameters': 7.15.4_@babel+core@7.12.9
     dev: true
@@ -3985,7 +3985,7 @@ packages:
   /@types/jest-specific-snapshot/0.5.5:
     resolution: {integrity: sha512-AaPPw2tE8ewfjD6qGLkEd4DOfM6pPOK7ob/RSOe1Z8Oo70r9Jgo0SlWyfxslPAOvLfQukQtiVPm6DcnjSoZU5A==}
     dependencies:
-      '@types/jest': 26.0.24
+      '@types/jest': 27.0.1
     dev: true
 
   /@types/jest/26.0.24:
@@ -4031,7 +4031,7 @@ packages:
   /@types/node-fetch/2.5.12:
     resolution: {integrity: sha512-MKgC4dlq4kKNa/mYrwpKfzQMB5X3ee5U6fSprkKpToBqBmX4nFZL9cW5jl6sWn+xpRJ7ypWh2yyqqr8UUCstSw==}
     dependencies:
-      '@types/node': 14.17.14
+      '@types/node': 16.7.10
       form-data: 3.0.1
     dev: true
 
@@ -4156,7 +4156,7 @@ packages:
   /@types/webpack-sources/3.2.0:
     resolution: {integrity: sha512-Ft7YH3lEVRQ6ls8k4Ff1oB4jN6oy/XmU6tQISKdhfh+1mR+viZFphS6WL0IrtDOzvefmJg5a0s7ZQoRXwqTEFg==}
     dependencies:
-      '@types/node': 14.17.14
+      '@types/node': 16.7.10
       '@types/source-list-map': 0.1.2
       source-map: 0.7.3
     dev: true
@@ -4164,7 +4164,7 @@ packages:
   /@types/webpack/4.41.30:
     resolution: {integrity: sha512-GUHyY+pfuQ6haAfzu4S14F+R5iGRwN6b2FRNJY7U0NilmFAqbsOfK6j1HwuLBAqwRIT+pVdNDJGJ6e8rpp0KHA==}
     dependencies:
-      '@types/node': 14.17.14
+      '@types/node': 16.7.10
       '@types/tapable': 1.0.8
       '@types/uglify-js': 3.13.1
       '@types/webpack-sources': 3.2.0
@@ -6889,7 +6889,7 @@ packages:
       eslint-scope: 5.1.1
       eslint-utils: 2.1.0
       eslint-visitor-keys: 1.3.0
-      espree: 7.2.0
+      espree: 7.3.1
       esquery: 1.4.0
       esutils: 2.0.3
       file-entry-cache: 5.0.1
