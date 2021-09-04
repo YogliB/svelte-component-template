@@ -30,4 +30,7 @@ jobs:
             - name: Cypress run
               uses: cypress-io/github-action@v2
               with:
+                  # we have already installed all dependencies above
+                  install: false
                   start: pnpm storybook
+                  wait-on: 'http://localhost:6006'
