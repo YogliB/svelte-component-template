@@ -73,7 +73,7 @@
 		"*.{js, ts, svelte}": [
 			"eslint --fix"
 		],
-		"*.{svelte, html, css, scss, stylus, js, ts, json, yml, md}": [
+		"*.{svelte, html, css, scss, stylus, js, ts, json, yml, yaml, md}": [
 			"prettier --write --plugin-search-dir=."
 		]
 	},
