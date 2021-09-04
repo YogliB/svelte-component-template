@@ -1,4 +1,5 @@
 # Svelte 3 Component Template
+## A highly-opinionated base for building shareable Svelte 3 components
 
 [![](https://github.com/YogliB/svelte-component-template/workflows/Node%20CI/badge.svg)](https://github.com/YogliB/svelte-component-template/actions?query=workflow%3A%22Node+CI%22)
 [![Known Vulnerabilities](https://snyk.io/test/github/YogliB/svelte-component-template/badge.svg)](https://snyk.io/test/github/YogliB/svelte-component-template)
