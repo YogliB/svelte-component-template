@@ -89,7 +89,7 @@ npm run dev
 ## Preprocessors
 
 All preprocessing is handled with [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess).
-Configure it in [`svelte.config.js`](https://github.com/sveltejs/svelte-preprocess).
+Configure it in [`svelte.config.js`](https://kit.svelte.dev/docs#configuration).
 
 ## Testing
 
