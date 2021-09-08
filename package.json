@@ -48,33 +48,6 @@
 			"pre-commit": "lint-staged"
 		}
 	},
-	"jest": {
-		"moduleFileExtensions": [
-			"js",
-			"ts",
-			"svelte",
-			"json"
-		],
-		"setupFilesAfterEnv": [
-			"@testing-library/jest-dom/extend-expect"
-		],
-		"testMatch": [
-			"**/*.test.js"
-		],
-		"transform": {
-			"^.+\\.js$": "babel-jest",
-			"^.+\\.svelte$": [
-				"svelte-jester",
-				{
-					"preprocess": true
-				}
-			],
-			"^.+\\.ts$": "ts-jest"
-		},
-		"transformIgnorePatterns": [
-			"node_modules/(?!(@storybook/svelte)/)"
-		]
-	},
 	"license": "~TODO~",
 	"lint-staged": {
 		"*.{js, ts, svelte}": [

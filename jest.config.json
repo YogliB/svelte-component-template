@@ -1,0 +1,15 @@
+{
+	"moduleFileExtensions": ["js", "ts", "svelte", "json", "node"],
+	"setupFilesAfterEnv": ["@testing-library/jest-dom/extend-expect"],
+	"testMatch": ["**/*.test.*"],
+	"transform": {
+		"^.+\\.js$": "babel-jest",
+		"^.+\\.svelte$": [
+			"svelte-jester",
+			{
+				"preprocess": true
+			}
+		],
+		"^.+\\.ts$": "ts-jest"
+	}
+}
