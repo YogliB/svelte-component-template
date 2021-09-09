@@ -1,7 +1,14 @@
 {
-	"moduleFileExtensions": ["js", "ts", "svelte", "json", "node"],
+	"extensionsToTreatAsEsm": [".svelte"],
+	"moduleFileExtensions": ["js", "ts", "svelte"],
+	"moduleNameMapper": {
+		"^\\$app(.*)$": [
+			"<rootDir>/.svelte-kit/dev/runtime/app$1",
+			"<rootDir>/.svelte-kit/build/runtime/app$1"
+		],
+		"^\\$lib(.*)$": "<rootDir>/src/lib$1"
+	},
 	"setupFilesAfterEnv": ["@testing-library/jest-dom/extend-expect"],
-	"testMatch": ["**/*.test.*"],
 	"transform": {
 		"^.+\\.js$": "babel-jest",
 		"^.+\\.svelte$": [

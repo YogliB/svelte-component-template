@@ -9,9 +9,9 @@ export default {
 	},
 };
 
-const Template = (args: { name: string; textColor: string }) => ({
+const Template = (props) => ({
 	Component: First,
-	props: args,
+	props,
 });
 
 export const Jane = Template.bind({});
