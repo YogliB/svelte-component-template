@@ -18,7 +18,7 @@ specifiers:
   babel-jest: 27.2.0
   babel-loader: 8.2.2
   cross-env: 7.0.3
-  cypress: 8.3.1
+  cypress: 8.4.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-cypress: 2.11.3
@@ -49,7 +49,7 @@ devDependencies:
   '@storybook/addon-svelte-csf': 1.1.0_61e66bee22e1b39430cc5514576b2653
   '@storybook/svelte': 6.3.8_ebd7a1aaeb112e09635442075fb4cf17
   '@sveltejs/kit': 1.0.0-next.166_svelte@3.42.5
-  '@testing-library/cypress': 8.0.1_cypress@8.3.1
+  '@testing-library/cypress': 8.0.1_cypress@8.4.0
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/svelte': 3.0.3_svelte@3.42.5
   '@typescript-eslint/eslint-plugin': 4.31.1_e2d3c88d378335c4183365c112128ce9
@@ -57,7 +57,7 @@ devDependencies:
   babel-jest: 27.2.0_@babel+core@7.15.5
   babel-loader: 8.2.2_@babel+core@7.15.5
   cross-env: 7.0.3
-  cypress: 8.3.1
+  cypress: 8.4.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-plugin-cypress: 2.11.3_eslint@7.32.0
@@ -3905,7 +3905,7 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/cypress/8.0.1_cypress@8.3.1:
+  /@testing-library/cypress/8.0.1_cypress@8.4.0:
     resolution: {integrity: sha512-JCGy8u4ia+OQQJxVqKqjqpb0i4kmHQhu5jKFVBp+v/YSICnf52fil2MWIJqO+tH9ZQXtp3aF7uKHsVipWaI0BQ==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -3913,7 +3913,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@testing-library/dom': 8.3.0
-      cypress: 8.3.1
+      cypress: 8.4.0
     dev: true
 
   /@testing-library/dom/7.31.2:
@@ -4278,7 +4278,7 @@ packages:
     resolution: {integrity: sha512-8uALY5LTvSuHgloDVUvWP3pIauILm+8/0pDMokuDYIoNsOkSwd5AiHBTSEJjKTDcZr5z8UpgOWZkxBF4iJftoA==}
     requiresBuild: true
     dependencies:
-      '@types/node': 14.17.15
+      '@types/node': 16.9.1
     dev: true
     optional: true
 
@@ -6267,8 +6267,8 @@ packages:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
     dev: true
 
-  /cypress/8.3.1:
-    resolution: {integrity: sha512-1v6pfx+/5cXhaT5T6QKOvnkawmEHWHLiVzm3MYMoQN1fkX2Ma1C32STd3jBStE9qT5qPSTILjGzypVRxCBi40g==}
+  /cypress/8.4.0:
+    resolution: {integrity: sha512-RtVgGFR06ikyMaq/VqapeqOjGaIA42PpK7F0qe1MCiFArfUuJECsLmeYaOA+1TlmNUgJNMSF5fWKkZIJr5Uc7w==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
