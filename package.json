@@ -31,7 +31,7 @@
 		"husky": "7.0.2",
 		"jest": "27.2.0",
 		"lint-staged": "11.1.2",
-		"prettier": "2.4.0",
+		"prettier": "2.4.1",
 		"prettier-plugin-svelte": "2.4.0",
 		"svelte": "3.42.6",
 		"svelte-check": "2.2.6",
