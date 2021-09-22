@@ -31,7 +31,7 @@ specifiers:
   prettier-plugin-svelte: 2.4.0
   svelte: 3.42.6
   svelte-check: 2.2.6
-  svelte-jester: 2.1.4
+  svelte-jester: 2.1.5
   svelte-loader: 3.1.2
   svelte-preprocess: 4.9.5
   svelte2tsx: 0.4.6
@@ -70,7 +70,7 @@ devDependencies:
   prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.42.6
   svelte: 3.42.6
   svelte-check: 2.2.6_@babel+core@7.15.5+svelte@3.42.6
-  svelte-jester: 2.1.4_jest@27.2.1+svelte@3.42.6
+  svelte-jester: 2.1.5_jest@27.2.1+svelte@3.42.6
   svelte-loader: 3.1.2_svelte@3.42.6
   svelte-preprocess: 4.9.5_fae0a0ccea3cb116083c9031d8f7cc1f
   svelte2tsx: 0.4.6_svelte@3.42.6+typescript@4.4.3
@@ -12857,9 +12857,9 @@ packages:
       svelte: 3.42.6
     dev: true
 
-  /svelte-jester/2.1.4_jest@27.2.1+svelte@3.42.6:
-    resolution: {integrity: sha512-zSlB6siABdPcrzXZtlTT/9ekC28hntPdO7aPFCQjRwhPYjo3LfKIHRqs4e8jCUpYGB7L/gSOTmBBqTp9JZcZ7Q==}
-    engines: {node: '>= 14'}
+  /svelte-jester/2.1.5_jest@27.2.1+svelte@3.42.6:
+    resolution: {integrity: sha512-T3JoPsNYltlN2MiVFDxAMOulIO4fztFFI3DhOkzbs1yZQCUFp6sqS6aqusBsIEMVmXaEDW4HO/6bX+CuwuEUSw==}
+    engines: {node: '>= 12'}
     peerDependencies:
       jest: '>= 27'
       svelte: '>= 3'
