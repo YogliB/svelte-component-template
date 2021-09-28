@@ -15,7 +15,7 @@ specifiers:
   '@typescript-eslint/parser': 4.31.2
   babel-loader: 8.2.2
   chromatic: 5.10.1
-  cypress: 8.4.1
+  cypress: 8.5.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-cypress: 2.12.1
@@ -43,12 +43,12 @@ devDependencies:
   '@storybook/addon-svelte-csf': 1.1.0_3dd65f2efceec1eda4be65f2356f24bc
   '@storybook/svelte': 6.3.8_0e8d727e3b577e7e49cfd0dddc9992b0
   '@sveltejs/kit': 1.0.0-next.176_svelte@3.43.0
-  '@testing-library/cypress': 8.0.1_cypress@8.4.1
+  '@testing-library/cypress': 8.0.1_cypress@8.5.0
   '@typescript-eslint/eslint-plugin': 4.31.2_3815fab247b4312be6d1f55eb1f81298
   '@typescript-eslint/parser': 4.31.2_eslint@7.32.0+typescript@4.4.3
   babel-loader: 8.2.2_@babel+core@7.15.5
   chromatic: 5.10.1_@babel+core@7.15.5
-  cypress: 8.4.1
+  cypress: 8.5.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-plugin-cypress: 2.12.1_eslint@7.32.0
@@ -3834,7 +3834,7 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/cypress/8.0.1_cypress@8.4.1:
+  /@testing-library/cypress/8.0.1_cypress@8.5.0:
     resolution: {integrity: sha512-JCGy8u4ia+OQQJxVqKqjqpb0i4kmHQhu5jKFVBp+v/YSICnf52fil2MWIJqO+tH9ZQXtp3aF7uKHsVipWaI0BQ==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -3842,7 +3842,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@testing-library/dom': 8.3.0
-      cypress: 8.4.1
+      cypress: 8.5.0
     dev: true
 
   /@testing-library/dom/8.3.0:
@@ -6049,8 +6049,8 @@ packages:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
     dev: true
 
-  /cypress/8.4.1:
-    resolution: {integrity: sha512-itJXq0Vx3sXCUrDyBi2IUrkxVu/gTTp1VhjB5tzGgkeCR8Ae+/T8WV63rsZ7fS8Tpq7LPPXiyoM/sEdOX7cR6A==}
+  /cypress/8.5.0:
+    resolution: {integrity: sha512-MMkXIS+Ro2KETn4gAlG3tIc/7FiljuuCZP0zpd9QsRG6MZSyZW/l1J3D4iQM6WHsVxuX4rFChn5jPFlC2tNSvQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -6089,6 +6089,7 @@ packages:
       minimist: 1.2.5
       ospath: 1.2.2
       pretty-bytes: 5.6.0
+      proxy-from-env: 1.0.0
       ramda: 0.27.1
       request-progress: 3.0.0
       supports-color: 8.1.1
@@ -10731,6 +10732,10 @@ packages:
     dependencies:
       forwarded: 0.2.0
       ipaddr.js: 1.9.1
+    dev: true
+
+  /proxy-from-env/1.0.0:
+    resolution: {integrity: sha1-M8UDmPcOp+uW0h97gXYwpVeRx+4=}
     dev: true
 
   /prr/1.0.1:
