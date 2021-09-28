@@ -3,7 +3,6 @@ module.exports = {
 		browser: true,
 		'cypress/globals': true,
 		es2017: true,
-		'jest/globals': true,
 		node: true,
 	},
 	extends: ['eslint:recommended', 'prettier'],
@@ -13,10 +12,6 @@ module.exports = {
 			extends: ['plugin:@typescript-eslint/recommended'],
 			files: ['*.svelte'],
 			processor: 'svelte3/svelte3',
-		},
-		{
-			extends: ['plugin:jest/recommended', 'plugin:jest/style'],
-			files: ['*.test.*'],
 		},
 		{
 			extends: ['plugin:cypress/recommended'],
@@ -32,7 +27,7 @@ module.exports = {
 		ecmaVersion: 2019,
 		sourceType: 'module',
 	},
-	plugins: ['svelte3', '@typescript-eslint', 'jest', 'cypress'],
+	plugins: ['svelte3', '@typescript-eslint', 'cypress'],
 	root: true,
 	settings: {
 		'svelte3/typescript': () => require('typescript'),
