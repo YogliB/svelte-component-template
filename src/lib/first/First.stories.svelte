@@ -21,7 +21,7 @@
 	name="Jane"
 	args={{
 		name: 'Jane',
-		textColor: 'lightblue',
+		textColor: 'rgb(173, 216, 230)',
 	}}
 />
 
@@ -29,7 +29,7 @@
 	name="John"
 	args={{
 		name: 'John',
-		textColor: 'indianred',
+		textColor: 'rgb(71, 134, 155)',
 	}}
 />
 
@@ -37,6 +37,6 @@
 	name="Jina"
 	args={{
 		name: 'Jina',
-		textColor: 'darkgray',
+		textColor: 'rgb(169, 169, 169)',
 	}}
 />
