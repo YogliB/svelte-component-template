@@ -1,4 +1,5 @@
 # Svelte 3 Component Template
+
 ## A highly-opinionated base for building shareable Svelte 3 components
 
 [![](https://github.com/YogliB/svelte-component-template/workflows/Node%20CI/badge.svg)](https://github.com/YogliB/svelte-component-template/actions?query=workflow%3A%22Node+CI%22)
@@ -94,8 +95,14 @@ Configure it in [`svelte.config.js`](https://kit.svelte.dev/docs#configuration).
 
 ## Testing
 
-This is a work-in-progress.
-Go to the [Storybook docs](https://storybook.js.org/docs/svelte/workflows/testing-with-storybook) to learn more about testing components.
+### Interaction testing
+
+This is a simple and intuitive method that can be done through Storybook, with the help of [Cypress](https://cypress.io).
+And example and pre-made test scripts can be found in this repository, and more info can be found in [Storybook's docs](https://storybook.js.org/docs/svelte/workflows/interaction-testing).
+
+### Snapshot testing
+
+In this repo you'll find a [basic workflow](.github/chromatic.yml) that uses [Chromatic](https://www.chromatic.com/) for snapshot testing.
 
 ## Frequently Asked Questions
 
