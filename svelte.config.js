@@ -10,8 +10,8 @@ const config = {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		package: {
-			files: {
-				exclude: ['**/*.stories.*'],
+			files(filepath) {
+				return !filepath.endsWith('.stories.svelte');
 			},
 		},
 	},
