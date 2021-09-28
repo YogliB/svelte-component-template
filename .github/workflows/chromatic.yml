@@ -1,4 +1,4 @@
-name: Interaction Tests
+name: Snapshot Tests
 
 on:
     push:
