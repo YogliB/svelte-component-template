@@ -15,7 +15,7 @@ specifiers:
   '@typescript-eslint/parser': 5.0.0
   babel-loader: 8.2.2
   chromatic: 5.10.2
-  cypress: 8.5.0
+  cypress: 8.6.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-cypress: 2.12.1
@@ -43,12 +43,12 @@ devDependencies:
   '@storybook/addon-svelte-csf': 1.1.0_0550952721d4d9484b273611cccb65fd
   '@storybook/svelte': 6.3.10_31701bdc8837a118236c4da489283189
   '@sveltejs/kit': 1.0.0-next.180_svelte@3.43.1
-  '@testing-library/cypress': 8.0.1_cypress@8.5.0
+  '@testing-library/cypress': 8.0.1_cypress@8.6.0
   '@typescript-eslint/eslint-plugin': 5.0.0_0aa2b7936f480903160f77e2f174338b
   '@typescript-eslint/parser': 5.0.0_eslint@7.32.0+typescript@4.4.3
   babel-loader: 8.2.2_@babel+core@7.15.8
   chromatic: 5.10.2_@babel+core@7.15.8
-  cypress: 8.5.0
+  cypress: 8.6.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-plugin-cypress: 2.12.1_eslint@7.32.0
@@ -4935,7 +4935,7 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/cypress/8.0.1_cypress@8.5.0:
+  /@testing-library/cypress/8.0.1_cypress@8.6.0:
     resolution: {integrity: sha512-JCGy8u4ia+OQQJxVqKqjqpb0i4kmHQhu5jKFVBp+v/YSICnf52fil2MWIJqO+tH9ZQXtp3aF7uKHsVipWaI0BQ==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -4943,7 +4943,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@testing-library/dom': 8.3.0
-      cypress: 8.5.0
+      cypress: 8.6.0
     dev: true
 
   /@testing-library/dom/8.3.0:
@@ -7199,8 +7199,8 @@ packages:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
     dev: true
 
-  /cypress/8.5.0:
-    resolution: {integrity: sha512-MMkXIS+Ro2KETn4gAlG3tIc/7FiljuuCZP0zpd9QsRG6MZSyZW/l1J3D4iQM6WHsVxuX4rFChn5jPFlC2tNSvQ==}
+  /cypress/8.6.0:
+    resolution: {integrity: sha512-F7qEK/6Go5FsqTueR+0wEw2vOVKNgk5847Mys8vsWkzPoEKdxs+7N9Y1dit+zhaZCLtMPyrMwjfA53ZFy+lSww==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -7233,7 +7233,7 @@ packages:
       is-ci: 3.0.0
       is-installed-globally: 0.4.0
       lazy-ass: 1.6.0
-      listr2: 3.11.1_enquirer@2.3.6
+      listr2: 3.12.2_enquirer@2.3.6
       lodash: 4.17.21
       log-symbols: 4.1.0
       minimist: 1.2.5
@@ -10471,22 +10471,6 @@ packages:
       rxjs: 6.6.7
     transitivePeerDependencies:
       - zen-observable
-    dev: true
-
-  /listr2/3.11.1_enquirer@2.3.6:
-    resolution: {integrity: sha512-ZXQvQfmH9iWLlb4n3hh31yicXDxlzB0pE7MM1zu6kgbVL4ivEsO4H8IPh4E682sC8RjnYO9anose+zT52rrpyg==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      enquirer: '>= 2.3.0 < 3'
-    dependencies:
-      cli-truncate: 2.1.0
-      colorette: 1.4.0
-      enquirer: 2.3.6
-      log-update: 4.0.0
-      p-map: 4.0.0
-      rxjs: 6.6.7
-      through: 2.3.8
-      wrap-ansi: 7.0.0
     dev: true
 
   /listr2/3.12.2_enquirer@2.3.6:
