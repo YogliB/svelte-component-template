@@ -18,7 +18,7 @@
 		"@typescript-eslint/eslint-plugin": "5.0.0",
 		"@typescript-eslint/parser": "5.0.0",
 		"babel-loader": "8.2.2",
-		"chromatic": "6.0.2",
+		"chromatic": "6.0.4",
 		"cypress": "8.6.0",
 		"eslint": "8.0.0",
 		"eslint-config-prettier": "8.3.0",
