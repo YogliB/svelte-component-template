@@ -20,7 +20,7 @@
 		"babel-loader": "8.2.2",
 		"chromatic": "6.0.4",
 		"cypress": "8.6.0",
-		"eslint": "8.0.0",
+		"eslint": "8.0.1",
 		"eslint-config-prettier": "8.3.0",
 		"eslint-plugin-cypress": "2.12.1",
 		"eslint-plugin-svelte3": "3.2.1",
