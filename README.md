@@ -24,7 +24,7 @@
 -   [Formating](https://github.com/sveltejs/prettier-plugin-svelte)
 -   [Linting](https://github.com/sveltejs/eslint-plugin-svelte3)
 -   [Storybook](https://storybook.js.org/docs/svelte/get-started/introduction)
--   [Testing](https://storybook.js.org/docs/svelte/workflows/testing-with-storybook) // WIP
+-   [Testing](https://storybook.js.org/docs/svelte/workflows/testing-with-storybook)
 
 ## Getting Started
 
