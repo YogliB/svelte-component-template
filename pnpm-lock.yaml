@@ -15,7 +15,7 @@ specifiers:
   '@typescript-eslint/parser': 5.1.0
   babel-loader: 8.2.3
   chromatic: 6.0.5
-  cypress: 8.6.0
+  cypress: 8.7.0
   eslint: 8.0.1
   eslint-config-prettier: 8.3.0
   eslint-plugin-cypress: 2.12.1
@@ -43,12 +43,12 @@ devDependencies:
   '@storybook/addon-svelte-csf': 1.1.0_934ffbe5fccfdcd24e0b0708c9339cbb
   '@storybook/svelte': 6.3.12_b47c589ae7370cb726ba120e1ba99b4e
   '@sveltejs/kit': 1.0.0-next.192_svelte@3.44.0
-  '@testing-library/cypress': 8.0.1_cypress@8.6.0
+  '@testing-library/cypress': 8.0.1_cypress@8.7.0
   '@typescript-eslint/eslint-plugin': 5.1.0_5c3e9dad3ab5199adbc8541e4d2d5a4f
   '@typescript-eslint/parser': 5.1.0_eslint@8.0.1+typescript@4.4.4
   babel-loader: 8.2.3_@babel+core@7.16.0
   chromatic: 6.0.5
-  cypress: 8.6.0
+  cypress: 8.7.0
   eslint: 8.0.1
   eslint-config-prettier: 8.3.0_eslint@8.0.1
   eslint-plugin-cypress: 2.12.1_eslint@8.0.1
@@ -3642,7 +3642,7 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/cypress/8.0.1_cypress@8.6.0:
+  /@testing-library/cypress/8.0.1_cypress@8.7.0:
     resolution: {integrity: sha512-JCGy8u4ia+OQQJxVqKqjqpb0i4kmHQhu5jKFVBp+v/YSICnf52fil2MWIJqO+tH9ZQXtp3aF7uKHsVipWaI0BQ==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -3650,7 +3650,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@testing-library/dom': 8.3.0
-      cypress: 8.6.0
+      cypress: 8.7.0
     dev: true
 
   /@testing-library/dom/8.3.0:
@@ -5745,8 +5745,8 @@ packages:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
     dev: true
 
-  /cypress/8.6.0:
-    resolution: {integrity: sha512-F7qEK/6Go5FsqTueR+0wEw2vOVKNgk5847Mys8vsWkzPoEKdxs+7N9Y1dit+zhaZCLtMPyrMwjfA53ZFy+lSww==}
+  /cypress/8.7.0:
+    resolution: {integrity: sha512-b1bMC3VQydC6sXzBMFnSqcvwc9dTZMgcaOzT0vpSD+Gq1yFc+72JDWi55sfUK5eIeNLAtWOGy1NNb6UlhMvB+Q==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
