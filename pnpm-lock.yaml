@@ -15,7 +15,7 @@ specifiers:
   '@typescript-eslint/parser': 5.4.0
   babel-loader: 8.2.3
   chromatic: 6.0.6
-  cypress: 9.0.0
+  cypress: 9.1.0
   eslint: 8.3.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-cypress: 2.12.1
@@ -42,13 +42,13 @@ devDependencies:
   '@storybook/addon-storyshots': 6.3.12_572367bf070cc08a55f4e9ad2325c08b
   '@storybook/addon-svelte-csf': 1.1.0_51eeee20f57584728cd39fcebd3b732e
   '@storybook/svelte': 6.3.12_e5389bba8164c26623bb74cc2359d05b
-  '@sveltejs/kit': 1.0.0-next.196_svelte@3.44.2
-  '@testing-library/cypress': 8.0.2_cypress@9.0.0
+  '@sveltejs/kit': 1.0.0-next.197_svelte@3.44.2
+  '@testing-library/cypress': 8.0.2_cypress@9.1.0
   '@typescript-eslint/eslint-plugin': 5.4.0_5c8ff4cecd5a55e744866c0654edac32
   '@typescript-eslint/parser': 5.4.0_eslint@8.3.0+typescript@4.5.2
   babel-loader: 8.2.3_@babel+core@7.16.0
   chromatic: 6.0.6
-  cypress: 9.0.0
+  cypress: 9.1.0
   eslint: 8.3.0
   eslint-config-prettier: 8.3.0_eslint@8.3.0
   eslint-plugin-cypress: 2.12.1_eslint@8.3.0
@@ -3596,8 +3596,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.196_svelte@3.44.2:
-    resolution: {integrity: sha512-z7sA/2/3Il5biibjPXCYXJC11TyFhgCvMaJvvbtMnu2l3EmOmJBMS+r2djGptzfFsugSVNwGQFn8+ldWQWq3jA==}
+  /@sveltejs/kit/1.0.0-next.197_svelte@3.44.2:
+    resolution: {integrity: sha512-kxs820/UODwYyi5dZaCUFhfFT5M/kaGbxbbGUANBzUnvE8O6dnMZUsJtb2w8IepnjWAn5AWtYfaqhFS1gTdMxw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -3639,7 +3639,7 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/cypress/8.0.2_cypress@9.0.0:
+  /@testing-library/cypress/8.0.2_cypress@9.1.0:
     resolution: {integrity: sha512-KVdm7n37sg/A4e3wKMD4zUl0NpzzVhx06V9Tf0hZHZ7nrZ4yFva6Zwg2EFF1VzHkEfN/ahUzRtT1qiW+vuWnJw==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -3647,7 +3647,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@testing-library/dom': 8.3.0
-      cypress: 9.0.0
+      cypress: 9.1.0
     dev: true
 
   /@testing-library/dom/8.3.0:
@@ -5769,8 +5769,8 @@ packages:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
     dev: true
 
-  /cypress/9.0.0:
-    resolution: {integrity: sha512-/93SWBZTw7BjFZ+I9S8SqkFYZx7VhedDjTtRBmXO0VzTeDbmxgK/snMJm/VFjrqk/caWbI+XY4Qr80myDMQvYg==}
+  /cypress/9.1.0:
+    resolution: {integrity: sha512-fyXcCN51vixkPrz/vO/Qy6WL3hKYJzCQFeWofOpGOFewVVXrGfmfSOGFntXpzWBXsIwPn3wzW0HOFw51jZajNQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -5803,7 +5803,7 @@ packages:
       is-ci: 3.0.0
       is-installed-globally: 0.4.0
       lazy-ass: 1.6.0
-      listr2: 3.12.2_enquirer@2.3.6
+      listr2: 3.13.3_enquirer@2.3.6
       lodash: 4.17.21
       log-symbols: 4.1.0
       minimist: 1.2.5
@@ -8870,22 +8870,6 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /listr2/3.12.2_enquirer@2.3.6:
-    resolution: {integrity: sha512-64xC2CJ/As/xgVI3wbhlPWVPx0wfTqbUAkpb7bjDi0thSWMqrf07UFhrfsGoo8YSXmF049Rp9C0cjLC8rZxK9A==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      enquirer: '>= 2.3.0 < 3'
-    dependencies:
-      cli-truncate: 2.1.0
-      colorette: 1.4.0
-      enquirer: 2.3.6
-      log-update: 4.0.0
-      p-map: 4.0.0
-      rxjs: 6.6.7
-      through: 2.3.8
-      wrap-ansi: 7.0.0
-    dev: true
-
   /listr2/3.13.3_enquirer@2.3.6:
     resolution: {integrity: sha512-VqAgN+XVfyaEjSaFewGPcDs5/3hBbWVaX1VgWv2f52MF7US45JuARlArULctiB44IIcEk3JF7GtoFCLqEdeuPA==}
     engines: {node: '>=10.0.0'}
@@ -11072,13 +11056,6 @@ packages:
     resolution: {integrity: sha1-6Eg5bwV9Ij8kOGkkYY4laUFh7Ec=}
     dependencies:
       aproba: 1.2.0
-    dev: true
-
-  /rxjs/6.6.7:
-    resolution: {integrity: sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==}
-    engines: {npm: '>=2.0.0'}
-    dependencies:
-      tslib: 1.14.1
     dev: true
 
   /rxjs/7.4.0:
