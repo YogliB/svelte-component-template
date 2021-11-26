@@ -22,7 +22,7 @@ specifiers:
   eslint-plugin-svelte3: 3.2.1
   husky: 7.0.4
   lint-staged: 12.1.2
-  prettier: 2.4.1
+  prettier: 2.5.0
   prettier-plugin-svelte: 2.5.0
   start-server-and-test: 1.14.0
   svelte: 3.44.2
@@ -55,8 +55,8 @@ devDependencies:
   eslint-plugin-svelte3: 3.2.1_eslint@8.3.0+svelte@3.44.2
   husky: 7.0.4
   lint-staged: 12.1.2
-  prettier: 2.4.1
-  prettier-plugin-svelte: 2.5.0_prettier@2.4.1+svelte@3.44.2
+  prettier: 2.5.0
+  prettier-plugin-svelte: 2.5.0_prettier@2.5.0+svelte@3.44.2
   start-server-and-test: 1.14.0
   svelte: 3.44.2
   svelte-check: 2.2.10_@babel+core@7.16.0+svelte@3.44.2
@@ -2054,7 +2054,7 @@ packages:
       lodash: 4.17.21
       nanoid: 3.1.25
       p-limit: 3.1.0
-      prettier: 2.4.1
+      prettier: 2.5.0
       prop-types: 15.7.2
       react-element-to-jsx-string: 14.3.4
       regenerator-runtime: 0.13.9
@@ -3311,7 +3311,7 @@ packages:
       global: 4.4.0
       js-string-escape: 1.0.1
       lodash: 4.17.21
-      prettier: 2.4.1
+      prettier: 2.5.0
       regenerator-runtime: 0.13.9
       ts-dedent: 2.2.0
     transitivePeerDependencies:
@@ -3563,7 +3563,7 @@ packages:
       global: 4.4.0
       loader-utils: 2.0.0
       lodash: 4.17.21
-      prettier: 2.4.1
+      prettier: 2.5.0
       regenerator-runtime: 0.13.9
     dev: true
 
@@ -10198,18 +10198,18 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.5.0_prettier@2.4.1+svelte@3.44.2:
+  /prettier-plugin-svelte/2.5.0_prettier@2.5.0+svelte@3.44.2:
     resolution: {integrity: sha512-+iHY2uGChOngrgKielJUnqo74gIL/EO5oeWm8MftFWjEi213lq9QYTOwm1pv4lI1nA61tdgf80CF2i5zMcu1kw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
-      prettier: 2.4.1
+      prettier: 2.5.0
       svelte: 3.44.2
     dev: true
 
-  /prettier/2.4.1:
-    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
+  /prettier/2.5.0:
+    resolution: {integrity: sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
