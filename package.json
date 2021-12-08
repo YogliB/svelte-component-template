@@ -27,7 +27,7 @@
 		"husky": "7.0.4",
 		"lint-staged": "12.1.2",
 		"prettier": "2.5.1",
-		"prettier-plugin-svelte": "2.5.0",
+		"prettier-plugin-svelte": "2.5.1",
 		"start-server-and-test": "1.14.0",
 		"svelte": "3.44.2",
 		"svelte-check": "2.2.10",
