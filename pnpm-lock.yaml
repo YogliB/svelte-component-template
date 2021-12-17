@@ -29,7 +29,7 @@ specifiers:
   svelte-check: 2.2.11
   svelte-loader: 3.1.2
   svelte-preprocess: 4.10.1
-  svelte2tsx: 0.4.11
+  svelte2tsx: 0.4.12
   tslib: 2.3.1
   typescript: 4.5.4
 
@@ -62,7 +62,7 @@ devDependencies:
   svelte-check: 2.2.11_@babel+core@7.16.5+svelte@3.44.3
   svelte-loader: 3.1.2_svelte@3.44.3
   svelte-preprocess: 4.10.1_ef8616e3598a29f0dfd583e04a5f3f36
-  svelte2tsx: 0.4.11_svelte@3.44.3+typescript@4.5.4
+  svelte2tsx: 0.4.12_svelte@3.44.3+typescript@4.5.4
   tslib: 2.3.1
   typescript: 4.5.4
 
@@ -12007,8 +12007,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.4.11_svelte@3.44.3+typescript@4.5.4:
-    resolution: {integrity: sha512-y1mqNrxv3TzDHstM0qlHrbKwfWk+G/uB28yRH4JYMjJ7N3XZrfrLad+/+P6ITTawbUfLqfs/WlxJDKzl7F2CPw==}
+  /svelte2tsx/0.4.12_svelte@3.44.3+typescript@4.5.4:
+    resolution: {integrity: sha512-aTKg+W95w16RqOPFi01icd4jlwnMzgvTlewvqrJJTLAs0kjpQ/DMhhd+iDDhDBkhKT4nDkVzEfe/LZTz1Xf6AQ==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
