@@ -15,7 +15,7 @@ specifiers:
   '@typescript-eslint/parser': 5.8.0
   babel-loader: 8.2.3
   chromatic: 6.2.3
-  cypress: 9.1.1
+  cypress: 9.2.0
   eslint: 8.5.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-cypress: 2.12.1
@@ -43,12 +43,12 @@ devDependencies:
   '@storybook/addon-svelte-csf': 1.1.0_e26fa36f2e08ce389018064856b73bb5
   '@storybook/svelte': 6.4.9_9c94381744c0a50b491616e00c06b3e4
   '@sveltejs/kit': 1.0.0-next.202_svelte@3.44.3
-  '@testing-library/cypress': 8.0.2_cypress@9.1.1
+  '@testing-library/cypress': 8.0.2_cypress@9.2.0
   '@typescript-eslint/eslint-plugin': 5.8.0_836011a006f4f5d67178564baf2b6d34
   '@typescript-eslint/parser': 5.8.0_eslint@8.5.0+typescript@4.5.4
   babel-loader: 8.2.3_@babel+core@7.16.5
   chromatic: 6.2.3
-  cypress: 9.1.1
+  cypress: 9.2.0
   eslint: 8.5.0
   eslint-config-prettier: 8.3.0_eslint@8.5.0
   eslint-plugin-cypress: 2.12.1_eslint@8.5.0
@@ -3813,7 +3813,7 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/cypress/8.0.2_cypress@9.1.1:
+  /@testing-library/cypress/8.0.2_cypress@9.2.0:
     resolution: {integrity: sha512-KVdm7n37sg/A4e3wKMD4zUl0NpzzVhx06V9Tf0hZHZ7nrZ4yFva6Zwg2EFF1VzHkEfN/ahUzRtT1qiW+vuWnJw==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -3821,7 +3821,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@testing-library/dom': 8.3.0
-      cypress: 9.1.1
+      cypress: 9.2.0
     dev: true
 
   /@testing-library/dom/8.3.0:
@@ -5471,11 +5471,6 @@ packages:
       shallow-clone: 3.0.1
     dev: true
 
-  /clone/2.1.2:
-    resolution: {integrity: sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=}
-    engines: {node: '>=0.8'}
-    dev: true
-
   /clsx/1.1.1:
     resolution: {integrity: sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==}
     engines: {node: '>=6'}
@@ -5872,8 +5867,8 @@ packages:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
     dev: true
 
-  /cypress/9.1.1:
-    resolution: {integrity: sha512-yWcYD8SEQ8F3okFbRPqSDj5V0xhrZBT5QRIH+P1J2vYvtEmZ4KGciHE7LCcZZLILOrs7pg4WNCqkj/XRvReQlQ==}
+  /cypress/9.2.0:
+    resolution: {integrity: sha512-Jn26Tprhfzh/a66Sdj9SoaYlnNX6Mjfmj5PHu2a7l3YHXhrgmavM368wjCmgrxC6KHTOv9SpMQGhAJn+upDViA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -5894,7 +5889,7 @@ packages:
       commander: 5.1.0
       common-tags: 1.8.0
       dayjs: 1.10.6
-      debug: 4.3.2_supports-color@8.1.1
+      debug: 4.3.3_supports-color@8.1.1
       enquirer: 2.3.6
       eventemitter2: 6.4.4
       execa: 4.1.0
@@ -5906,7 +5901,7 @@ packages:
       is-ci: 3.0.0
       is-installed-globally: 0.4.0
       lazy-ass: 1.6.0
-      listr2: 3.13.3_enquirer@2.3.6
+      listr2: 3.13.5_enquirer@2.3.6
       lodash: 4.17.21
       log-symbols: 4.1.0
       minimist: 1.2.5
@@ -5954,19 +5949,6 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
-    dev: true
-
-  /debug/4.3.2_supports-color@8.1.1:
-    resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-      supports-color: 8.1.1
     dev: true
 
   /debug/4.3.3:
@@ -8959,23 +8941,6 @@ packages:
       - enquirer
     dev: true
 
-  /listr2/3.13.3_enquirer@2.3.6:
-    resolution: {integrity: sha512-VqAgN+XVfyaEjSaFewGPcDs5/3hBbWVaX1VgWv2f52MF7US45JuARlArULctiB44IIcEk3JF7GtoFCLqEdeuPA==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      enquirer: '>= 2.3.0 < 3'
-    dependencies:
-      cli-truncate: 2.1.0
-      clone: 2.1.2
-      colorette: 2.0.16
-      enquirer: 2.3.6
-      log-update: 4.0.0
-      p-map: 4.0.0
-      rxjs: 7.4.0
-      through: 2.3.8
-      wrap-ansi: 7.0.0
-    dev: true
-
   /listr2/3.13.5:
     resolution: {integrity: sha512-3n8heFQDSk+NcwBn3CgxEibZGaRzx+pC64n3YjpMD1qguV4nWus3Al+Oo3KooqFKTQEJ1v7MmnbnyyNspgx3NA==}
     engines: {node: '>=10.0.0'}
@@ -8987,6 +8952,26 @@ packages:
     dependencies:
       cli-truncate: 2.1.0
       colorette: 2.0.16
+      log-update: 4.0.0
+      p-map: 4.0.0
+      rfdc: 1.3.0
+      rxjs: 7.4.0
+      through: 2.3.8
+      wrap-ansi: 7.0.0
+    dev: true
+
+  /listr2/3.13.5_enquirer@2.3.6:
+    resolution: {integrity: sha512-3n8heFQDSk+NcwBn3CgxEibZGaRzx+pC64n3YjpMD1qguV4nWus3Al+Oo3KooqFKTQEJ1v7MmnbnyyNspgx3NA==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      enquirer: '>= 2.3.0 < 3'
+    peerDependenciesMeta:
+      enquirer:
+        optional: true
+    dependencies:
+      cli-truncate: 2.1.0
+      colorette: 2.0.16
+      enquirer: 2.3.6
       log-update: 4.0.0
       p-map: 4.0.0
       rfdc: 1.3.0
