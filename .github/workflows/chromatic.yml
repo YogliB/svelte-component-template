@@ -10,10 +10,6 @@ jobs:
     build:
         runs-on: ubuntu-latest
 
-        strategy:
-            matrix:
-                node-version: [16.x]
-
         steps:
             - name: Checkout
               uses: actions/checkout@v2
@@ -34,8 +30,7 @@ jobs:
                   version: ^6.0.0
                   run_install: true
 
-            - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v2
+            - name: Publish to Chromatic
+              uses: chromaui/action@v1
               with:
-                  node-version: ${{ matrix.node-version }}
-            - run: pnpm dlx chromatic --project-token ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+                  projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
