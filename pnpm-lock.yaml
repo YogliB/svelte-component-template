@@ -14,7 +14,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.10.0
   '@typescript-eslint/parser': 5.10.0
   babel-loader: 8.2.3
-  chromatic: 6.4.0
+  chromatic: 6.4.1
   cypress: 9.3.1
   eslint: 8.7.0
   eslint-config-prettier: 8.3.0
@@ -42,12 +42,12 @@ devDependencies:
   '@storybook/addon-storyshots': 6.4.13_svelte@3.46.2+typescript@4.5.4
   '@storybook/addon-svelte-csf': 1.1.0_0d4991631d91d171f590807eb55a8e09
   '@storybook/svelte': 6.4.13_62c12e81285fffe2e5112e37bb514fd3
-  '@sveltejs/kit': 1.0.0-next.232_svelte@3.46.2
+  '@sveltejs/kit': 1.0.0-next.234_svelte@3.46.2
   '@testing-library/cypress': 8.0.2_cypress@9.3.1
   '@typescript-eslint/eslint-plugin': 5.10.0_3b6b276e93ead7cf6063f183a5e18d1f
   '@typescript-eslint/parser': 5.10.0_eslint@8.7.0+typescript@4.5.4
   babel-loader: 8.2.3_@babel+core@7.16.10
-  chromatic: 6.4.0
+  chromatic: 6.4.1
   cypress: 9.3.1
   eslint: 8.7.0
   eslint-config-prettier: 8.3.0_eslint@8.7.0
@@ -3784,8 +3784,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.232_svelte@3.46.2:
-    resolution: {integrity: sha512-STQ0hnJozIop8k9I313nwVasBIQ45Z2K1pUOkDVjCSOGijgsj+De5q0prQBtL1ZlqqisfkYlOf8W9gvDSyTLEA==}
+  /@sveltejs/kit/1.0.0-next.234_svelte@3.46.2:
+    resolution: {integrity: sha512-vnXLkk4GakytCM+TxFVVXfvJaXq/vY6AWpaUAKr1ZsQD2LSKteoaBlca1qI7fCRwccaPSkI+DOc+bNdgGiBBSQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -5401,8 +5401,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromatic/6.4.0:
-    resolution: {integrity: sha512-eJyWij9WHSyH84Crhm6WDiaBrRBIgK2W96EJmCDPG/2MYqNzVKcn6tOWW+94uT+CkASBGL77QN+MMCUnm46w+Q==}
+  /chromatic/6.4.1:
+    resolution: {integrity: sha512-i3WLhIORS8vu9OStJwPQ487/MYZiXT7byU5c9we1Vvfus/w1Kwbj/2n11EozokomGEw5o3VAeiRrZkTCXM8xew==}
     hasBin: true
     dev: true
 
