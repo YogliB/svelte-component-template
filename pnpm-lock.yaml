@@ -21,7 +21,7 @@ specifiers:
   eslint-plugin-cypress: 2.12.1
   eslint-plugin-svelte3: 3.4.0
   husky: 7.0.4
-  lint-staged: 12.3.1
+  lint-staged: 12.3.2
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0
   start-server-and-test: 1.14.0
@@ -54,7 +54,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.7.0
   eslint-plugin-svelte3: 3.4.0_eslint@8.7.0+svelte@3.46.3
   husky: 7.0.4
-  lint-staged: 12.3.1
+  lint-staged: 12.3.2
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.3
   start-server-and-test: 1.14.0
@@ -8872,8 +8872,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/12.3.1:
-    resolution: {integrity: sha512-Ocht/eT+4/siWOZDJpNUKcKX2UeWW/pDbohJ4gRsrafAjBi79JK8kiNVk2ciIVNKdw0Q4ABptl2nr6uQAlRImw==}
+  /lint-staged/12.3.2:
+    resolution: {integrity: sha512-gtw4Cbj01SuVSfAOXC6ivd/7VKHTj51yj5xV8TgktFmYNMsZzXuSd5/brqJEA93v63wL7R6iDlunMANOechC0A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -11054,12 +11054,6 @@ packages:
       aproba: 1.2.0
     dev: true
 
-  /rxjs/7.4.0:
-    resolution: {integrity: sha512-7SQDi7xeTMCJpqViXh8gL/lebcwlp3d831F05+9B44A4B0WfsEwUQHR64gsH1kvJ+Ep/J9K2+n1hVl1CsGN23w==}
-    dependencies:
-      tslib: 2.1.0
-    dev: true
-
   /rxjs/7.5.2:
     resolution: {integrity: sha512-PwDt186XaL3QN5qXj/H9DGyHhP3/RYYgZZwqBv9Tv8rsAaiwFH1IsJJlcgD37J7UW5a6O67qX0KWKS3/pu0m4w==}
     dependencies:
@@ -12217,10 +12211,6 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib/2.1.0:
-    resolution: {integrity: sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==}
-    dev: true
-
   /tslib/2.3.1:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
@@ -12702,7 +12692,7 @@ packages:
       joi: 17.4.2
       lodash: 4.17.21
       minimist: 1.2.5
-      rxjs: 7.4.0
+      rxjs: 7.5.2
     transitivePeerDependencies:
       - debug
     dev: true
