@@ -15,7 +15,7 @@ specifiers:
   '@typescript-eslint/parser': 5.10.2
   babel-loader: 8.2.3
   chromatic: 6.4.3
-  cypress: 9.3.1
+  cypress: 9.4.1
   eslint: 8.8.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-cypress: 2.12.1
@@ -42,13 +42,13 @@ devDependencies:
   '@storybook/addon-storyshots': 6.4.17_svelte@3.46.3+typescript@4.5.5
   '@storybook/addon-svelte-csf': 1.1.0_619c0455f760134a682bbab2cfdbaf47
   '@storybook/svelte': 6.4.17_462858ec613871c95d1cdb2a05c0f0e9
-  '@sveltejs/kit': 1.0.0-next.251_svelte@3.46.3
-  '@testing-library/cypress': 8.0.2_cypress@9.3.1
+  '@sveltejs/kit': 1.0.0-next.252_svelte@3.46.3
+  '@testing-library/cypress': 8.0.2_cypress@9.4.1
   '@typescript-eslint/eslint-plugin': 5.10.2_2595c2126aec4d4b6e944b931dabb4c2
   '@typescript-eslint/parser': 5.10.2_eslint@8.8.0+typescript@4.5.5
   babel-loader: 8.2.3_@babel+core@7.16.12
   chromatic: 6.4.3
-  cypress: 9.3.1
+  cypress: 9.4.1
   eslint: 8.8.0
   eslint-config-prettier: 8.3.0_eslint@8.8.0
   eslint-plugin-cypress: 2.12.1_eslint@8.8.0
@@ -3779,8 +3779,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.251_svelte@3.46.3:
-    resolution: {integrity: sha512-7GtUrUHqOa7ISo86PlICcMKcfGodOZwP9p7hXnN4t1yMWIQD2eKZlJffvnwx1X+NMcJ8hLChgcjGYjc1xZABhQ==}
+  /@sveltejs/kit/1.0.0-next.252_svelte@3.46.3:
+    resolution: {integrity: sha512-cUreghq9H4WZyqwR/whBP1w+IQbR/VYKCmOduBYykj1lSeVZrUIlX+usxpNTtOCmekP7RPGDhQHfYyb58FbD3g==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -3821,7 +3821,7 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/cypress/8.0.2_cypress@9.3.1:
+  /@testing-library/cypress/8.0.2_cypress@9.4.1:
     resolution: {integrity: sha512-KVdm7n37sg/A4e3wKMD4zUl0NpzzVhx06V9Tf0hZHZ7nrZ4yFva6Zwg2EFF1VzHkEfN/ahUzRtT1qiW+vuWnJw==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -3829,7 +3829,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@testing-library/dom': 8.3.0
-      cypress: 9.3.1
+      cypress: 9.4.1
     dev: true
 
   /@testing-library/dom/8.3.0:
@@ -5885,8 +5885,8 @@ packages:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
     dev: true
 
-  /cypress/9.3.1:
-    resolution: {integrity: sha512-BODdPesxX6bkVUnH8BVsV8I/jn57zQtO1FEOUTiuG2us3kslW7g0tcuwiny7CKCmJUZz8S/D587ppC+s58a+5Q==}
+  /cypress/9.4.1:
+    resolution: {integrity: sha512-+JgMG9uT+QFx97JU9kOHE3jO3+0UdkQ9H1oCBiC7A74qme7Jkdy2sYDBCPjjGczutnWnGUTMRlwiNMP/Uq6LrQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -5928,10 +5928,10 @@ packages:
       pretty-bytes: 5.6.0
       proxy-from-env: 1.0.0
       request-progress: 3.0.0
+      semver: 7.3.5
       supports-color: 8.1.1
       tmp: 0.2.1
       untildify: 4.0.0
-      url: 0.11.0
       yauzl: 2.10.0
     dev: true
 
