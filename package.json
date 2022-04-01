@@ -38,11 +38,6 @@
 		"typescript": "4.5.5"
 	},
 	"homepage": "~TODO~",
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged"
-		}
-	},
 	"license": "~TODO~",
 	"lint-staged": {
 		"*.{js, ts, svelte}": [
