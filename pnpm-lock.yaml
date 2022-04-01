@@ -14,7 +14,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.10.2
   '@typescript-eslint/parser': 5.10.2
   babel-loader: 8.2.4
-  chromatic: 6.4.3
+  chromatic: 6.5.3
   cypress: 9.4.1
   eslint: 8.8.0
   eslint-config-prettier: 8.3.0
@@ -47,7 +47,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.10.2_2595c2126aec4d4b6e944b931dabb4c2
   '@typescript-eslint/parser': 5.10.2_eslint@8.8.0+typescript@4.5.5
   babel-loader: 8.2.4_@babel+core@7.17.8
-  chromatic: 6.4.3
+  chromatic: 6.5.3
   cypress: 9.4.1
   eslint: 8.8.0
   eslint-config-prettier: 8.3.0_eslint@8.8.0
@@ -5436,8 +5436,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromatic/6.4.3:
-    resolution: {integrity: sha512-Hxd85QNWwVo2VS9bIGa5bL06wjSt+EUT8ed48jnkOw7cnkkIQfnEVpwjOoZ/91C4rtRPw8w/2EwCHq+eWD4NNg==}
+  /chromatic/6.5.3:
+    resolution: {integrity: sha512-6Wy2lsNaojY5wTvobE3WV5VrQ5oP7B8kal6zWGrxu9g7Qbenb2cTcQ5SYgQY7tzT0Ed0zeHVyQm4TMmKz+XfXA==}
     hasBin: true
     dev: true
 
