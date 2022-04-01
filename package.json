@@ -5,7 +5,7 @@
         "url": "~TODO~"
     },
     "devDependencies": {
-        "@babel/core": "7.16.12",
+        "@babel/core": "7.17.8",
         "@babel/preset-env": "7.16.11",
         "@storybook/addon-actions": "6.4.20",
         "@storybook/addon-essentials": "6.4.20",
@@ -17,7 +17,7 @@
         "@testing-library/cypress": "8.0.2",
         "@typescript-eslint/eslint-plugin": "5.10.2",
         "@typescript-eslint/parser": "5.10.2",
-        "babel-loader": "8.2.3",
+        "babel-loader": "8.2.4",
         "chromatic": "6.4.3",
         "cypress": "9.4.1",
         "eslint": "8.8.0",
