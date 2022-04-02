@@ -28,6 +28,7 @@ specifiers:
   svelte: 3.46.6
   svelte-check: 2.4.6
   svelte-preprocess: 4.10.4
+  svelte2tsx: ^0.5.6
   tslib: 2.3.1
   typescript: 4.5.5
 
@@ -59,6 +60,7 @@ devDependencies:
   svelte: 3.46.6
   svelte-check: 2.4.6_@babel+core@7.17.8+svelte@3.46.6
   svelte-preprocess: 4.10.4_bd77b1d28afa724241222e2e0747f7fe
+  svelte2tsx: 0.5.6_svelte@3.46.6+typescript@4.5.5
   tslib: 2.3.1
   typescript: 4.5.5
 
@@ -6047,6 +6049,10 @@ packages:
     engines: {node: '>=0.10'}
     dev: true
 
+  /dedent-js/1.0.1:
+    resolution: {integrity: sha1-vuX7fJ5yfYXf+iRZDRDsGrElUwU=}
+    dev: true
+
   /deep-is/0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
     dev: true
@@ -12010,6 +12016,18 @@ packages:
   /svelte/3.46.6:
     resolution: {integrity: sha512-o9nNft/OzCz/9kJpmWa1S52GAM+huCjPIsNWydYmgei74ZWlOA9/hN9+Z12INdklghu31seEXZMRHhS1+8DETw==}
     engines: {node: '>= 8'}
+    dev: true
+
+  /svelte2tsx/0.5.6_svelte@3.46.6+typescript@4.5.5:
+    resolution: {integrity: sha512-B4WZUtoTdVD+F73H1RQEH3Hrv7m2/ahThmAUkjT5CTWRigQaJqYQpSjisCH1Pzfi9B37YikDnAi4u4uxwYM+iw==}
+    peerDependencies:
+      svelte: ^3.24
+      typescript: ^4.1.2
+    dependencies:
+      dedent-js: 1.0.1
+      pascal-case: 3.1.2
+      svelte: 3.46.6
+      typescript: 4.5.5
     dev: true
 
   /sveltedoc-parser/4.1.0:
