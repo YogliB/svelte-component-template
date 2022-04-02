@@ -27,6 +27,7 @@ specifiers:
   start-server-and-test: 1.14.0
   svelte: 3.46.6
   svelte-check: 2.4.6
+  svelte-loader: ^3.1.2
   svelte-preprocess: 4.10.4
   svelte2tsx: ^0.5.6
   tslib: 2.3.1
@@ -39,8 +40,8 @@ devDependencies:
   '@storybook/addon-essentials': 6.4.20_70ed040b199689a6b87a32021ca3db10
   '@storybook/addon-links': 6.4.20
   '@storybook/addon-storyshots': 6.4.20_svelte@3.46.6+typescript@4.5.5
-  '@storybook/addon-svelte-csf': 1.1.0_4059aa87d72415c770279754b10a24b1
-  '@storybook/svelte': 6.4.20_bd77b1d28afa724241222e2e0747f7fe
+  '@storybook/addon-svelte-csf': 1.1.0_f56a27844a6a546e4d6ab4135066eff7
+  '@storybook/svelte': 6.4.20_289dc894f648f95234ffa19cdb997660
   '@sveltejs/kit': 1.0.0-next.304_svelte@3.46.6
   '@testing-library/cypress': 8.0.2_cypress@9.5.3
   '@typescript-eslint/eslint-plugin': 5.17.0_9b4fd1fcd1e0495f318758acfb845fdf
@@ -59,6 +60,7 @@ devDependencies:
   start-server-and-test: 1.14.0
   svelte: 3.46.6
   svelte-check: 2.4.6_@babel+core@7.17.8+svelte@3.46.6
+  svelte-loader: 3.1.2_svelte@3.46.6
   svelte-preprocess: 4.10.4_bd77b1d28afa724241222e2e0747f7fe
   svelte2tsx: 0.5.6_svelte@3.46.6+typescript@4.5.5
   tslib: 2.3.1
@@ -2341,7 +2343,7 @@ packages:
       - webpack-command
     dev: true
 
-  /@storybook/addon-svelte-csf/1.1.0_4059aa87d72415c770279754b10a24b1:
+  /@storybook/addon-svelte-csf/1.1.0_f56a27844a6a546e4d6ab4135066eff7:
     resolution: {integrity: sha512-AjP9kxVbbAyucB8vy889WERafjNM020vWel+psCuDJ2vLU+uObqbCLSGKRIznXjeL0BYR73l9ZF+niJfw6QSlg==}
     peerDependencies:
       '@storybook/addons': ^6.2.9
@@ -2364,8 +2366,9 @@ packages:
       svelte:
         optional: true
     dependencies:
-      '@storybook/svelte': 6.4.20_bd77b1d28afa724241222e2e0747f7fe
+      '@storybook/svelte': 6.4.20_289dc894f648f95234ffa19cdb997660
       svelte: 3.46.6
+      svelte-loader: 3.1.2_svelte@3.46.6
       ts-dedent: 2.2.0
     dev: true
 
@@ -3658,7 +3661,7 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/svelte/6.4.20_bd77b1d28afa724241222e2e0747f7fe:
+  /@storybook/svelte/6.4.20_289dc894f648f95234ffa19cdb997660:
     resolution: {integrity: sha512-miZNlmItFk9I9VqTePsd99ma5/g/Ekjo7FAlrJxdSUjj0C3JQquI9PDTY32sbqQVNWipVypt3zhPEHMdVxrC9g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -3680,6 +3683,7 @@ packages:
       read-pkg-up: 7.0.1
       regenerator-runtime: 0.13.9
       svelte: 3.46.6
+      svelte-loader: 3.1.2_svelte@3.46.6
       sveltedoc-parser: 4.1.0
       ts-dedent: 2.2.0
     transitivePeerDependencies:
@@ -11953,12 +11957,27 @@ packages:
       - sugarss
     dev: true
 
+  /svelte-dev-helper/1.1.9:
+    resolution: {integrity: sha1-fRh9tcbNu9ZNdaMvkbiZi94yc8M=}
+    dev: true
+
   /svelte-hmr/0.14.9_svelte@3.46.6:
     resolution: {integrity: sha512-bKE9+4qb4sAnA+TKHiYurUl970rjA0XmlP9TEP7K/ncyWz3m81kA4HOgmlZK/7irGK7gzZlaPDI3cmf8fp/+tg==}
     peerDependencies:
       svelte: '>=3.19.0'
     dependencies:
       svelte: 3.46.6
+    dev: true
+
+  /svelte-loader/3.1.2_svelte@3.46.6:
+    resolution: {integrity: sha512-RhVIvitb+mtIwKNyvNQoDQ0EhXg2KH8LhQiiqeJh8u6vqJyGWoMoFcYCar69TT+1iaK5IYe0wPNYJ6TILcsurw==}
+    peerDependencies:
+      svelte: '>3.0.0'
+    dependencies:
+      loader-utils: 2.0.0
+      svelte: 3.46.6
+      svelte-dev-helper: 1.1.9
+      svelte-hmr: 0.14.9_svelte@3.46.6
     dev: true
 
   /svelte-preprocess/4.10.4_bd77b1d28afa724241222e2e0747f7fe:
