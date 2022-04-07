@@ -29,7 +29,7 @@ specifiers:
   svelte-check: 2.4.6
   svelte-loader: 3.1.2
   svelte-preprocess: 4.10.5
-  svelte2tsx: 0.5.6
+  svelte2tsx: 0.5.7
   tslib: 2.3.1
   typescript: 4.6.3
 
@@ -42,7 +42,7 @@ devDependencies:
   '@storybook/addon-storyshots': 6.4.20_svelte@3.46.6+typescript@4.6.3
   '@storybook/addon-svelte-csf': 1.1.0_f56a27844a6a546e4d6ab4135066eff7
   '@storybook/svelte': 6.4.20_63b225a0aab14b4ddc3dde9432c8a03d
-  '@sveltejs/kit': 1.0.0-next.307_svelte@3.46.6
+  '@sveltejs/kit': 1.0.0-next.308_svelte@3.46.6
   '@testing-library/cypress': 8.0.2_cypress@9.5.3
   '@typescript-eslint/eslint-plugin': 5.18.0_a07dca3bdfc4bfa60f4dda0c1f9e3287
   '@typescript-eslint/parser': 5.18.0_eslint@8.12.0+typescript@4.6.3
@@ -62,7 +62,7 @@ devDependencies:
   svelte-check: 2.4.6_@babel+core@7.17.9+svelte@3.46.6
   svelte-loader: 3.1.2_svelte@3.46.6
   svelte-preprocess: 4.10.5_fd7afdd14002fff19cc67ff4ceb3dbfe
-  svelte2tsx: 0.5.6_svelte@3.46.6+typescript@4.6.3
+  svelte2tsx: 0.5.7_svelte@3.46.6+typescript@4.6.3
   tslib: 2.3.1
   typescript: 4.6.3
 
@@ -3804,8 +3804,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.307_svelte@3.46.6:
-    resolution: {integrity: sha512-dVxSuP0YyGL6/4VVhjLxxj4hHlVscrXJttvsffGnFOUJ1JtrJ496xoxhxB7iSVpYdTMXocjA9w54ZIC59m0J7A==}
+  /@sveltejs/kit/1.0.0-next.308_svelte@3.46.6:
+    resolution: {integrity: sha512-/ORLef5kZEMTUgUkdSQ5Lsn3IKBRNYmLdJ26JjtSa03nPKsybvSMiGIho9WS6ESBw3+XaYF91TqksTyr/gTeoA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -12013,8 +12013,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.6_svelte@3.46.6+typescript@4.6.3:
-    resolution: {integrity: sha512-B4WZUtoTdVD+F73H1RQEH3Hrv7m2/ahThmAUkjT5CTWRigQaJqYQpSjisCH1Pzfi9B37YikDnAi4u4uxwYM+iw==}
+  /svelte2tsx/0.5.7_svelte@3.46.6+typescript@4.6.3:
+    resolution: {integrity: sha512-rekPWR5at7DNvIlJRSCyKFZ6Go/KyqjDRL/zRWQSNMbvTIocsm/gDtSbLz64ZP5Qz3tUeod7QzDqX13lF60kCg==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
