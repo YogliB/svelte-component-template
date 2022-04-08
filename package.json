@@ -11,7 +11,7 @@
         "@storybook/addon-essentials": "6.4.20",
         "@storybook/addon-links": "6.4.20",
         "@storybook/addon-storyshots": "6.4.20",
-        "@storybook/addon-svelte-csf": "1.1.0",
+        "@storybook/addon-svelte-csf": "1.1.2",
         "@storybook/svelte": "6.4.20",
         "@sveltejs/kit": "next",
         "@testing-library/cypress": "8.0.2",
