@@ -7,7 +7,7 @@ specifiers:
   '@storybook/addon-essentials': 6.4.21
   '@storybook/addon-links': 6.4.21
   '@storybook/addon-storyshots': 6.4.21
-  '@storybook/addon-svelte-csf': 1.1.2
+  '@storybook/addon-svelte-csf': 2.0.1
   '@storybook/svelte': 6.4.21
   '@sveltejs/kit': next
   '@testing-library/cypress': 8.0.2
@@ -40,7 +40,7 @@ devDependencies:
   '@storybook/addon-essentials': 6.4.21_9a62975b4b21bfc34206cfde56127b13
   '@storybook/addon-links': 6.4.21
   '@storybook/addon-storyshots': 6.4.21_svelte@3.47.0+typescript@4.6.3
-  '@storybook/addon-svelte-csf': 1.1.2_770aa0324303d5eac3be8104f521894a
+  '@storybook/addon-svelte-csf': 2.0.1_770aa0324303d5eac3be8104f521894a
   '@storybook/svelte': 6.4.21_9544f7549ab669399dea884d0ab0b808
   '@sveltejs/kit': 1.0.0-next.310_svelte@3.47.0
   '@testing-library/cypress': 8.0.2_cypress@9.5.3
@@ -2328,21 +2328,21 @@ packages:
       - webpack-command
     dev: true
 
-  /@storybook/addon-svelte-csf/1.1.2_770aa0324303d5eac3be8104f521894a:
-    resolution: {integrity: sha512-Hp71cg/OVLhqAY5WWt4p/23YLPlC+c58TFoxnM000cYAgGpuzfmdpYumWWDUolJyvNxdRwt71BzQnfIs7gUjIw==}
+  /@storybook/addon-svelte-csf/2.0.1_770aa0324303d5eac3be8104f521894a:
+    resolution: {integrity: sha512-h2zPQDpq8wz7rrRP4OfDYV6XNhBNc3E7u41NQLiT1hYG/74d1VxcYn6UKoL4LsqsiPAIaOaFbdrjhqKjq8yxVw==}
     peerDependencies:
-      '@storybook/addons': ^6.2.9
-      '@storybook/api': ^6.2.9
-      '@storybook/client-api': ^6.2.9
-      '@storybook/client-logger': ^6.2.9
-      '@storybook/components': ^6.2.9
-      '@storybook/core-events': ^6.2.9
-      '@storybook/svelte': ^6.2.9
-      '@storybook/theming': ^6.2.9
+      '@storybook/addons': ^6.4.20
+      '@storybook/api': ^6.4.20
+      '@storybook/client-api': ^6.4.20
+      '@storybook/client-logger': ^6.4.20
+      '@storybook/components': ^6.4.20
+      '@storybook/core-events': ^6.4.20
+      '@storybook/svelte': ^6.4.20
+      '@storybook/theming': ^6.4.20
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
-      svelte: ^3.35.0
-      svelte-loader: ^3.0.0
+      svelte: ^3.46.6
+      svelte-loader: ^3.1.2
     peerDependenciesMeta:
       react:
         optional: true
