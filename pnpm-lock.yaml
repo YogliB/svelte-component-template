@@ -7,7 +7,7 @@ specifiers:
   '@storybook/addon-essentials': 6.4.22
   '@storybook/addon-links': 6.4.22
   '@storybook/addon-storyshots': 6.4.22
-  '@storybook/addon-svelte-csf': 2.0.2
+  '@storybook/addon-svelte-csf': 2.0.3
   '@storybook/svelte': 6.4.22
   '@sveltejs/kit': next
   '@testing-library/cypress': 8.0.2
@@ -40,9 +40,9 @@ devDependencies:
   '@storybook/addon-essentials': 6.4.22_a2a7304097f189598b99b983afdae3e6
   '@storybook/addon-links': 6.4.22
   '@storybook/addon-storyshots': 6.4.22_svelte@3.47.0+typescript@4.6.3
-  '@storybook/addon-svelte-csf': 2.0.2_3eb2cdb15d21acefe63ce4aaed4c7678
+  '@storybook/addon-svelte-csf': 2.0.3_3eb2cdb15d21acefe63ce4aaed4c7678
   '@storybook/svelte': 6.4.22_9544f7549ab669399dea884d0ab0b808
-  '@sveltejs/kit': 1.0.0-next.316_svelte@3.47.0
+  '@sveltejs/kit': 1.0.0-next.317_svelte@3.47.0
   '@testing-library/cypress': 8.0.2_cypress@9.5.4
   '@typescript-eslint/eslint-plugin': 5.20.0_b9ac9b5656ce5dffade639fcf5e491bf
   '@typescript-eslint/parser': 5.20.0_eslint@8.13.0+typescript@4.6.3
@@ -2328,17 +2328,17 @@ packages:
       - webpack-command
     dev: true
 
-  /@storybook/addon-svelte-csf/2.0.2_3eb2cdb15d21acefe63ce4aaed4c7678:
-    resolution: {integrity: sha512-fywa26SGWenu8s6dYmKAotEzE/VTQ9oG/haZ7l6BjqaT3MKIvtWyMegBe8QUp/AS0qKJ8riADNSHQXnrpDS6xw==}
+  /@storybook/addon-svelte-csf/2.0.3_3eb2cdb15d21acefe63ce4aaed4c7678:
+    resolution: {integrity: sha512-4cSYmcUnfFIyrMA6PGPsVcF70vxzuCbICbazL5BSpZquzkRikYoYEDSAwlZ0V3yGKfaw1oHg2X7Ob72xec7OeA==}
     peerDependencies:
-      '@storybook/addons': ^6.4.20
-      '@storybook/api': ^6.4.20
-      '@storybook/client-api': ^6.4.20
-      '@storybook/client-logger': ^6.4.20
-      '@storybook/components': ^6.4.20
-      '@storybook/core-events': ^6.4.20
-      '@storybook/svelte': ^6.4.20
-      '@storybook/theming': ^6.4.20
+      '@storybook/addons': '>=6.4.20'
+      '@storybook/api': '>=6.4.20'
+      '@storybook/client-api': '>=6.4.20'
+      '@storybook/client-logger': '>=6.4.20'
+      '@storybook/components': '>=6.4.20'
+      '@storybook/core-events': '>=6.4.20'
+      '@storybook/svelte': '>=6.4.20'
+      '@storybook/theming': '>=6.4.20'
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
       svelte: ^3.46.6
@@ -3804,8 +3804,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.316_svelte@3.47.0:
-    resolution: {integrity: sha512-oLjWOWzjriJD2t210r7ALuH/8ZADrJGsOODzRCRSJvRBCt0Q7VKVLqwKbM/RlZzD1k8Af2uRodQT11kP98hAIA==}
+  /@sveltejs/kit/1.0.0-next.317_svelte@3.47.0:
+    resolution: {integrity: sha512-04WqvYXfz4THy3HghkXYWNrbG6bMLaQTaTfGNMoGpoSUaboJ1enikReeD+9bt4AzxqWkLav+C6Q3NgwJXwYAiw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
