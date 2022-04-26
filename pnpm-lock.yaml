@@ -21,7 +21,7 @@ specifiers:
   eslint-plugin-cypress: 2.12.1
   eslint-plugin-svelte3: 3.4.1
   husky: 7.0.4
-  lint-staged: 12.4.0
+  lint-staged: 12.4.1
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0
   start-server-and-test: 1.14.0
@@ -42,7 +42,7 @@ devDependencies:
   '@storybook/addon-storyshots': 6.4.22_svelte@3.47.0+typescript@4.6.3
   '@storybook/addon-svelte-csf': 2.0.3_3eb2cdb15d21acefe63ce4aaed4c7678
   '@storybook/svelte': 6.4.22_9544f7549ab669399dea884d0ab0b808
-  '@sveltejs/kit': 1.0.0-next.321_svelte@3.47.0
+  '@sveltejs/kit': 1.0.0-next.322_svelte@3.47.0
   '@testing-library/cypress': 8.0.2_cypress@9.6.0
   '@typescript-eslint/eslint-plugin': 5.21.0_829e74f28e9c9eb05edda582d47d45b8
   '@typescript-eslint/parser': 5.21.0_eslint@8.14.0+typescript@4.6.3
@@ -54,7 +54,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.14.0
   eslint-plugin-svelte3: 3.4.1_eslint@8.14.0+svelte@3.47.0
   husky: 7.0.4
-  lint-staged: 12.4.0
+  lint-staged: 12.4.1
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.47.0
   start-server-and-test: 1.14.0
@@ -3804,8 +3804,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.321_svelte@3.47.0:
-    resolution: {integrity: sha512-Egdmxc+oxmKKhXAtLLHj6LnZQnfxgk/DpdRitDxDlSQq/hj1zSVswe3kGjPDaquNMkxXbvZcHwhbZvNnVTnWag==}
+  /@sveltejs/kit/1.0.0-next.322_svelte@3.47.0:
+    resolution: {integrity: sha512-RPGu1LzE7PhPEqMf/MjGp9CAhBYtYbjpEKMR89KlfvNHCnRuXFdoR4Yrv9o1yGGN+kHSLcRJzibKHxe34AebJA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -8959,8 +8959,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/12.4.0:
-    resolution: {integrity: sha512-3X7MR0h9b7qf4iXf/1n7RlVAx+EzpAZXoCEMhVSpaBlgKDfH2ewf+QUm7BddFyq29v4dgPP+8+uYpWuSWx035A==}
+  /lint-staged/12.4.1:
+    resolution: {integrity: sha512-PTXgzpflrQ+pODQTG116QNB+Q6uUTDg5B5HqGvNhoQSGt8Qy+MA/6zSnR8n38+sxP5TapzeQGTvoKni0KRS8Vg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
