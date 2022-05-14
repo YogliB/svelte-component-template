@@ -26,7 +26,7 @@ specifiers:
   prettier-plugin-svelte: 2.7.0
   start-server-and-test: 1.14.0
   svelte: 3.48.0
-  svelte-check: 2.7.0
+  svelte-check: 2.7.1
   svelte-loader: 3.1.2
   svelte-preprocess: 4.10.6
   svelte2tsx: 0.5.9
@@ -42,7 +42,7 @@ devDependencies:
   '@storybook/addon-storyshots': 6.4.22_93759435736d1d7cfe9d23a0a893a149
   '@storybook/addon-svelte-csf': 2.0.3_3909e79a6a89de8d425deda8c1d11163
   '@storybook/svelte': 6.4.22_ea1b4e2fc1d5c059bb6d8a6c8f3f0f0a
-  '@sveltejs/kit': 1.0.0-next.326_svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.330_svelte@3.48.0
   '@testing-library/cypress': 8.0.2_cypress@9.6.1
   '@typescript-eslint/eslint-plugin': 5.23.0_17b6d2ce7129f0b36f2c30ae592c16e7
   '@typescript-eslint/parser': 5.23.0_eslint@8.15.0+typescript@4.6.4
@@ -59,7 +59,7 @@ devDependencies:
   prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.48.0
   start-server-and-test: 1.14.0
   svelte: 3.48.0
-  svelte-check: 2.7.0_c41d0477867e5b4ada3cfb73a51f73fe
+  svelte-check: 2.7.1_c41d0477867e5b4ada3cfb73a51f73fe
   svelte-loader: 3.1.2_svelte@3.48.0
   svelte-preprocess: 4.10.6_1fcc2a9cb75a34181b58d4abe51bbac8
   svelte2tsx: 0.5.9_svelte@3.48.0+typescript@4.6.4
@@ -72,7 +72,7 @@ packages:
     resolution: {integrity: sha512-hoyByceqwKirw7w3Z7gnIIZC3Wx3J484Y3L/cMpXFbr7d9ZQj2mODrirNzcJa+SM3UlpWXYvKV4RlRpFXlWgXg==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.4
+      '@jridgewell/trace-mapping': 0.3.13
     dev: true
 
   /@babel/code-frame/7.16.7:
@@ -1808,8 +1808,8 @@ packages:
     resolution: {integrity: sha512-Fg32GrJo61m+VqYSdRSjRXMjQ06j8YIYfcTqndLYVAaHmroZHLJZCydsWBOTDqXS2v+mjxohBWEMfg97GXmYQg==}
     dev: true
 
-  /@jridgewell/trace-mapping/0.3.4:
-    resolution: {integrity: sha512-vFv9ttIedivx0ux3QSjhgtCVjPZd5l46ZOMDSCwnH1yUO2e964gO8LZGyv2QkqcgR6TnBU1v+1IFqmeoG+0UJQ==}
+  /@jridgewell/trace-mapping/0.3.13:
+    resolution: {integrity: sha512-o1xbKhp9qnIAoHJSWd6KlCZfqslL4valSF81H8ImioOAxluWYWOpWkpyktY2vnt4tbrX9XYaxovq6cgowaJp2w==}
     dependencies:
       '@jridgewell/resolve-uri': 3.0.5
       '@jridgewell/sourcemap-codec': 1.4.11
@@ -3873,8 +3873,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.326_svelte@3.48.0:
-    resolution: {integrity: sha512-prJqmXZ2H1wmFfnMw7wDujfbkcA8vuubuqUkpVVmXhfh2+SEzQscPTNwxoE5EJxb5sywtLWEvYx3hv1gPS4Lvg==}
+  /@sveltejs/kit/1.0.0-next.330_svelte@3.48.0:
+    resolution: {integrity: sha512-Wb95D5tOF8BViZuikqzZLAcupdS7TpXtadNPgpEOxKowmkrW8xjRrrfVdPIkNOLqAP1V+gKInmQ/gFYmnv5EjA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -5476,21 +5476,6 @@ packages:
       - supports-color
     dev: true
     optional: true
-
-  /chokidar/3.5.2:
-    resolution: {integrity: sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ==}
-    engines: {node: '>= 8.10.0'}
-    dependencies:
-      anymatch: 3.1.2
-      braces: 3.0.2
-      glob-parent: 5.1.2
-      is-binary-path: 2.1.0
-      is-glob: 4.0.3
-      normalize-path: 3.0.0
-      readdirp: 3.6.0
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
 
   /chokidar/3.5.3:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
@@ -12128,18 +12113,18 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.7.0_c41d0477867e5b4ada3cfb73a51f73fe:
-    resolution: {integrity: sha512-GrvG24j0+i8AOm0k0KyJ6Dqc+TAR2yzB7rtS4nljHStunVxCTr/1KYlv4EsOeoqtHLzeWMOd5D2O6nDdP/yw4A==}
+  /svelte-check/2.7.1_c41d0477867e5b4ada3cfb73a51f73fe:
+    resolution: {integrity: sha512-vHVu2+SQ6ibt77iTQaq2oiOjBgGL48qqcg0ZdEOsP5pPOjgeyR9QbnaEdzdBs9nsVYBc/42haKtzb2uFqS8GVw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
     dependencies:
-      chokidar: 3.5.2
+      '@jridgewell/trace-mapping': 0.3.13
+      chokidar: 3.5.3
       fast-glob: 3.2.7
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.7.4
-      source-map: 0.7.3
       svelte: 3.48.0
       svelte-preprocess: 4.10.6_1fcc2a9cb75a34181b58d4abe51bbac8
       typescript: 4.6.4

@@ -30,7 +30,7 @@
         "prettier-plugin-svelte": "2.7.0",
         "start-server-and-test": "1.14.0",
         "svelte": "3.48.0",
-        "svelte-check": "2.7.0",
+        "svelte-check": "2.7.1",
         "svelte-loader": "3.1.2",
         "svelte-preprocess": "4.10.6",
         "svelte2tsx": "0.5.9",
