@@ -21,7 +21,7 @@ specifiers:
   eslint-plugin-cypress: 2.12.1
   eslint-plugin-svelte3: 4.0.0
   husky: 8.0.1
-  lint-staged: 12.4.1
+  lint-staged: 12.4.2
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0
   start-server-and-test: 1.14.0
@@ -42,7 +42,7 @@ devDependencies:
   '@storybook/addon-storyshots': 6.5.4_07d57cdd5e71201d6e37a480e9a2cb49
   '@storybook/addon-svelte-csf': 2.0.4_b84e022d181f5cbac0b1140e85b6a168
   '@storybook/svelte': 6.5.4_3899a849fd4eade9f5853dd77c06dc98
-  '@sveltejs/kit': 1.0.0-next.340_svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.343_svelte@3.48.0
   '@testing-library/cypress': 8.0.2_cypress@9.7.0
   '@typescript-eslint/eslint-plugin': 5.26.0_3538258888b78689808cec7bffc2237a
   '@typescript-eslint/parser': 5.26.0_eslint@8.16.0+typescript@4.6.4
@@ -54,7 +54,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.16.0
   eslint-plugin-svelte3: 4.0.0_eslint@8.16.0+svelte@3.48.0
   husky: 8.0.1
-  lint-staged: 12.4.1
+  lint-staged: 12.4.2
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.48.0
   start-server-and-test: 1.14.0
@@ -3582,8 +3582,8 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.340_svelte@3.48.0:
-    resolution: {integrity: sha512-s9EDSyYIYUmBnJWs8+ovpVfTbxv+z+2TbTmr9DBfP3bMqFcpjAFnFmPz9TmmDt976hrD6SgeoKEAb3VURDS2Ig==}
+  /@sveltejs/kit/1.0.0-next.343_svelte@3.48.0:
+    resolution: {integrity: sha512-M+K2To/QdEBl8OZS1V7JzsV9zZUNJRAay1ZVtDnlC75UgHECHhu72E5BtJWFXtINezQaMgGl62LuAGHItQxPlA==}
     engines: {node: '>=16'}
     hasBin: true
     peerDependencies:
@@ -5787,19 +5787,6 @@ packages:
       ms: 2.1.2
     dev: true
 
-  /debug/4.3.3_supports-color@9.2.1:
-    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-      supports-color: 9.2.1
-    dev: true
-
   /debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
@@ -5823,6 +5810,19 @@ packages:
     dependencies:
       ms: 2.1.2
       supports-color: 8.1.1
+    dev: true
+
+  /debug/4.3.4_supports-color@9.2.1:
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+      supports-color: 9.2.1
     dev: true
 
   /decamelize/1.2.0:
@@ -8746,15 +8746,15 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/12.4.1:
-    resolution: {integrity: sha512-PTXgzpflrQ+pODQTG116QNB+Q6uUTDg5B5HqGvNhoQSGt8Qy+MA/6zSnR8n38+sxP5TapzeQGTvoKni0KRS8Vg==}
+  /lint-staged/12.4.2:
+    resolution: {integrity: sha512-JAJGIzY/OioIUtrRePr8go6qUxij//mL+RGGoFKU3VWQRtIHgWoHizSqH0QVn2OwrbXS9Q6CICQjfj+E5qvrXg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
       cli-truncate: 3.1.0
       colorette: 2.0.16
       commander: 8.3.0
-      debug: 4.3.3_supports-color@9.2.1
+      debug: 4.3.4_supports-color@9.2.1
       execa: 5.1.1
       lilconfig: 2.0.4
       listr2: 4.0.1
