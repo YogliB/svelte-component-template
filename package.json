@@ -25,7 +25,7 @@
         "eslint-plugin-cypress": "2.12.1",
         "eslint-plugin-svelte3": "4.0.0",
         "husky": "8.0.1",
-        "lint-staged": "12.4.2",
+        "lint-staged": "12.4.3",
         "prettier": "2.6.2",
         "prettier-plugin-svelte": "2.7.0",
         "start-server-and-test": "1.14.0",
