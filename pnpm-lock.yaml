@@ -10,7 +10,7 @@ specifiers:
   '@storybook/addon-svelte-csf': 2.0.4
   '@storybook/svelte': 6.5.6
   '@sveltejs/kit': next
-  '@testing-library/cypress': 8.0.2
+  '@testing-library/cypress': 8.0.3
   '@typescript-eslint/eslint-plugin': 5.27.0
   '@typescript-eslint/parser': 5.27.0
   babel-loader: 8.2.5
@@ -43,7 +43,7 @@ devDependencies:
   '@storybook/addon-svelte-csf': 2.0.4_8b47599b130e9e8a9a032f920a4e371a
   '@storybook/svelte': 6.5.6_a0609945ea52df72cccebdab468c99da
   '@sveltejs/kit': 1.0.0-next.347_svelte@3.48.0
-  '@testing-library/cypress': 8.0.2_cypress@9.7.0
+  '@testing-library/cypress': 8.0.3_cypress@9.7.0
   '@typescript-eslint/eslint-plugin': 5.27.0_1cb21ecc3f04eca4a509631d5e40e8fa
   '@typescript-eslint/parser': 5.27.0_eslint@8.16.0+typescript@4.7.2
   babel-loader: 8.2.5_@babel+core@7.18.2
@@ -1427,13 +1427,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       core-js-pure: 3.17.3
-      regenerator-runtime: 0.13.9
-    dev: true
-
-  /@babel/runtime/7.15.4:
-    resolution: {integrity: sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
       regenerator-runtime: 0.13.9
     dev: true
 
@@ -3630,13 +3623,13 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/cypress/8.0.2_cypress@9.7.0:
-    resolution: {integrity: sha512-KVdm7n37sg/A4e3wKMD4zUl0NpzzVhx06V9Tf0hZHZ7nrZ4yFva6Zwg2EFF1VzHkEfN/ahUzRtT1qiW+vuWnJw==}
+  /@testing-library/cypress/8.0.3_cypress@9.7.0:
+    resolution: {integrity: sha512-nY2YaSbmuPo5k6kL0iLj/pGPPfka3iwb3kpTx8QN/vOCns92Saz9wfACqB8FJzcR7+lfA4d5HUOWqmTddBzczg==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
-      cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+      cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
     dependencies:
-      '@babel/runtime': 7.15.4
+      '@babel/runtime': 7.17.9
       '@testing-library/dom': 8.3.0
       cypress: 9.7.0
     dev: true
@@ -3646,7 +3639,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.16.7
-      '@babel/runtime': 7.15.4
+      '@babel/runtime': 7.17.9
       '@types/aria-query': 4.2.2
       aria-query: 4.2.2
       chalk: 4.1.2
@@ -4391,7 +4384,7 @@ packages:
     resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
     engines: {node: '>=6.0'}
     dependencies:
-      '@babel/runtime': 7.15.4
+      '@babel/runtime': 7.17.9
       '@babel/runtime-corejs3': 7.15.4
     dev: true
 
@@ -8952,7 +8945,7 @@ packages:
     dev: true
 
   /lz-string/1.4.4:
-    resolution: {integrity: sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=}
+    resolution: {integrity: sha512-0ckx7ZHRPqb0oUm8zNr+90mtf9DQB60H1wMCjBtfi62Kl3a7JbHob6gA2bC+xRvZoOL+1hzUK8jeuEIQE8svEQ==}
     hasBin: true
     dev: true
 
