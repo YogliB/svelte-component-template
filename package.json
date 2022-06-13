@@ -5,7 +5,7 @@
         "url": "~TODO~"
     },
     "devDependencies": {
-        "@babel/core": "7.18.2",
+        "@babel/core": "7.18.5",
         "@babel/preset-env": "7.18.2",
         "@storybook/addon-actions": "6.5.8",
         "@storybook/addon-essentials": "6.5.8",
