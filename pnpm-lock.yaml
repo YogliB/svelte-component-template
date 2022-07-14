@@ -7,7 +7,7 @@ specifiers:
   '@storybook/addon-essentials': 6.5.9
   '@storybook/addon-links': 6.5.9
   '@storybook/addon-storyshots': 6.5.9
-  '@storybook/addon-svelte-csf': 2.0.5
+  '@storybook/addon-svelte-csf': 2.0.6
   '@storybook/svelte': 6.5.9
   '@sveltejs/kit': next
   '@testing-library/cypress': 8.0.3
@@ -40,9 +40,9 @@ devDependencies:
   '@storybook/addon-essentials': 6.5.9_1d553d781f8fc9bebe7fa40ca9bda203
   '@storybook/addon-links': 6.5.9
   '@storybook/addon-storyshots': 6.5.9_8b9f7f305e123716132fd1d3c865655e
-  '@storybook/addon-svelte-csf': 2.0.5_de228535b8a7ea40c9fad267c2f7ebd2
+  '@storybook/addon-svelte-csf': 2.0.6_de228535b8a7ea40c9fad267c2f7ebd2
   '@storybook/svelte': 6.5.9_852e14dcfeef25f6c5cf527e9628570b
-  '@sveltejs/kit': 1.0.0-next.368_svelte@3.49.0
+  '@sveltejs/kit': 1.0.0-next.372_svelte@3.49.0
   '@testing-library/cypress': 8.0.3_cypress@9.7.0
   '@typescript-eslint/eslint-plugin': 5.30.6_d567d64e305900596f70368277b02083
   '@typescript-eslint/parser': 5.30.6_eslint@8.19.0+typescript@4.7.4
@@ -2147,17 +2147,10 @@ packages:
       - webpack-command
     dev: true
 
-  /@storybook/addon-svelte-csf/2.0.5_de228535b8a7ea40c9fad267c2f7ebd2:
-    resolution: {integrity: sha512-7Yg3mujRwSCURB6+CUXk6bfbeARMTdax+zt7Nw25MTGz9/zDXC0LTbISvAg+d21Qs8zzDWY/52ww0sG3j1Pj8A==}
+  /@storybook/addon-svelte-csf/2.0.6_de228535b8a7ea40c9fad267c2f7ebd2:
+    resolution: {integrity: sha512-QOLjWDVrky5gWOh2jbFgUW5WKBkkRXrmpgfGGisllA3dsQRyr/MepHG2wnBMZaNYd/WXmbAVajZL+6a1d4+fpQ==}
     peerDependencies:
-      '@storybook/addons': '>=6.4.20'
-      '@storybook/api': '>=6.4.20'
-      '@storybook/client-api': '>=6.4.20'
-      '@storybook/client-logger': '>=6.4.20'
-      '@storybook/components': '>=6.4.20'
-      '@storybook/core-events': '>=6.4.20'
       '@storybook/svelte': '>=6.4.20'
-      '@storybook/theming': '>=6.4.20'
       svelte: ^3.46.6
       svelte-loader: ^3.1.2
     peerDependenciesMeta:
@@ -3590,8 +3583,8 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.368_svelte@3.49.0:
-    resolution: {integrity: sha512-0+JrQebSLbDrc7qPa4HsdG1v1+95ftHJhZtJD/VRifVoyUjURnWL4TrNcfnqNsgtacFWw+rO6obBr1PWc6Mlig==}
+  /@sveltejs/kit/1.0.0-next.372_svelte@3.49.0:
+    resolution: {integrity: sha512-pcnDfV8YQwj7d/SCaKWT7yPBrmgkPH9Dc4UIeX8yTLXDu8IPzI5kukEOy4xf6LjyJsuSGPy1Ch91ULugtVIdAQ==}
     engines: {node: '>=16.9'}
     hasBin: true
     peerDependencies:
