@@ -33,7 +33,7 @@
         "svelte-check": "2.8.0",
         "svelte-loader": "3.1.3",
         "svelte-preprocess": "4.10.7",
-        "svelte2tsx": "0.5.11",
+        "svelte2tsx": "0.5.12",
         "tslib": "2.4.0",
         "typescript": "4.7.4"
     },
