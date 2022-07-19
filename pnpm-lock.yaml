@@ -29,7 +29,7 @@ specifiers:
   svelte-check: 2.8.0
   svelte-loader: 3.1.3
   svelte-preprocess: 4.10.7
-  svelte2tsx: 0.5.11
+  svelte2tsx: 0.5.12
   tslib: 2.4.0
   typescript: 4.7.4
 
@@ -42,7 +42,7 @@ devDependencies:
   '@storybook/addon-storyshots': 6.5.9_d7c2ec3c6c05d674ea21d8398267d806
   '@storybook/addon-svelte-csf': 2.0.6_de228535b8a7ea40c9fad267c2f7ebd2
   '@storybook/svelte': 6.5.9_c85ac6a175b1888528e40fbd5264d61d
-  '@sveltejs/kit': 1.0.0-next.378_svelte@3.49.0
+  '@sveltejs/kit': 1.0.0-next.379_svelte@3.49.0
   '@testing-library/cypress': 8.0.3_cypress@9.7.0
   '@typescript-eslint/eslint-plugin': 5.30.7_f59730a40ab520cf82d095906622871f
   '@typescript-eslint/parser': 5.30.7_eslint@8.20.0+typescript@4.7.4
@@ -62,7 +62,7 @@ devDependencies:
   svelte-check: 2.8.0_@babel+core@7.18.9+svelte@3.49.0
   svelte-loader: 3.1.3_svelte@3.49.0
   svelte-preprocess: 4.10.7_c95caa2b6d61cfb4c12db5808e766487
-  svelte2tsx: 0.5.11_svelte@3.49.0+typescript@4.7.4
+  svelte2tsx: 0.5.12_svelte@3.49.0+typescript@4.7.4
   tslib: 2.4.0
   typescript: 4.7.4
 
@@ -3590,8 +3590,8 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.378_svelte@3.49.0:
-    resolution: {integrity: sha512-Os8URaMJt5f29IR1mlZLE1lpwffzxc02ws/hJKNjMrOb/tgJjaIyLpGHi24uhQ/VXPv6fD2N6cQtEn+/X7nHGg==}
+  /@sveltejs/kit/1.0.0-next.379_svelte@3.49.0:
+    resolution: {integrity: sha512-mhy0GW4KUJ3tq6mDMF0fs/B6Nh2oJM6ZAA2fwilTOdqzhKD3f2WJLH9RXx1Z5/8eodFeQsURTPRn5a0r3QAZew==}
     engines: {node: '>=16.9'}
     hasBin: true
     peerDependencies:
@@ -11572,8 +11572,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.11_svelte@3.49.0+typescript@4.7.4:
-    resolution: {integrity: sha512-Is95G1wqNvEUJZ9DITRS2zfMwVJRZztMduPs1vJJ0cm65WUg/avBl5vBXjHycQL/qmFpaqa3NG4qWnf7bCHPag==}
+  /svelte2tsx/0.5.12_svelte@3.49.0+typescript@4.7.4:
+    resolution: {integrity: sha512-43ayMivmh1IDCgb+4YDf54YuOJZGCUKFpp37RbfjGgNU+Pmb9HhP+zRXa1pMh4mwSTBfqZS0FbJZP3Q8CSxvvg==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
