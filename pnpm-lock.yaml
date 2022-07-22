@@ -14,7 +14,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.30.7
   '@typescript-eslint/parser': 5.30.7
   babel-loader: 8.2.5
-  chromatic: 6.7.0
+  chromatic: 6.7.1
   cypress: 9.7.0
   eslint: 8.20.0
   eslint-config-prettier: 8.5.0
@@ -42,12 +42,12 @@ devDependencies:
   '@storybook/addon-storyshots': 6.5.9_d7c2ec3c6c05d674ea21d8398267d806
   '@storybook/addon-svelte-csf': 2.0.6_de228535b8a7ea40c9fad267c2f7ebd2
   '@storybook/svelte': 6.5.9_c85ac6a175b1888528e40fbd5264d61d
-  '@sveltejs/kit': 1.0.0-next.379_svelte@3.49.0
+  '@sveltejs/kit': 1.0.0-next.391_svelte@3.49.0
   '@testing-library/cypress': 8.0.3_cypress@9.7.0
   '@typescript-eslint/eslint-plugin': 5.30.7_f59730a40ab520cf82d095906622871f
   '@typescript-eslint/parser': 5.30.7_eslint@8.20.0+typescript@4.7.4
   babel-loader: 8.2.5_@babel+core@7.18.9
-  chromatic: 6.7.0
+  chromatic: 6.7.1
   cypress: 9.7.0
   eslint: 8.20.0
   eslint-config-prettier: 8.5.0_eslint@8.20.0
@@ -3590,8 +3590,8 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.379_svelte@3.49.0:
-    resolution: {integrity: sha512-mhy0GW4KUJ3tq6mDMF0fs/B6Nh2oJM6ZAA2fwilTOdqzhKD3f2WJLH9RXx1Z5/8eodFeQsURTPRn5a0r3QAZew==}
+  /@sveltejs/kit/1.0.0-next.391_svelte@3.49.0:
+    resolution: {integrity: sha512-2KWIPF7YjVCFldXRuMcSmv3tliTf92kkJaws/hxJ+MioTJx9QwYB/V+JYzIEMRMcddZDb+Rp1ko3vrQ95c1vmg==}
     engines: {node: '>=16.9'}
     hasBin: true
     peerDependencies:
@@ -5202,8 +5202,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromatic/6.7.0:
-    resolution: {integrity: sha512-kLpvVBKHp1uh7v14N0gPoejILsepS2OI8a4cJgM4Na0Du5GbZ0Iq7Yq/QknCuNiztlalSpBYHuD9SuVdBxL9vg==}
+  /chromatic/6.7.1:
+    resolution: {integrity: sha512-iDVYnB24zPrMROvVBblIxlOaj5+vO1uDI0wRXObi5DVrkvCjDvHzsFfPwUoIHGiXE7f6tmw38ZZRI+LGarM9Ow==}
     hasBin: true
     dependencies:
       '@types/webpack-env': 1.17.0
